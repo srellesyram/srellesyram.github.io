@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+
+<head>
+
+	<title>po</title>
+	
+</head>
+	
+	<body style="background-color: white;">
+		
+		
+  <style>
+	  
+.photobooth
+		{
+			position:absolute;
+			width: 140px;
+			height: px;
+			top: 50%; 
+			left: 50%;
+			margin-left: 280px;
+			margin-top: -330px; 
+		}		
+	    .photobooth:hover
+		{
+			position:absolute;
+			width: 160px;
+			height: px;
+			top: 50%; 
+			left: 50%;
+			margin-left: 280px;
+			margin-top: -330px; 
+		}
+		  
+	  
+	  .plus{
+    background-image: "cicada.png";
+    width:130px;
+    height:130px;
+    background-repeat:no-repeat;
+}
+	    
+
+.plus.minus{
+    background-image: "eyeball.png";
+    width:130px;
+    height:130px;
+    background-repeat:no-repeat;
+}
+	  
+$(".plus").click(function(){
+ $(this).toggleClass("minus")  ; 
+})	
+	  
+</style>
+	
+  <div>
+	<a href="here.html"><img src="photobooth.png" alt="photobooth" class="photobooth">
+	  </a></div>
+		
+  <div>
+	<a href="here.html"><img src="cicada.png" alt="cicada" class="plus">
+	  </a></div>		
+		
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<a href="#"><div class="plus">CHANGE</div></a>
+		
+</body>
+</html>

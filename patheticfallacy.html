@@ -1,0 +1,420 @@
+<!doctype html>
+<html>
+<head>
+<title>Pathetic Fallacy</title>
+</head>
+
+<body>
+	
+	<script>
+		function startDrag(e) {
+				// determine event object
+				if (!e) {
+					var e = window.event;
+				}
+                if(e.preventDefault) e.preventDefault();
+
+				// IE uses srcElement, others use target
+				targ = e.target ? e.target : e.srcElement;
+
+				if (targ.className != 'dragme') {return};
+				// calculate event X, Y coordinates
+					offsetX = e.clientX;
+					offsetY = e.clientY;
+
+				// assign default values for top and left properties
+				if(!targ.style.left) { targ.style.left='0px'};
+				if (!targ.style.top) { targ.style.top='0px'};
+
+				// calculate integer values for top and left 
+				// properties
+				coordX = parseInt(targ.style.left);
+				coordY = parseInt(targ.style.top);
+				drag = true;
+
+				// move div element
+					document.onmousemove=dragDiv;
+                return false;
+				
+			}
+			function dragDiv(e) {
+				if (!drag) {return};
+				if (!e) { var e= window.event};
+				// var targ=e.target?e.target:e.srcElement;
+				// move div element
+				targ.style.left=coordX+e.clientX-offsetX+'px';
+				targ.style.top=coordY+e.clientY-offsetY+'px';
+				return false;
+			}
+			function stopDrag() {
+				drag=false;
+			}
+			window.onload = function() {
+				document.onmousedown = startDrag;
+				document.onmouseup = stopDrag;
+			}			
+			
+	</script>
+	
+<style>
+  .dragme
+		{
+			position:absolute;
+			width: 100px;
+			height: px;
+			cursor: move;
+		}
+	#draggable 
+		{
+			background-color: #ccc;
+			border: 1px solid #000;
+		}
+
+</style>
+
+<div contenteditable="true" >
+  Once upon a time...
+</div>		
+
+  <div>
+	<img src="../Gallery/mountain.png" alt="mountain" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/mountain2.png" alt="mountain2" class="dragme"/>		
+	</div>	
+	
+  <div>
+	<img src="../Gallery/tree1.png" alt="tree1" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/tree2.png" alt="tree2" class="dragme"/>		
+	</div>
+	
+  <div>
+	<img src="../Gallery/tree3.png" alt="tree3" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/tree4.png" alt="tree4" class="dragme"/>		
+	</div>
+	
+  <div>
+    <img src="../Gallery/tree6.png" alt="tree6" class="dragme"/>		
+	</div>		
+	
+  <div>
+    <img src="../Gallery/hedge1.png" alt="hedge1" class="dragme"/>		
+	</div>
+		
+  <div>
+	<img src="../Gallery/hedge2.png" alt="hedge2" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/hedge3.png" alt="hedge3" class="dragme"/>		
+	</div>	
+	
+  <div>
+	<img src="../Gallery/rock1.png" alt="rock1" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/rock2.png" alt="rock2" class="dragme"/>		
+	</div>
+	
+  <div>
+	<img src="../Gallery/rock3.png" alt="rock3" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/rock4.png" alt="rock4" class="dragme"/>		
+	</div>
+	
+  <div>
+	<img src="../Gallery/rock5.png" alt="rock5" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/rock6.png" alt="rock6" class="dragme"/>		
+	</div>	
+	
+  <div>
+	<img src="../Gallery/rock7.png" alt="rock7" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/rock8.png" alt="rock8" class="dragme"/>		
+	</div>
+	
+  <div>
+	<img src="../Gallery/rock9.png" alt="rock9" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/rock10.png" alt="rock10" class="dragme"/>		
+	</div>	
+
+  <div>
+    <img src="../Gallery/paper4.png" alt="paper" class="dragme"/>		
+	</div>	
+	
+  <div>
+    <img src="../Gallery/paper1.png" alt="paper" class="dragme"/>		
+	</div>	
+	
+  <div>
+	<img src="../Gallery/penny.png" alt="penny" class="dragme">
+	</div>	
+
+  <div>
+	<img src="../Gallery/sack.png" alt="sack" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/demon.png" alt="demon" class="dragme"/>		
+	</div>
+	
+  <div>
+    <img src="../Gallery/pegasis.png" alt="pegasis" class="dragme"/>		
+	</div>		
+
+  <div>
+    <img src="../Gallery/ufo.png" alt="ufo" class="dragme"/>	
+	</div>	
+
+  <div>
+	<img src="../Gallery/dragon.png" alt="dragon" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/warrior.png" alt="warrior" class="dragme"/>		
+	</div>
+	
+  <div>
+    <img src="../Gallery/gloves.png" alt="gloves" class="dragme"/>		
+	</div>		
+
+  <div>
+    <img src="../Gallery/wings.png" alt="wings" class="dragme"/>	
+	</div>	
+	
+  <div>
+	<img src="../Gallery/book.png" alt="book" class="dragme">
+	</div>	
+	
+  <div>
+	<img src="../Gallery/hat.png" alt="hat" class="dragme">
+	</div>
+  <div>
+	<img src="../Gallery/car.png" alt="car" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/chair.png" alt="chair" class="dragme"/>		
+	</div>
+	
+  <div>
+    <img src="../Gallery/chair2.png" alt="chair2" class="dragme"/>		
+	</div>		
+
+  <div>
+    <img src="../Gallery/bed.png" alt="bed" class="dragme"/>	
+	</div>	
+
+  <div>
+    <img src="../Gallery/storm.png" alt="storm" class="dragme"/>		
+	</div>
+	
+  <div>
+    <img src="../Gallery/shrub.png" alt="shrub" class="dragme"/>		
+	</div>
+
+  <div>
+	<img src="../Gallery/rosebush.png" alt="rosebush" class="dragme">
+	</div>	
+	
+  <div>
+	<img src="../Gallery/tv.png" alt="tv" class="dragme">
+	</div>
+	
+  <div>
+	<img src="../Gallery/snowman.png" alt="snowman" class="dragme">
+	</div>
+		
+  <div>
+	<img src="../Gallery/wolf.png" alt="wolf" class="dragme">
+	</div>
+		
+  <div>
+	<img src="../Gallery/dogdrawing.png" alt="dogdrawing" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/bridge.png" alt="bridge" class="dragme"/>		
+	</div>	
+	
+  <div>
+    <img src="../Gallery/pie.png" alt="pie" class="dragme"/>		
+	</div>
+	
+  <div>
+	<img src="../Gallery/lizard.png" alt="lizard" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/bird.png" alt="bird" class="dragme"/>		
+	</div> 
+	
+  <div>
+	<img src="../Gallery/bear.png" alt="bear" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/shark.png" alt="shark" class="dragme"/>		
+	</div>
+	
+  <div>
+	<img src="../Gallery/dog.png" alt="dog" class="dragme">
+	</div>
+	
+  <div>
+	<img src="../Gallery/metallica.png" alt="metallica" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/lobster.png" alt="lobster" class="dragme"/>		
+	</div>
+	
+  <div>
+	<img src="../Gallery/egg.png" alt="egg" class="dragme">
+	</div>
+	
+  <div>
+	<img src="../Gallery/billybass.png" alt="billybass" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/pumpkin.png" alt="pumpkin" class="dragme"/>		
+	</div>
+	
+  <div>
+    <img src="../Gallery/sun.png" alt="sun" class="dragme"/>		
+	</div>
+	
+  <div>
+    <img src="../Gallery/shoes.png" alt="shoes" class="dragme"/>		
+	</div>
+	
+  <div>
+	<img src="../Gallery/knight1.png" alt="knight1" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/fish.png" alt="fish" class="dragme"/>		
+	</div>
+	
+  <div>
+	<img src="../Gallery/flower.png" alt="flower" class="dragme">
+	</div>
+	
+  <div>
+	<img src="../Gallery/knight3.png" alt="knight3" class="dragme">
+	</div>	
+	
+  <div>
+    <img src="../Gallery/goblet.png" alt="goblet" class="dragme"/>		
+	</div>
+	
+  <div>
+	<img src="../Gallery/leaf1.png" alt="leaf" class="dragme">
+	</div>
+	
+  <div>
+	<img src="../Gallery/astronaut2.png" alt="astronaut" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/poem.png" alt="poem" class="dragme"/>		
+	</div>		
+
+  <div>
+    <img src="../Gallery/fidget.png" alt="fidget" class="dragme"/>		
+	</div>
+	
+  <div>
+    <img src="../Gallery/lightning.png" alt="lightning" class="dragme"/>		
+	</div>
+
+  <div>
+	<img src="../Gallery/lightning2.png" alt="lightning" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/wolftshirt.png" alt="wolftshirt" class="dragme"/>		
+	</div>		
+
+  <div>
+    <img src="../Gallery/croc.png" alt="croc" class="dragme"/>		
+	</div>
+	
+  <div>
+    <img src="../Gallery/plane1.png" alt="plane" class="dragme"/>		
+	</div>
+	
+  <div>
+    <img src="../Gallery/timer.png" alt="timer" class="dragme"/>		
+	</div>
+
+  <div>
+	<img src="../Gallery/helmet1.png" alt="helmet" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/helmet2.png" alt="helmet" class="dragme"/>		
+	</div>		
+	
+  <div>
+    <img src="../Gallery/fire.png" alt="fire" class="dragme"/>		
+	</div>
+	
+  <div>
+    <img src="../Gallery/fire2.png" alt="fire2" class="dragme"/>		
+	</div>	
+
+  <div>
+	<img src="../Gallery/candle.png" alt="candle" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/cake1.png" alt="cake" class="dragme"/>		
+	</div>		
+	
+  <div>
+    <img src="../Gallery/cards.png" alt="cards" class="dragme"/>		
+	</div>
+	
+  <div>
+	<img src="../Gallery/teeth.png" alt="teeth" class="dragme">
+	</div>	
+	
+  <div>
+	<img src="../Gallery/drop1.png" alt="drop1" class="dragme">
+	</div>
+	
+  <div>
+    <img src="../Gallery/drop2.png" alt="drop2" class="dragme"/>		
+	</div>
+	
+  <div>
+    <img src="../Gallery/drops1.png" alt="drops" class="dragme"/>		
+	</div>
+	
+  <div>
+    <img src="../Gallery/drops2.png" alt="drops" class="dragme"/>		
+	</div>
+	
+	
+</body>
+</html>
