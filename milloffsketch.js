@@ -3951,730 +3951,730 @@ function setup() {
 
 function preload() {
   
-  bacteria = loadImage('bacteria.jpg')
+  bacteria = loadImage('bacteriasmall.jpg')
   bigbacteria = loadImage('bacteria.jpg')  
   
-  billows = loadImage('betweenbillows.jpg')
+  billows = loadImage('betweenbillowssmall.jpg')
   bigbillows = loadImage('betweenbillows.jpg')
   
-  chase = loadImage('chasethethirdday.jpg')  
+  chase = loadImage('chasethethirddaysmall.jpg')  
   bigchase = loadImage('chasethethirdday.jpg')
   
-  dolphin = loadImage('dolphin.jpg')
+  dolphin = loadImage('dolphinsmall.jpg')
   bigdolphin = loadImage('dolphin.jpg')
   
-  heaven = loadImage('drawnuptowardheaven.jpg')
+  heaven = loadImage('drawnuptowardheavensmall.jpg')
   bigheaven = loadImage('drawnuptowardheaven.jpg')
   
-  drop = loadImage('drop.jpg')
+  drop = loadImage('dropsmall.jpg')
   bigdrop = loadImage('drop.jpg')
   
-  epilogue = loadImage('epilogue.jpg')
+  epilogue = loadImage('epiloguesmall.jpg')
   bigepilogue = loadImage('epilogue.jpg')
   
-  fight = loadImage('fight1.jpg')
+  fight = loadImage('fight1small.jpg')
   bigfight = loadImage('fight1.jpg')
   
-  fight2 = loadImage('fight2.jpg')
+  fight2 = loadImage('fight2small.jpg')
   bigfight2 = loadImage('fight2.jpg')
   
-  fivemile = loadImage('fivemilebuoy.jpg')
+  fivemile = loadImage('fivemilebuoysmall.jpg')
   bigfivemile = loadImage('fivemilebuoy.jpg')
   
-  gator = loadImage('gatorattack.jpg')
+  gator = loadImage('gatorattacksmall.jpg')
   biggator = loadImage('gatorattack.jpg')
   
-  bugs = loadImage('gradschoolbugs.jpg')
+  bugs = loadImage('gradschoolbugssmall.jpg')
   bigbugs = loadImage('gradschoolbugs.jpg')
   
-  chariot = loadImage('gradschoolchariotfish.jpg')
+  chariot = loadImage('gradschoolchariotfishsmall.jpg')
   bigchariot = loadImage('gradschoolchariotfish.jpg')
   
-  splash2 = loadImage('gradschoolsplashdetail.jpg')
+  splash2 = loadImage('gradschoolsplashdetailsmall.jpg')
   bigsplash2 = loadImage('gradschoolsplashdetail.jpg')
   
-  king = loadImage('kingmackeral.jpg')
+  king = loadImage('kingmackeralsmall.jpg')
   bigking = loadImage('kingmackeral.jpg')
   
-  mullet = loadImage('mackmullet.jpg')  
+  mullet = loadImage('mackmulletsmall.jpg')  
   bigmullet = loadImage('mackmullet.jpg') 
   
-  manatee = loadImage('manatee.jpg')
+  manatee = loadImage('manateesmall.jpg')
   bigmanatee = loadImage('manatee.jpg')
   
-  mantaray = loadImage('mantaray.jpg')
+  mantaray = loadImage('mantaraysmall.jpg')
   bigmantaray = loadImage('mantaray.jpg')
   
-  people = loadImage('peopleinstream.jpg')
+  people = loadImage('peopleinstreamsmall.jpg')
   bigpeople = loadImage('peopleinstream.jpg')
   
-  people2 = loadImage('peopleinstreamdetail.jpg')
+  people2 = loadImage('peopleinstreamdetailsmall.jpg')
   bigpeople2 = loadImage('peopleinstreamdetail.jpg')
   
-  garden = loadImage('rappachinisgarden.jpg')
+  garden = loadImage('rappachinisgardensmall.jpg')
   biggarden = loadImage('rappachinisgarden.jpg')
   
-  satan = loadImage('satansinanddeath.jpg')
+  satan = loadImage('satansinanddeathsmall.jpg')
   bigsatan = loadImage('satansinanddeath.jpg')
   
-  school = loadImage('school.jpg')
+  school = loadImage('schoolsmall.jpg')
   bigschool = loadImage('school.jpg')
   
-  splash = loadImage('splash.jpg')
+  splash = loadImage('splashsmall.jpg')
   bigsplash = loadImage('splash.jpg')
   
-  squid = loadImage('squid.jpg')
+  squid = loadImage('squidsmall.jpg')
   bigsquid = loadImage('squid.jpg')
   
-  strip = loadImage('strippingthewhale.jpg')
+  strip = loadImage('strippingthewhalesmall.jpg')
   bigstrip = loadImage('strippingthewhale.jpg')
   
-  tampared = loadImage('tampared.jpg')
+  tampared = loadImage('tamparedsmall.jpg')
   bigtampared = loadImage('tampared.jpg')
   
-  wall = loadImage('thelivingwall.jpg') 
+  wall = loadImage('thelivingwallsmall.jpg') 
   bigwall = loadImage('thelivingwall.jpg') 
   
-  trog = loadImage('trog.jpg') 
+  trog = loadImage('trogsmall.jpg') 
   bigtrog = loadImage('trog.jpg') 
   
-  trog02 = loadImage('trog02.jpg') 
+  trog02 = loadImage('trog02small.jpg') 
   bigtrog02 = loadImage('trog02.jpg') 
   
-  thump = loadImage('universalthump.jpg')
+  thump = loadImage('universalthumpsmall.jpg')
   bigthump = loadImage('universalthump.jpg')
   
-  whale = loadImage('whale.jpg')
+  whale = loadImage('whalesmall.jpg')
   bigwhale = loadImage('whale.jpg')
   
-  lotus = loadImage('yellowlotus.jpg')  
+  lotus = loadImage('yellowlotussmall.jpg')  
   biglotus = loadImage('yellowlotus.jpg') 
    
-  birthvenus = loadImage('A1_birthvenus.jpg')
+  birthvenus = loadImage('A1_birthvenussmall.jpg')
   bigbirthvenus = loadImage('A1_birthvenus.jpg')
   
-  boat = loadImage('A1_boat.jpg')  
+  boat = loadImage('A1_boatsmall.jpg')  
   bigboat = loadImage('A1_boat.jpg') 
   
-  boat70s = loadImage('A1_boat70s.jpg')
+  boat70s = loadImage('A1_boat70ssmall.jpg')
   bigboat70s = loadImage('A1_boat70s.jpg')
   
-  bruno = loadImage('A1_bruno.jpg')
+  bruno = loadImage('A1_brunosmall.jpg')
   bigbruno = loadImage('A1_bruno.jpg')
   
-  earlyfish = loadImage('A1_earlyfish.jpg')
+  earlyfish = loadImage('A1_earlyfishsmall.jpg')
   bigearlyfish = loadImage('A1_earlyfish.jpg')
   
-  fightside = loadImage('A1_fightside.jpg')
+  fightside = loadImage('A1_fightsidesmall.jpg')
   bigfightside = loadImage('A1_fightside.jpg')
   
-  fightwithme = loadImage('A1_fightwithme.jpg')
+  fightwithme = loadImage('A1_fightwithmesmall.jpg')
   bigfightwithme = loadImage('A1_fightwithme.jpg')
   
-  fishcodcuttle = loadImage('A1_fishcodcuttle.jpg')
+  fishcodcuttle = loadImage('A1_fishcodcuttlesmall.jpg')
   bigfishcodcuttle = loadImage('A1_fishcodcuttle.jpg')
   
-  head = loadImage('A1_head.jpg')
+  head = loadImage('A1_headsmall.jpg')
   bighead = loadImage('A1_head.jpg')
   
-  headside = loadImage('A1_headside.jpg')
+  headside = loadImage('A1_headsidesmall.jpg')
   bigheadside = loadImage('A1_headside.jpg')
   
-  headstand = loadImage('A1_headstand.jpg')
+  headstand = loadImage('A1_headstandsmall.jpg')
   bigheadstand = loadImage('A1_headstand.jpg')
   
-  mansailfish = loadImage('A1_mansailfish.jpg')
+  mansailfish = loadImage('A1_mansailfishsmall.jpg')
   bigmansailfish = loadImage('A1_mansailfish.jpg')
   
-  medallion = loadImage('A1_medallion.jpg')
+  medallion = loadImage('A1_medallionsmall.jpg')
   bigmedallion = loadImage('A1_medallion.jpg')
   
-  medallion3 = loadImage('A1_medallion3.jpg')
+  medallion3 = loadImage('A1_medallion3small.jpg')
   bigmedallion3 = loadImage('A1_medallion3.jpg')
   
-  medallion4 = loadImage('A1_medallion4.jpg')
+  medallion4 = loadImage('A1_medallion4small.jpg')
   bigmedallion4 = loadImage('A1_medallion4.jpg')
   
-  medallion5 = loadImage('A1_medallion5.jpg')
+  medallion5 = loadImage('A1_medallion5small.jpg')
   bigmedallion5 = loadImage('A1_medallion5.jpg')
   
-  mehead = loadImage('A1_mehead.jpg')
+  mehead = loadImage('A1_meheadsmall.jpg')
   bigmehead = loadImage('A1_mehead.jpg')
   
-  satanchariot = loadImage('A1_satanchariot.jpg')
+  satanchariot = loadImage('A1_satanchariotsmall.jpg')
   bigsatanchariot = loadImage('A1_satanchariot.jpg')
   
-  trogwhitedet = loadImage('A1_trogwhitedet.jpg')
+  trogwhitedet = loadImage('A1_trogwhitedetsmall.jpg')
   bigtrogwhitedet = loadImage('A1_trogwhitedet.jpg')
   
-  trolling = loadImage('A1_trolling.jpg')
+  trolling = loadImage('A1_trollingsmall.jpg')
   bigtrolling = loadImage('A1_trolling.jpg')
   
-  bear = loadImage('B1_bear.jpg')
+  bear = loadImage('B1_bearsmall.jpg')
   bigbear = loadImage('B1_bear.jpg')
   
-  bearearly = loadImage('B1_bearearly.jpg')
+  bearearly = loadImage('B1_bearearlysmall.jpg')
   bigbearearly = loadImage('B1_bearearly.jpg')
   
-  bearr = loadImage('B1_bearr.jpg')
+  bearr = loadImage('B1_bearrsmall.jpg')
   bigbearr = loadImage('B1_bearr.jpg')
   
-  bearrr = loadImage('B1_bearrr.jpg')
+  bearrr = loadImage('B1_bearrrsmall.jpg')
   bigbearrr = loadImage('B1_bearrr.jpg')
   
-  berkshire = loadImage('B1_berkshire.jpg')
+  berkshire = loadImage('B1_berkshiresmall.jpg')
   bigberkshire = loadImage('B1_berkshire.jpg')
   
-  cast = loadImage('B1_cast.jpg') 
+  cast = loadImage('B1_castsmall.jpg') 
   bigcast = loadImage('B1_cast.jpg')
   
-  doy = loadImage('B1_day.jpg') 
+  doy = loadImage('B1_daysmall.jpg') 
   bigdoy = loadImage('B1_day.jpg')
   
-  deepwwods = loadImage('B1_deepwwods.jpg') 
+  deepwwods = loadImage('B1_deepwwodssmall.jpg') 
   bigdeepwwods = loadImage('B1_deepwwods.jpg')
   
-  dogdollystorm = loadImage('B1_dogdollystorm.jpg') 
+  dogdollystorm = loadImage('B1_dogdollystormsmall.jpg') 
   bigdogdollystorm = loadImage('B1_dogdollystorm.jpg')
   
-  dogsdeepwoods = loadImage('B1_dogsdeepwoods.jpg') 
+  dogsdeepwoods = loadImage('B1_dogsdeepwoodssmall.jpg') 
   bigdogsdeepwoods = loadImage('B1_dogsdeepwoods.jpg')
   
-  dogsdrinking = loadImage('B1_dogsdrinking.jpg') 
+  dogsdrinking = loadImage('B1_dogsdrinkingsmall.jpg') 
   bigdogsdrinking = loadImage('B1_dogsdrinking.jpg')
   
-  dogsdusk = loadImage('B1_dogsdusk.jpg')
+  dogsdusk = loadImage('B1_dogsdusksmall.jpg')
   bigdogsdusk = loadImage('B1_dogsdusk.jpg')
   
-  dogsrunning = loadImage('B1_dogsrunning.jpg')
+  dogsrunning = loadImage('B1_dogsrunningsmall.jpg')
   bigdogsrunning = loadImage('B1_dogsrunning.jpg')
   
-  dogstorm = loadImage('B1_dogstorm.jpg')
+  dogstorm = loadImage('B1_dogstormsmall.jpg')
   bigdogstorm = loadImage('B1_dogstorm.jpg')
   
-  dogsvsowl = loadImage('B1_dogsvsowl.jpg')
+  dogsvsowl = loadImage('B1_dogsvsowlsmall.jpg')
   bigdogsvsowl = loadImage('B1_dogsvsowl.jpg')
   
-  dogsvsturkey = loadImage('B1_dogsvsturkey.jpg') 
+  dogsvsturkey = loadImage('B1_dogsvsturkeysmall.jpg') 
   bigdogsvsturkey = loadImage('B1_dogsvsturkey.jpg')
   
-  dollysunset = loadImage('B1_dollysunset.jpg')
+  dollysunset = loadImage('B1_dollysunsetsmall.jpg')
   bigdollysunset = loadImage('B1_dollysunset.jpg')
   
-  dollyswim = loadImage('B1_dollyswim.jpg')
+  dollyswim = loadImage('B1_dollyswimsmall.jpg')
   bigdollyswim = loadImage('B1_dollyswim.jpg')
   
-  dyingwhale = loadImage('B1_dyingwhale.jpg')
+  dyingwhale = loadImage('B1_dyingwhalesmall.jpg')
   bigdyingwhale = loadImage('B1_dyingwhale.jpg')
   
-  fedallah = loadImage('B1_fedallah.jpg')
+  fedallah = loadImage('B1_fedallahsmall.jpg')
   bigfedallah = loadImage('B1_fedallah.jpg')
   
-  flyingdog = loadImage('B1_flyingdog.jpg')
+  flyingdog = loadImage('B1_flyingdogsmall.jpg')
   bigflyingdog = loadImage('B1_flyingdog.jpg')
   
-  fortuna = loadImage('B1_fortuna.jpg')
+  fortuna = loadImage('B1_fortunasmall.jpg')
   bigfortuna = loadImage('B1_fortuna.jpg')
   
-  hibiscuss = loadImage('B1_hibiscuss.jpg')
+  hibiscuss = loadImage('B1_hibiscusssmall.jpg')
   bighibiscuss = loadImage('B1_hibiscuss.jpg')
   
-  howl = loadImage('B1_howl.jpg')
+  howl = loadImage('B1_howlsmall.jpg')
   bighowl = loadImage('B1_howl.jpg')
   
-  walldet = loadImage('B1_livingwalldetail.jpg')
+  walldet = loadImage('B1_livingwalldetailsmall.jpg')
   bigwalldet = loadImage('B1_livingwalldetail.jpg')
   
-  luthersnow = loadImage('B1_luthersnow.jpg')
+  luthersnow = loadImage('B1_luthersnowsmall.jpg')
   bigluthersnow = loadImage('B1_luthersnow.jpg')
   
-  lutherwatch = loadImage('B1_lutherwatches.jpg')
+  lutherwatch = loadImage('B1_lutherwatchessmall.jpg')
   biglutherwatch = loadImage('B1_lutherwatches.jpg')
   
-  mountainbear = loadImage('B1_mountainbear.jpg')
+  mountainbear = loadImage('B1_mountainbearsmall.jpg')
   bigmountainbear = loadImage('B1_mountainbear.jpg')
   
-  nevsky = loadImage('B1_nevsky.jpg')
+  nevsky = loadImage('B1_nevskysmall.jpg')
   bignevsky = loadImage('B1_nevsky.jpg')
   
-  nightbite = loadImage('B1_nightwebite.jpg')
+  nightbite = loadImage('B1_nightwebitesmall.jpg')
   bignightbite = loadImage('B1_nightwebite.jpg')
   
-  nightbitedayplay = loadImage('B1_nightwebitedayplay.jpg')
+  nightbitedayplay = loadImage('B1_nightwebitedayplaysmall.jpg')
   bignightbitedayplay = loadImage('B1_nightwebitedayplay.jpg')
   
-  nubby = loadImage('B1_nubby.jpg')
+  nubby = loadImage('B1_nubbysmall.jpg')
   bignubby = loadImage('B1_nubby.jpg')
   
-  nubbyhib = loadImage('B1_nubbyhibiscus.jpg')
+  nubbyhib = loadImage('B1_nubbyhibiscussmall.jpg')
   bignubbyhib = loadImage('B1_nubbyhibiscus.jpg')
   
-  oiling = loadImage('B1_oilingthereel.jpg')
+  oiling = loadImage('B1_oilingthereelsmall.jpg')
   bigoiling = loadImage('B1_oilingthereel.jpg')
   
-  stripdet = loadImage('B1_strippingdet.jpg')
+  stripdet = loadImage('B1_strippingdetsmall.jpg')
   bigstripdet = loadImage('B1_strippingdet.jpg')
   
-  redbear = loadImage('B2_redbear.jpg')
+  redbear = loadImage('B2_redbearsmall.jpg')
   bigredbear = loadImage('B2_redbear.jpg')
   
-  sail = loadImage('B2_sail.jpg')
+  sail = loadImage('B2_sailsmall.jpg')
   bigsail = loadImage('B2_sail.jpg')
   
-  saildyp = loadImage('B2_saildyp.jpg')
+  saildyp = loadImage('B2_saildypsmall.jpg')
   bigsaildyp = loadImage('B2_saildyp.jpg')
   
-  squash = loadImage('B2_squash.jpg')
+  squash = loadImage('B2_squashsmall.jpg')
   bigsquash = loadImage('B2_squash.jpg')
   
-  squashbear = loadImage('B2_squashbear.jpg')
+  squashbear = loadImage('B2_squashbearsmall.jpg')
   bigsquashbear = loadImage('B2_squashbear.jpg')
   
-  squashdog = loadImage('B2_squashdog.jpg')
+  squashdog = loadImage('B2_squashdogsmall.jpg')
   bigsquashdog = loadImage('B2_squashdog.jpg')
   
-  squashdogs = loadImage('B2_squashdogs.jpg')
+  squashdogs = loadImage('B2_squashdogssmall.jpg')
   bigsquashdogs = loadImage('B2_squashdogs.jpg')
   
-  squashswim = loadImage('B2_squashswim.jpg')
+  squashswim = loadImage('B2_squashswimsmall.jpg')
   bigsquashswim = loadImage('B2_squashswim.jpg')
   
-  squashturkey = loadImage('B2_squashturkey.jpg')
+  squashturkey = loadImage('B2_squashturkeysmall.jpg')
   bigsquashturkey = loadImage('B2_squashturkey.jpg')
   
-  stickdogs = loadImage('B2_stickdogs.jpg')
+  stickdogs = loadImage('B2_stickdogssmall.jpg')
   bigstickdogs = loadImage('B2_stickdogs.jpg')
   
-  stuxshow = loadImage('B2_stuxshow.jpg')
+  stuxshow = loadImage('B2_stuxshowsmall.jpg')
   bigstuxshow = loadImage('B2_stuxshow.jpg')
   
-  twodogsonegoat = loadImage('C1_2dogs1goat.jpg')
+  twodogsonegoat = loadImage('C1_2dogs1goatsmall.jpg')
   bigtwodogsonegoat = loadImage('C1_2dogs1goat.jpg')
   
-  twodogsonestick = loadImage('C1_2dogs1stick.jpg')
+  twodogsonestick = loadImage('C1_2dogs1sticksmall.jpg')
   bigtwodogsonestick = loadImage('C1_2dogs1stick.jpg')
   
-  bearsunset = loadImage('C1_bearsunset.jpg')
+  bearsunset = loadImage('C1_bearsunsetsmall.jpg')
   bigbearsunset = loadImage('C1_bearsunset.jpg')
   
-  caterpillers = loadImage('C1_caterpillers.jpg')
+  caterpillers = loadImage('C1_caterpillerssmall.jpg')
   bigcaterpillers = loadImage('C1_caterpillers.jpg')
   
-  crazydogs = loadImage('C1_crazydogs.jpg')
+  crazydogs = loadImage('C1_crazydogssmall.jpg')
   bigcrazydogs = loadImage('C1_crazydogs.jpg')
   
-  dogbutterfly = loadImage('C1_dogbutterfly.jpg')
+  dogbutterfly = loadImage('C1_dogbutterflysmall.jpg')
   bigdogbutterfly = loadImage('C1_dogbutterfly.jpg')
   
-  dogman = loadImage('C1_dogman.jpg')
+  dogman = loadImage('C1_dogmansmall.jpg')
   bigdogman = loadImage('C1_dogman.jpg')
   
-  dogsonrocks = loadImage('C1_dogsonrocks.jpg')
+  dogsonrocks = loadImage('C1_dogsonrockssmall.jpg')
   bigdogsonrocks = loadImage('C1_dogsonrocks.jpg')
   
-  dogturkey = loadImage('C1_dogturkey.jpg')
+  dogturkey = loadImage('C1_dogturkeysmall.jpg')
   bigdogturkey = loadImage('C1_dogturkey.jpg')
   
-  dollyandmona = loadImage('C1_dollyandmona.jpg')
+  dollyandmona = loadImage('C1_dollyandmonasmall.jpg')
   bigdollyandmona = loadImage('C1_dollyandmona.jpg')
   
-  earlybear = loadImage('C1_earlybear.jpg')
+  earlybear = loadImage('C1_earlybearsmall.jpg')
   bigearlybear = loadImage('C1_earlybear.jpg')
   
-  goatramsdog = loadImage('C1_goatramsdog.jpg')
+  goatramsdog = loadImage('C1_goatramsdogsmall.jpg')
   biggoatramsdog = loadImage('C1_goatramsdog.jpg')
   
-  goats = loadImage('C1_goats.jpg')
+  goats = loadImage('C1_goatssmall.jpg')
   biggoats = loadImage('C1_goats.jpg')
   
-  mackerelandmullet = loadImage('C1_mackerelandmullet.jpg')
+  mackerelandmullet = loadImage('C1_mackerelandmulletsmall.jpg')
   bigmackerelandmullet = loadImage('C1_mackerelandmullet.jpg')
   
-  mananddog = loadImage('C1_mananddog.jpg')
+  mananddog = loadImage('C1_mananddogsmall.jpg')
   bigmananddog = loadImage('C1_mananddog.jpg')
   
-  manandgoat = loadImage('C1_manandgoat.jpg')
+  manandgoat = loadImage('C1_manandgoatsmall.jpg')
   bigmanandgoat = loadImage('C1_manandgoat.jpg')
   
-  mona = loadImage('C1_mona.jpg')
+  mona = loadImage('C1_monasmall.jpg')
   bigmona = loadImage('C1_mona.jpg')
   
-  monagoat = loadImage('C1_monagoat.jpg')
+  monagoat = loadImage('C1_monagoatsmall.jpg')
   bigmonagoat = loadImage('C1_monagoat.jpg')
   
-  redcloud = loadImage('C1_redcloud.jpg')
+  redcloud = loadImage('C1_redcloudsmall.jpg')
   bigredcloud = loadImage('C1_redcloud.jpg')
   
-  threegoats = loadImage('C1_threegoats.jpg')
+  threegoats = loadImage('C1_threegoatssmall.jpg')
   bigthreegoats = loadImage('C1_threegoats.jpg')
   
-  womananddog = loadImage('C1_womananddog.jpg')
+  womananddog = loadImage('C1_womananddogsmall.jpg')
   bigwomananddog = loadImage('C1_womananddog.jpg')
   
-  abutment = loadImage('C2_abutment.jpg')
+  abutment = loadImage('C2_abutmentsmall.jpg')
   bigabutment = loadImage('C2_abutment.jpg')
   
-  abutment03 = loadImage('C2_abutment03.jpg')
+  abutment03 = loadImage('C2_abutment03small.jpg')
   bigabutment03 = loadImage('C2_abutment03.jpg')
   
-  bloodmilk = loadImage('C2_bloodmilk.jpg')
+  bloodmilk = loadImage('C2_bloodmilksmall.jpg')
   bigbloodmilk = loadImage('C2_bloodmilk.jpg')
   
-  blueredyellow = loadImage('C2_blueredyellow.jpg')
+  blueredyellow = loadImage('C2_blueredyellowsmall.jpg')
   bigblueredyellow = loadImage('C2_blueredyellow.jpg')
   
-  blueyellowwhiteblue = loadImage('C2_blueyellowwhiteblue.jpg')
+  blueyellowwhiteblue = loadImage('C2_blueyellowwhitebluesmall.jpg')
   bigblueyellowwhiteblue = loadImage('C2_blueyellowwhiteblue.jpg')
   
-  bombblue = loadImage('C2_bombblue.jpg')
+  bombblue = loadImage('C2_bombbluesmall.jpg')
   bigbombblue = loadImage('C2_bombblue.jpg')
   
-  bregenz = loadImage('C2_bregenz.jpg')
+  bregenz = loadImage('C2_bregenzsmall.jpg')
   bigbregenz = loadImage('C2_bregenz.jpg')
   
-  castpaint = loadImage('C2_castpaint.jpg')
+  castpaint = loadImage('C2_castpaintsmall.jpg')
   bigcastpaint = loadImage('C2_castpaint.jpg')
   
-  castpaint2 = loadImage('C2_castpaint2.jpg')
+  castpaint2 = loadImage('C2_castpaint2small.jpg')
   bigcastpaint2 = loadImage('C2_castpaint2.jpg')
   
-  castpaint3 = loadImage('C2_castpaint3.jpg')
+  castpaint3 = loadImage('C2_castpaint3small.jpg')
   bigcastpaint3 = loadImage('C2_castpaint3.jpg')
   
-  castpaint4 = loadImage('C2_castpaint4.jpg')
+  castpaint4 = loadImage('C2_castpaint4small.jpg')
   bigcastpaint4 = loadImage('C2_castpaint4.jpg')
   
-  cell = loadImage('C2_cell.jpg')
+  cell = loadImage('C2_cellsmall.jpg')
   bigcell = loadImage('C2_cell.jpg')
   
-  colorspiral = loadImage('C2_colorspiral.jpg')
+  colorspiral = loadImage('C2_colorspiralsmall.jpg')
   bigcolorspiral = loadImage('C2_colorspiral.jpg')
   
-  dboot = loadImage('C2_DBoot.jpg')
+  dboot = loadImage('C2_DBootsmall.jpg')
   bigdboot = loadImage('C2_DBoot.jpg')
   
-  deadsea = loadImage('C2_deadsea.jpg')
+  deadsea = loadImage('C2_deadseasmall.jpg')
   bigdeadsea = loadImage('C2_deadsea.jpg')
   
-  deadsea2 = loadImage('C2_deadsea2.jpg')
+  deadsea2 = loadImage('C2_deadsea2small.jpg')
   bigdeadsea2 = loadImage('C2_deadsea2.jpg')
   
-  deadsea3 = loadImage('C2_deadsea3.jpg')
+  deadsea3 = loadImage('C2_deadsea3small.jpg')
   bigdeadsea3 = loadImage('C2_deadsea3.jpg')
   
-  deadsea4 = loadImage('C2_deadsea4.jpg')
+  deadsea4 = loadImage('C2_deadsea4small.jpg')
   bigdeadsea4 = loadImage('C2_deadsea4.jpg')
   
-  deadsea5 = loadImage('C2_deadsea5.jpg')
+  deadsea5 = loadImage('C2_deadsea5small.jpg')
   bigdeadsea5 = loadImage('C2_deadsea5.jpg')
   
-  deepbluesea = loadImage('C2_deepbluesea.jpg')
+  deepbluesea = loadImage('C2_deepblueseasmall.jpg')
   bigdeepbluesea = loadImage('C2_deepbluesea.jpg')
   
-  drop2 = loadImage('C2_drop2.jpg')
+  drop2 = loadImage('C2_drop2small.jpg')
   bigdrop2 = loadImage('C2_drop2.jpg')
   
-  dying = loadImage('C2_dying.jpg')
+  dying = loadImage('C2_dyingsmall.jpg')
   bigdying = loadImage('C2_dying.jpg')
   
-  ghost = loadImage('C2_ghost.jpg')
+  ghost = loadImage('C2_ghostsmall.jpg')
   bigghost = loadImage('C2_ghost.jpg')
   
-  greybasking = loadImage('C2_greybasking.jpg')
+  greybasking = loadImage('C2_greybaskingsmall.jpg')
   biggreybasking = loadImage('C2_greybasking.jpg')
   
-  greyroller = loadImage('C2_greyroller.jpg')
+  greyroller = loadImage('C2_greyrollersmall.jpg')
   biggreyroller = loadImage('C2_greyroller.jpg')
   
-  kunst = loadImage('C2_kunst.jpg')
+  kunst = loadImage('C2_kunstsmall.jpg')
   bigkunst = loadImage('C2_kunst.jpg')
   
-  leadwhiteashtray = loadImage('C2_leadwhiteashtray.jpg')
+  leadwhiteashtray = loadImage('C2_leadwhiteashtraysmall.jpg')
   bigleadwhiteashtray = loadImage('C2_leadwhiteashtray.jpg')
   
-  leadwhiteballs = loadImage('C2_leadwhiteballs.jpg')
+  leadwhiteballs = loadImage('C2_leadwhiteballssmall.jpg')
   bigleadwhiteballs = loadImage('C2_leadwhiteballs.jpg')
   
-  leadwhiteeye = loadImage('C2_leadwhiteeye.jpg')
+  leadwhiteeye = loadImage('C2_leadwhiteeyesmall.jpg')
   bigleadwhiteeye = loadImage('C2_leadwhiteeye.jpg')
   
-  leadwhitescroll = loadImage('C2_leadwhitescroll.jpg')
+  leadwhitescroll = loadImage('C2_leadwhitescrollsmall.jpg')
   bigleadwhitescroll = loadImage('C2_leadwhitescroll.jpg')
   
-  lifecycle = loadImage('C2_lifecycle.jpg')
+  lifecycle = loadImage('C2_lifecyclesmall.jpg')
   biglifecycle = loadImage('C2_lifecycle.jpg')
   
-  lightchamber = loadImage('C2_lightchamber.jpg')
+  lightchamber = loadImage('C2_lightchambersmall.jpg')
   biglightchamber = loadImage('C2_lightchamber.jpg')
   
-  mansailnubby = loadImage('C2_mansailnubby.jpg')
+  mansailnubby = loadImage('C2_mansailnubbysmall.jpg')
   bigmansailnubby = loadImage('C2_mansailnubby.jpg')
   
-  miami = loadImage('C2_miami.jpg')
+  miami = loadImage('C2_miamismall.jpg')
   bigmiami = loadImage('C2_miami.jpg')
   
-  nubhibiscus = loadImage('C2_nubhibiscus.jpg')
+  nubhibiscus = loadImage('C2_nubhibiscussmall.jpg')
   bignubhibiscus = loadImage('C2_nubhibiscus.jpg')
   
-  paint = loadImage('C2_paint.jpg')
+  paint = loadImage('C2_paintsmall.jpg')
   bigpaint = loadImage('C2_paint.jpg')
   
-  pattern = loadImage('C2_pattern.jpg')
+  pattern = loadImage('C2_patternsmall.jpg')
   bigpattern = loadImage('C2_pattern.jpg')
   
-  pink = loadImage('C2_pink.jpg')
+  pink = loadImage('C2_pinksmall.jpg')
   bigpink = loadImage('C2_pink.jpg')
   
-  rescue = loadImage('C2_rescue.jpg')
+  rescue = loadImage('C2_rescuesmall.jpg')
   bigrescue = loadImage('C2_rescue.jpg')
   
-  shrink = loadImage('C2_shrink.jpg')
+  shrink = loadImage('C2_shrinksmall.jpg')
   bigshrink = loadImage('C2_shrink.jpg')
   
-  sidewase = loadImage('C2_sidewase.jpg')
+  sidewase = loadImage('C2_sidewasesmall.jpg')
   bigsidewase = loadImage('C2_sidewase.jpg')
   
-  sideways = loadImage('C2_sideways.jpg')
+  sideways = loadImage('C2_sidewayssmall.jpg')
   bigsideways = loadImage('C2_sideways.jpg')
   
-  sleeping = loadImage('C2_sleeping.jpg')
+  sleeping = loadImage('C2_sleepingsmall.jpg')
   bigsleeping = loadImage('C2_sleeping.jpg')
   
-  small = loadImage('C2_small.jpg')
+  small = loadImage('C2_smallsmall.jpg')
   bigsmall = loadImage('C2_small.jpg')
   
-  spiralbear = loadImage('C2_spiralbear.jpg')
+  spiralbear = loadImage('C2_spiralbearsmall.jpg')
   bigspiralbear = loadImage('C2_spiralbear.jpg')
   
-  stream = loadImage('C2_stream.jpg')
+  stream = loadImage('C2_streamsmall.jpg')
   bigstream = loadImage('C2_stream.jpg')
   
-  streamdots = loadImage('C2_streamdots.jpg')
+  streamdots = loadImage('C2_streamdotssmall.jpg')
   bigstreamdots = loadImage('C2_streamdots.jpg')
   
-  stripes = loadImage('C2_stripes.jpg')
+  stripes = loadImage('C2_stripessmall.jpg')
   bigstripes = loadImage('C2_stripes.jpg')
   
-  sub = loadImage('C2_sub.jpg')
+  sub = loadImage('C2_subsmall.jpg')
   bigsub = loadImage('C2_sub.jpg')
   
-  water = loadImage('C2_water.jpg')
+  water = loadImage('C2_watersmall.jpg')
   bigwater = loadImage('C2_water.jpg')
   
-  yellowred = loadImage('C2_yellowred.jpg')
+  yellowred = loadImage('C2_yellowredsmall.jpg')
   bigyellowred = loadImage('C2_yellowred.jpg')
   
-  manandmantaray = loadImage('C2_manandmantaray.jpg')
+  manandmantaray = loadImage('C2_manandmantaraysmall.jpg')
   bigmanandmantaray = loadImage('C2_manandmantaray.jpg')
   
-  baddog = loadImage('C2_baddog.jpg')
+  baddog = loadImage('C2_baddogsmall.jpg')
   bigbaddog = loadImage('C2_baddog.jpg')
   
-  blackandreddolphin = loadImage('C2_blackandreddolphin.jpg')
+  blackandreddolphin = loadImage('C2_blackandreddolphinsmall.jpg')
   bigblackandreddolphin = loadImage('C2_blackandreddolphin.jpg')
   
-  hsbattle = loadImage('C2_hsbattle.jpg')
+  hsbattle = loadImage('C2_hsbattlesmall.jpg')
   bighsbattle = loadImage('C2_hsbattle.jpg')
   
-  shipwreck = loadImage('C2_shipwreck.jpg')
+  shipwreck = loadImage('C2_shipwrecksmall.jpg')
   bigshipwreck = loadImage('C2_shipwreck.jpg')
   
-  squidandme = loadImage('C2_squidandme.jpg')
+  squidandme = loadImage('C2_squidandmesmall.jpg')
   bigsquidandme = loadImage('C2_squidandme.jpg')
   
-  wwii = loadImage('C2_wwii.jpg')
+  wwii = loadImage('C2_wwiismall.jpg')
   bigwwii = loadImage('C2_wwii.jpg')
   
-  yellowred2 = loadImage('C2_yellowred.jpg')
+  yellowred2 = loadImage('C2_yellowredsmall.jpg')
   bigyellowred2 = loadImage('C2_yellowred.jpg')
   
-  atelier = loadImage('C2_atelier.jpg')
+  atelier = loadImage('C2_ateliersmall.jpg')
   bigatelier = loadImage('C2_atelier.jpg')
   
-  grey = loadImage('C2_grey.jpg')
+  grey = loadImage('C2_greysmall.jpg')
   biggrey = loadImage('C2_grey.jpg')
   
-  happycouple = loadImage('C2_happycouple.jpg')
+  happycouple = loadImage('C2_happycouplesmall.jpg')
   bighappycouple = loadImage('C2_happycouple.jpg')
   
-  happycoupledet = loadImage('C2_happycoupledet.jpg')
+  happycoupledet = loadImage('C2_happycoupledetsmall.jpg')
   bighappycoupledet = loadImage('C2_happycoupledet.jpg')
   
-  happycoupledet2 = loadImage('C2_happycoupledet2.jpg')
+  happycoupledet2 = loadImage('C2_happycoupledet2small.jpg')
   bighappycoupledet2 = loadImage('C2_happycoupledet2.jpg')
   
-  happycoupledet3 = loadImage('C2_happycoupledet3.jpg')
+  happycoupledet3 = loadImage('C2_happycoupledet3small.jpg')
   bighappycoupledet3 = loadImage('C2_happycoupledet3.jpg')
   
-  happycoupledet4 = loadImage('C2_happycoupledet4.jpg')
+  happycoupledet4 = loadImage('C2_happycoupledet4small.jpg')
   bighappycoupledet4 = loadImage('C2_happycoupledet4.jpg')
   
-  happycoupledet5 = loadImage('C2_happycoupledet5.jpg')
+  happycoupledet5 = loadImage('C2_happycoupledet5small.jpg')
   bighappycoupledet5 = loadImage('C2_happycoupledet5.jpg')
   
-  newg = loadImage('C2_new.jpg')
+  newg = loadImage('C2_newsmall.jpg')
   bignewg = loadImage('C2_new.jpg')
   
-  newgrid = loadImage('C2_newgrid.jpg')
+  newgrid = loadImage('C2_newgridsmall.jpg')
   bignewgrid = loadImage('C2_newgrid.jpg')
   
-  newgrid2 = loadImage('C2_newgrid2.jpg')
+  newgrid2 = loadImage('C2_newgrid2small.jpg')
   bignewgrid2 = loadImage('C2_newgrid2.jpg')
   
-  newgrid3 = loadImage('C2_newgrid3.jpg')
+  newgrid3 = loadImage('C2_newgrid3small.jpg')
   bignewgrid3 = loadImage('C2_newgrid3.jpg')
   
-  smallblue = loadImage('C2_smallblue.jpg')
+  smallblue = loadImage('C2_smallbluesmall.jpg')
   bigsmallblue = loadImage('C2_smallblue.jpg')
   
-  smallblue2 = loadImage('C2_smallblue2.jpg')
+  smallblue2 = loadImage('C2_smallblue2small.jpg')
   bigsmallblue2 = loadImage('C2_smallblue2.jpg')
   
-  smallsky = loadImage('C2_smallsky.jpg')
+  smallsky = loadImage('C2_smallskysmall.jpg')
   bigsmallsky = loadImage('C2_smallsky.jpg')
   
-  smallsky2 = loadImage('C2_smallsky2.jpg')
+  smallsky2 = loadImage('C2_smallsky2small.jpg')
   bigsmallsky2 = loadImage('C2_smallsky2.jpg')
   
-  stwall = loadImage('C2_stwall.jpg')
+  stwall = loadImage('C2_stwallsmall.jpg')
   bigstwall = loadImage('C2_stwall.jpg')
   
-  adolph = loadImage('C2_adolph.jpg')
+  adolph = loadImage('C2_adolphsmall.jpg')
   bigadolph = loadImage('C2_adolph.jpg')
   
-  afterlife = loadImage('C2_afterlife.jpg')
+  afterlife = loadImage('C2_afterlifesmall.jpg')
   bigafterlife = loadImage('C2_afterlife.jpg')
   
-  berkshireinstagram = loadImage('C2_berkshireinstagram.jpg')
+  berkshireinstagram = loadImage('C2_berkshireinstagramsmall.jpg')
   bigberkshireinstagram = loadImage('C2_berkshireinstagram.jpg')
   
-  bird = loadImage('C2_bird.jpg')
+  bird = loadImage('C2_birdsmall.jpg')
   bigbird = loadImage('C2_bird.jpg')
   
-  coffin = loadImage('C2_coffin.jpg')
+  coffin = loadImage('C2_coffinsmall.jpg')
   bigcoffin = loadImage('C2_coffin.jpg')
   
-  deepblue = loadImage('C2_deepblue.jpg')
+  deepblue = loadImage('C2_deepbluesmall.jpg')
   bigdeepblue = loadImage('C2_deepblue.jpg')
   
-  heads = loadImage('C2_heads.jpg')
+  heads = loadImage('C2_headssmall.jpg')
   bigheads = loadImage('C2_heads.jpg')
   
-  heads2 = loadImage('C2_heads2.jpg')
+  heads2 = loadImage('C2_heads2small.jpg')
   bigheads2 = loadImage('C2_heads2.jpg')
   
-  heads3 = loadImage('C2_heads3.jpg')
+  heads3 = loadImage('C2_heads3small.jpg')
   bigheads3 = loadImage('C2_heads3.jpg')
   
-  hibiscus = loadImage('C2_hibiscus.jpg')
+  hibiscus = loadImage('C2_hibiscussmall.jpg')
   bighibiscus = loadImage('C2_hibiscus.jpg')
   
-  ishmael = loadImage('C2_Ishmael.jpg')
+  ishmael = loadImage('C2_Ishmaelsmall.jpg')
   bigishmael = loadImage('C2_ishmael.jpg')
   
-  mangrove = loadImage('C2_mangrove.jpg')
+  mangrove = loadImage('C2_mangrovesmall.jpg')
   bigmangrove = loadImage('C2_mangrove.jpg')
   
-  manta = loadImage('C2_manta.jpg')
+  manta = loadImage('C2_mantasmall.jpg')
   bigmanta = loadImage('C2_manta.jpg')
   
-  morningboat = loadImage('C2_morningboat.jpg')
+  morningboat = loadImage('C2_morningboatsmall.jpg')
   bigmorningboat = loadImage('C2_morningboat.jpg')
   
-  nevsky2 = loadImage('C2_nevsky2.jpg')
+  nevsky2 = loadImage('C2_nevsky2small.jpg')
   bignevsky2 = loadImage('C2_nevsky2.jpg')
   
-  overboard = loadImage('C2_overboard.jpg')
+  overboard = loadImage('C2_overboardsmall.jpg')
   bigoverboard = loadImage('C2_overboard.jpg')
   
-  pastel = loadImage('C2_pastel.jpg')
+  pastel = loadImage('C2_pastelsmall.jpg')
   bigpastel = loadImage('C2_pastel.jpg')
   
-  pastel2 = loadImage('C2_pastel2.jpg')
+  pastel2 = loadImage('C2_pastel2small.jpg')
   bigpastel2 = loadImage('C2_pastel2.jpg')
   
-  pastel3 = loadImage('C2_pastel3.jpg')
+  pastel3 = loadImage('C2_pastel3small.jpg')
   bigpastel3 = loadImage('C2_pastel3.jpg')
   
-  pastel4 = loadImage('C2_pastel4.jpg')
+  pastel4 = loadImage('C2_pastel4small.jpg')
   bigpastel4 = loadImage('C2_pastel4.jpg')
   
-  pastel5 = loadImage('C2_pastel5.jpg')
+  pastel5 = loadImage('C2_pastel5small.jpg')
   bigpastel5 = loadImage('C2_pastel5.jpg')
   
-  pastel6 = loadImage('C2_pastel6.jpg')
+  pastel6 = loadImage('C2_pastel6small.jpg')
   bigpastel6 = loadImage('C2_pastel6.jpg')
   
-  pastel7 = loadImage('C2_pastel7.jpg')
+  pastel7 = loadImage('C2_pastel7small.jpg')
   bigpastel7 = loadImage('C2_pastel7.jpg')
   
-  pastel8 = loadImage('C2_pastel8.jpg')
+  pastel8 = loadImage('C2_pastel8small.jpg')
   bigpastel8 = loadImage('C2_pastel8.jpg')
   
-  pastel9 = loadImage('C2_pastel9.jpg')
+  pastel9 = loadImage('C2_pastel9small.jpg')
   bigpastel9 = loadImage('C2_pastel9.jpg')
  
-  pastel10 = loadImage('C2_pastel10.jpg')
+  pastel10 = loadImage('C2_pastel10small.jpg')
   bigpastel10 = loadImage('C2_pastel10.jpg')
   
-  pastel11 = loadImage('C2_pastel11.jpg')
+  pastel11 = loadImage('C2_pastel11small.jpg')
   bigpastel11 = loadImage('C2_pastel11.jpg')
   
-  pastel12 = loadImage('C2_pastel12.jpg')
+  pastel12 = loadImage('C2_pastel12small.jpg')
   bigpastel12 = loadImage('C2_pastel12.jpg')
   
-  pastel13 = loadImage('C2_pastel13.jpg')
+  pastel13 = loadImage('C2_pastel13small.jpg')
   bigpastel13 = loadImage('C2_pastel13.jpg')
   
-  pastel14 = loadImage('C2_pastel14.jpg')
+  pastel14 = loadImage('C2_pastel14small.jpg')
   bigpastel14 = loadImage('C2_pastel14.jpg')
   
-  pastel15 = loadImage('C2_pastel15.jpg')
+  pastel15 = loadImage('C2_pastel15small.jpg')
   bigpastel15 = loadImage('C2_pastel15.jpg')
   
-  pastel16 = loadImage('C2_pastel16.jpg')
+  pastel16 = loadImage('C2_pastel16small.jpg')
   bigpastel16 = loadImage('C2_pastel16.jpg') 
   
-  pastel17 = loadImage('C2_pastel17.jpg')
+  pastel17 = loadImage('C2_pastel17small.jpg')
   bigpastel17 = loadImage('C2_pastel17.jpg')
   
-  pastel18 = loadImage('C2_pastel18.jpg')
+  pastel18 = loadImage('C2_pastel18small.jpg')
   bigpastel18 = loadImage('C2_pastel18.jpg') 
   
-  pastel19 = loadImage('C2_pastel19.jpg')
+  pastel19 = loadImage('C2_pastel19small.jpg')
   bigpastel19 = loadImage('C2_pastel19.jpg')
   
-  pastel21 = loadImage('C2_pastel21.jpg')
+  pastel21 = loadImage('C2_pastel21small.jpg')
   bigpastel21 = loadImage('C2_pastel21.jpg') 
   
-  pastel22 = loadImage('C2_pastel22.jpg')
+  pastel22 = loadImage('C2_pastel22small.jpg')
   bigpastel22 = loadImage('C2_pastel22.jpg')
   
-  pastel23 = loadImage('C2_pastel23.jpg')
+  pastel23 = loadImage('C2_pastel23small.jpg')
   bigpastel23 = loadImage('C2_pastel23.jpg') 
   
-  pastel24 = loadImage('C2_pastel24.jpg')
+  pastel24 = loadImage('C2_pastel24small.jpg')
   bigpastel24 = loadImage('C2_pastel24.jpg')
   
-  pastel25 = loadImage('C2_pastel25.jpg')
+  pastel25 = loadImage('C2_pastel25small.jpg')
   bigpastel25 = loadImage('C2_pastel25.jpg') 
   
-  pastel26 = loadImage('C2_pastel26.jpg')
+  pastel26 = loadImage('C2_pastel26small.jpg')
   bigpastel26 = loadImage('C2_pastel26.jpg')
   
-  pastel27 = loadImage('C2_pastel27.jpg')
+  pastel27 = loadImage('C2_pastel27small.jpg')
   bigpastel27 = loadImage('C2_pastel27.jpg') 
   
-  ps1 = loadImage('C2_ps1.jpg')
+  ps1 = loadImage('C2_ps1small.jpg')
   bigps1 = loadImage('C2_ps1.jpg')
   
-  ps12 = loadImage('C2_ps12.jpg')
+  ps12 = loadImage('C2_ps12small.jpg')
   bigps12 = loadImage('C2_ps12.jpg') 
   
-  racetrack = loadImage('C2_racetrack.jpg')
+  racetrack = loadImage('C2_racetracksmall.jpg')
   bigracetrack = loadImage('C2_racetrack.jpg')
   
-  ryders = loadImage('C2_ryders.jpg')
+  ryders = loadImage('C2_ryderssmall.jpg')
   bigryders = loadImage('C2_ryders.jpg') 
 
   
