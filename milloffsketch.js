@@ -4429,215 +4429,215 @@ function preload() {
   yellowred = loadImage('C2_yellowredsmall.jpg')
   bigyellowred = loadImage('C2_yellowred.jpg')
   
-  manandmantaray = loadImage('C2_manandmantaraysmall.jpg')
-  bigmanandmantaray = loadImage('C2_manandmantaray.jpg')
+  manandmantaray = loadImage('C3_manandmantaraysmall.jpg')
+  bigmanandmantaray = loadImage('C3_manandmantaray.jpg')
   
-  baddog = loadImage('C2_baddogsmall.jpg')
-  bigbaddog = loadImage('C2_baddog.jpg')
+  baddog = loadImage('C3_baddogsmall.jpg')
+  bigbaddog = loadImage('C3_baddog.jpg')
   
-  blackandreddolphin = loadImage('C2_blackandreddolphinsmall.jpg')
-  bigblackandreddolphin = loadImage('C2_blackandreddolphin.jpg')
+  blackandreddolphin = loadImage('C3_blackandreddolphinsmall.jpg')
+  bigblackandreddolphin = loadImage('C3_blackandreddolphin.jpg')
   
-  hsbattle = loadImage('C2_hsbattlesmall.jpg')
-  bighsbattle = loadImage('C2_hsbattle.jpg')
+  hsbattle = loadImage('C3_hsbattlesmall.jpg')
+  bighsbattle = loadImage('C3_hsbattle.jpg')
   
-  shipwreck = loadImage('C2_shipwrecksmall.jpg')
-  bigshipwreck = loadImage('C2_shipwreck.jpg')
+  shipwreck = loadImage('C3_shipwrecksmall.jpg')
+  bigshipwreck = loadImage('C3_shipwreck.jpg')
   
-  squidandme = loadImage('C2_squidandmesmall.jpg')
-  bigsquidandme = loadImage('C2_squidandme.jpg')
+  squidandme = loadImage('C3_squidandmesmall.jpg')
+  bigsquidandme = loadImage('C3_squidandme.jpg')
   
-  wwii = loadImage('C2_wwiismall.jpg')
-  bigwwii = loadImage('C2_wwii.jpg')
+  wwii = loadImage('C3_wwiismall.jpg')
+  bigwwii = loadImage('C3_wwii.jpg')
   
-  yellowred2 = loadImage('C2_yellowredsmall.jpg')
-  bigyellowred2 = loadImage('C2_yellowred.jpg')
+  yellowred2 = loadImage('C3_yellowredsmall.jpg')
+  bigyellowred2 = loadImage('C3_yellowred.jpg')
   
-  atelier = loadImage('C2_ateliersmall.jpg')
-  bigatelier = loadImage('C2_atelier.jpg')
+  atelier = loadImage('C4_ateliersmall.jpg')
+  bigatelier = loadImage('C4_atelier.jpg')
   
-  grey = loadImage('C2_greysmall.jpg')
-  biggrey = loadImage('C2_grey.jpg')
+  grey = loadImage('C4_greysmall.jpg')
+  biggrey = loadImage('C4_grey.jpg')
   
-  happycouple = loadImage('C2_happycouplesmall.jpg')
-  bighappycouple = loadImage('C2_happycouple.jpg')
+  happycouple = loadImage('C4_happycouplesmall.jpg')
+  bighappycouple = loadImage('C4_happycouple.jpg')
   
-  happycoupledet = loadImage('C2_happycoupledetsmall.jpg')
-  bighappycoupledet = loadImage('C2_happycoupledet.jpg')
+  happycoupledet = loadImage('C4_happycoupledetsmall.jpg')
+  bighappycoupledet = loadImage('C4_happycoupledet.jpg')
   
-  happycoupledet2 = loadImage('C2_happycoupledet2small.jpg')
-  bighappycoupledet2 = loadImage('C2_happycoupledet2.jpg')
+  happycoupledet2 = loadImage('C4_happycoupledet2small.jpg')
+  bighappycoupledet2 = loadImage('C4_happycoupledet2.jpg')
   
-  happycoupledet3 = loadImage('C2_happycoupledet3small.jpg')
-  bighappycoupledet3 = loadImage('C2_happycoupledet3.jpg')
+  happycoupledet3 = loadImage('C4_happycoupledet3small.jpg')
+  bighappycoupledet3 = loadImage('C4_happycoupledet3.jpg')
   
-  happycoupledet4 = loadImage('C2_happycoupledet4small.jpg')
-  bighappycoupledet4 = loadImage('C2_happycoupledet4.jpg')
+  happycoupledet4 = loadImage('C4_happycoupledet4small.jpg')
+  bighappycoupledet4 = loadImage('C4_happycoupledet4.jpg')
   
-  happycoupledet5 = loadImage('C2_happycoupledet5small.jpg')
-  bighappycoupledet5 = loadImage('C2_happycoupledet5.jpg')
+  happycoupledet5 = loadImage('C4_happycoupledet5small.jpg')
+  bighappycoupledet5 = loadImage('C4_happycoupledet5.jpg')
   
-  newg = loadImage('C2_newsmall.jpg')
-  bignewg = loadImage('C2_new.jpg')
+  newg = loadImage('C4_newsmall.jpg')
+  bignewg = loadImage('C4_new.jpg')
   
-  newgrid = loadImage('C2_newgridsmall.jpg')
-  bignewgrid = loadImage('C2_newgrid.jpg')
+  newgrid = loadImage('C4_newgridsmall.jpg')
+  bignewgrid = loadImage('C4_newgrid.jpg')
   
-  newgrid2 = loadImage('C2_newgrid2small.jpg')
-  bignewgrid2 = loadImage('C2_newgrid2.jpg')
+  newgrid2 = loadImage('C4_newgrid2small.jpg')
+  bignewgrid2 = loadImage('C4_newgrid2.jpg')
   
-  newgrid3 = loadImage('C2_newgrid3small.jpg')
-  bignewgrid3 = loadImage('C2_newgrid3.jpg')
+  newgrid3 = loadImage('C4_newgrid3small.jpg')
+  bignewgrid3 = loadImage('C4_newgrid3.jpg')
   
-  smallblue = loadImage('C2_smallbluesmall.jpg')
-  bigsmallblue = loadImage('C2_smallblue.jpg')
+  smallblue = loadImage('C4_smallbluesmall.jpg')
+  bigsmallblue = loadImage('C4_smallblue.jpg')
   
-  smallblue2 = loadImage('C2_smallblue2small.jpg')
-  bigsmallblue2 = loadImage('C2_smallblue2.jpg')
+  smallblue2 = loadImage('C4_smallblue2small.jpg')
+  bigsmallblue2 = loadImage('C4_smallblue2.jpg')
   
-  smallsky = loadImage('C2_smallskysmall.jpg')
-  bigsmallsky = loadImage('C2_smallsky.jpg')
+  smallsky = loadImage('C4_smallskysmall.jpg')
+  bigsmallsky = loadImage('C4_smallsky.jpg')
   
-  smallsky2 = loadImage('C2_smallsky2small.jpg')
-  bigsmallsky2 = loadImage('C2_smallsky2.jpg')
+  smallsky2 = loadImage('C4_smallsky2small.jpg')
+  bigsmallsky2 = loadImage('C4_smallsky2.jpg')
   
-  stwall = loadImage('C2_stwallsmall.jpg')
-  bigstwall = loadImage('C2_stwall.jpg')
+  stwall = loadImage('C4_stwallsmall.jpg')
+  bigstwall = loadImage('C4_stwall.jpg')
   
-  adolph = loadImage('C2_adolphsmall.jpg')
-  bigadolph = loadImage('C2_adolph.jpg')
+  adolph = loadImage('C5_adolphsmall.jpg')
+  bigadolph = loadImage('C5_adolph.jpg')
   
-  afterlife = loadImage('C2_afterlifesmall.jpg')
-  bigafterlife = loadImage('C2_afterlife.jpg')
+  afterlife = loadImage('C5_afterlifesmall.jpg')
+  bigafterlife = loadImage('C5_afterlife.jpg')
   
-  berkshireinstagram = loadImage('C2_berkshireinstagramsmall.jpg')
-  bigberkshireinstagram = loadImage('C2_berkshireinstagram.jpg')
+  berkshireinstagram = loadImage('C5_berkshireinstagramsmall.jpg')
+  bigberkshireinstagram = loadImage('C5_berkshireinstagram.jpg')
   
-  bird = loadImage('C2_birdsmall.jpg')
-  bigbird = loadImage('C2_bird.jpg')
+  bird = loadImage('C5_birdsmall.jpg')
+  bigbird = loadImage('C5_bird.jpg')
   
-  coffin = loadImage('C2_coffinsmall.jpg')
-  bigcoffin = loadImage('C2_coffin.jpg')
+  coffin = loadImage('C5_coffinsmall.jpg')
+  bigcoffin = loadImage('C5_coffin.jpg')
   
-  deepblue = loadImage('C2_deepbluesmall.jpg')
-  bigdeepblue = loadImage('C2_deepblue.jpg')
+  deepblue = loadImage('C5_deepbluesmall.jpg')
+  bigdeepblue = loadImage('C5_deepblue.jpg')
   
-  heads = loadImage('C2_headssmall.jpg')
-  bigheads = loadImage('C2_heads.jpg')
+  heads = loadImage('C5_headssmall.jpg')
+  bigheads = loadImage('C5_heads.jpg')
   
-  heads2 = loadImage('C2_heads2small.jpg')
-  bigheads2 = loadImage('C2_heads2.jpg')
+  heads2 = loadImage('C5_heads2small.jpg')
+  bigheads2 = loadImage('C5_heads2.jpg')
   
-  heads3 = loadImage('C2_heads3small.jpg')
-  bigheads3 = loadImage('C2_heads3.jpg')
+  heads3 = loadImage('C5_heads3small.jpg')
+  bigheads3 = loadImage('C5_heads3.jpg')
   
-  hibiscus = loadImage('C2_hibiscussmall.jpg')
-  bighibiscus = loadImage('C2_hibiscus.jpg')
+  hibiscus = loadImage('C5_hibiscussmall.jpg')
+  bighibiscus = loadImage('C5_hibiscus.jpg')
   
-  ishmael = loadImage('C2_Ishmaelsmall.jpg')
-  bigishmael = loadImage('C2_ishmael.jpg')
+  ishmael = loadImage('C5_Ishmaelsmall.jpg')
+  bigishmael = loadImage('C5_ishmael.jpg')
   
-  mangrove = loadImage('C2_mangrovesmall.jpg')
-  bigmangrove = loadImage('C2_mangrove.jpg')
+  mangrove = loadImage('C5_mangrovesmall.jpg')
+  bigmangrove = loadImage('C5_mangrove.jpg')
   
-  manta = loadImage('C2_mantasmall.jpg')
-  bigmanta = loadImage('C2_manta.jpg')
+  manta = loadImage('C5_mantasmall.jpg')
+  bigmanta = loadImage('C5_manta.jpg')
   
-  morningboat = loadImage('C2_morningboatsmall.jpg')
-  bigmorningboat = loadImage('C2_morningboat.jpg')
+  morningboat = loadImage('C5_morningboatsmall.jpg')
+  bigmorningboat = loadImage('C5_morningboat.jpg')
   
-  nevsky2 = loadImage('C2_nevsky2small.jpg')
-  bignevsky2 = loadImage('C2_nevsky2.jpg')
+  nevsky2 = loadImage('C5_nevsky2small.jpg')
+  bignevsky2 = loadImage('C5_nevsky2.jpg')
   
-  overboard = loadImage('C2_overboardsmall.jpg')
-  bigoverboard = loadImage('C2_overboard.jpg')
+  overboard = loadImage('C5_overboardsmall.jpg')
+  bigoverboard = loadImage('C5_overboard.jpg')
   
-  pastel = loadImage('C2_pastelsmall.jpg')
-  bigpastel = loadImage('C2_pastel.jpg')
+  pastel = loadImage('C5_pastelsmall.jpg')
+  bigpastel = loadImage('C5_pastel.jpg')
   
-  pastel2 = loadImage('C2_pastel2small.jpg')
-  bigpastel2 = loadImage('C2_pastel2.jpg')
+  pastel2 = loadImage('C5_pastel2small.jpg')
+  bigpastel2 = loadImage('C5_pastel2.jpg')
   
-  pastel3 = loadImage('C2_pastel3small.jpg')
-  bigpastel3 = loadImage('C2_pastel3.jpg')
+  pastel3 = loadImage('C5_pastel3small.jpg')
+  bigpastel3 = loadImage('C5_pastel3.jpg')
   
-  pastel4 = loadImage('C2_pastel4small.jpg')
-  bigpastel4 = loadImage('C2_pastel4.jpg')
+  pastel4 = loadImage('C5_pastel4small.jpg')
+  bigpastel4 = loadImage('C5_pastel4.jpg')
   
-  pastel5 = loadImage('C2_pastel5small.jpg')
-  bigpastel5 = loadImage('C2_pastel5.jpg')
+  pastel5 = loadImage('C5_pastel5small.jpg')
+  bigpastel5 = loadImage('C5_pastel5.jpg')
   
-  pastel6 = loadImage('C2_pastel6small.jpg')
-  bigpastel6 = loadImage('C2_pastel6.jpg')
+  pastel6 = loadImage('C5_pastel6small.jpg')
+  bigpastel6 = loadImage('C5_pastel6.jpg')
   
-  pastel7 = loadImage('C2_pastel7small.jpg')
-  bigpastel7 = loadImage('C2_pastel7.jpg')
+  pastel7 = loadImage('C5_pastel7small.jpg')
+  bigpastel7 = loadImage('C5_pastel7.jpg')
   
-  pastel8 = loadImage('C2_pastel8small.jpg')
-  bigpastel8 = loadImage('C2_pastel8.jpg')
+  pastel8 = loadImage('C5_pastel8small.jpg')
+  bigpastel8 = loadImage('C5_pastel8.jpg')
   
-  pastel9 = loadImage('C2_pastel9small.jpg')
-  bigpastel9 = loadImage('C2_pastel9.jpg')
+  pastel9 = loadImage('C5_pastel9small.jpg')
+  bigpastel9 = loadImage('C5_pastel9.jpg')
  
-  pastel10 = loadImage('C2_pastel10small.jpg')
-  bigpastel10 = loadImage('C2_pastel10.jpg')
+  pastel10 = loadImage('C5_pastel10small.jpg')
+  bigpastel10 = loadImage('C5_pastel10.jpg')
   
-  pastel11 = loadImage('C2_pastel11small.jpg')
-  bigpastel11 = loadImage('C2_pastel11.jpg')
+  pastel11 = loadImage('C5_pastel11small.jpg')
+  bigpastel11 = loadImage('C5_pastel11.jpg')
   
-  pastel12 = loadImage('C2_pastel12small.jpg')
-  bigpastel12 = loadImage('C2_pastel12.jpg')
+  pastel12 = loadImage('C5_pastel12small.jpg')
+  bigpastel12 = loadImage('C5_pastel12.jpg')
   
-  pastel13 = loadImage('C2_pastel13small.jpg')
-  bigpastel13 = loadImage('C2_pastel13.jpg')
+  pastel13 = loadImage('C5_pastel13small.jpg')
+  bigpastel13 = loadImage('C5_pastel13.jpg')
   
-  pastel14 = loadImage('C2_pastel14small.jpg')
-  bigpastel14 = loadImage('C2_pastel14.jpg')
+  pastel14 = loadImage('C5_pastel14small.jpg')
+  bigpastel14 = loadImage('C5_pastel14.jpg')
   
-  pastel15 = loadImage('C2_pastel15small.jpg')
-  bigpastel15 = loadImage('C2_pastel15.jpg')
+  pastel15 = loadImage('C5_pastel15small.jpg')
+  bigpastel15 = loadImage('C5_pastel15.jpg')
   
-  pastel16 = loadImage('C2_pastel16small.jpg')
-  bigpastel16 = loadImage('C2_pastel16.jpg') 
+  pastel16 = loadImage('C5_pastel16small.jpg')
+  bigpastel16 = loadImage('C5_pastel16.jpg') 
   
-  pastel17 = loadImage('C2_pastel17small.jpg')
-  bigpastel17 = loadImage('C2_pastel17.jpg')
+  pastel17 = loadImage('C5_pastel17small.jpg')
+  bigpastel17 = loadImage('C5_pastel17.jpg')
   
-  pastel18 = loadImage('C2_pastel18small.jpg')
-  bigpastel18 = loadImage('C2_pastel18.jpg') 
+  pastel18 = loadImage('C5_pastel18small.jpg')
+  bigpastel18 = loadImage('C5_pastel18.jpg') 
   
-  pastel19 = loadImage('C2_pastel19small.jpg')
-  bigpastel19 = loadImage('C2_pastel19.jpg')
+  pastel19 = loadImage('C5_pastel19small.jpg')
+  bigpastel19 = loadImage('C5_pastel19.jpg')
   
-  pastel21 = loadImage('C2_pastel21small.jpg')
-  bigpastel21 = loadImage('C2_pastel21.jpg') 
+  pastel21 = loadImage('C5_pastel21small.jpg')
+  bigpastel21 = loadImage('C5_pastel21.jpg') 
   
-  pastel23 = loadImage('C2_pastel23small.jpg')
-  bigpastel23 = loadImage('C2_pastel23.jpg') 
+  pastel23 = loadImage('C5_pastel23small.jpg')
+  bigpastel23 = loadImage('C5_pastel23.jpg') 
   
-  pastel24 = loadImage('C2_pastel24small.jpg')
-  bigpastel24 = loadImage('C2_pastel24.jpg')
+  pastel24 = loadImage('C5_pastel24small.jpg')
+  bigpastel24 = loadImage('C5_pastel24.jpg')
   
-  pastel25 = loadImage('C2_pastel25small.jpg')
-  bigpastel25 = loadImage('C2_pastel25.jpg') 
+  pastel25 = loadImage('C5_pastel25small.jpg')
+  bigpastel25 = loadImage('C5_pastel25.jpg') 
   
-  pastel26 = loadImage('C2_pastel26small.jpg')
-  bigpastel26 = loadImage('C2_pastel26.jpg')
+  pastel26 = loadImage('C5_pastel26small.jpg')
+  bigpastel26 = loadImage('C5_pastel26.jpg')
   
-  pastel27 = loadImage('C2_pastel27small.jpg')
-  bigpastel27 = loadImage('C2_pastel27.jpg') 
+  pastel27 = loadImage('C5_pastel27small.jpg')
+  bigpastel27 = loadImage('C5_pastel27.jpg') 
   
-  ps1 = loadImage('C2_ps1small.jpg')
-  bigps1 = loadImage('C2_ps1.jpg')
+  ps1 = loadImage('C5_ps1small.jpg')
+  bigps1 = loadImage('C5_ps1.jpg')
   
-  ps12 = loadImage('C2_ps12small.jpg')
-  bigps12 = loadImage('C2_ps12.jpg') 
+  ps12 = loadImage('C5_ps12small.jpg')
+  bigps12 = loadImage('C5_ps12.jpg') 
   
-  racetrack = loadImage('C2_racetracksmall.jpg')
-  bigracetrack = loadImage('C2_racetrack.jpg')
+  racetrack = loadImage('C5_racetracksmall.jpg')
+  bigracetrack = loadImage('C5_racetrack.jpg')
   
-  ryders = loadImage('C2_ryderssmall.jpg')
-  bigryders = loadImage('C2_ryders.jpg') 
+  ryders = loadImage('C5_ryderssmall.jpg')
+  bigryders = loadImage('C5_ryders.jpg') 
 
   
 }
