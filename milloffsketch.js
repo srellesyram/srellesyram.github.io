@@ -1,6 +1,5 @@
 // PROBLEM CHILDREN: 38 "trogwhitedet" disappears when hovered over 
 
-
 let a = 0.0;
 let s = 0.0;
 
@@ -3860,18 +3859,25 @@ let xbigryders = 2;
 let ybigryders = 2;
 let movebigryders =1;
 
-
+var angle = 0;
 
 var loading = true;
 
 
-function setup() {
-  createCanvas(windowWidth, windowHeight);}
-
-
-function preload() {
+function imageLoaded (image) {
+  loading = false;
   
-  bacteria = loadImage('bacteriasmall.jpg')
+}
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+
+//}
+
+
+//function preload() {
+  
+  bacteria = loadImage('bacteriasmall.jpg', imageLoaded)
   bigbacteria = loadImage('bacteria.jpg')  
   
   billows = loadImage('betweenbillowssmall.jpg')
@@ -4600,7 +4606,27 @@ function preload() {
 function draw() {
 
   background(300);
+  
+  
+  //CODING TRAIN LOADING ANIMATION 
+  
+  if (loading) {
+    translate(width/2, height/2);
+    rotate(angle);
+    strokeWeight(4);
+    stroke(255);
+    line(0, 0, 100, 0);
+    angle += 0.1; 
+  } else {
+    background (300);
+  }
+  //
+ 
+  
+  
   imageMode(CENTER);
+  
+  
     
 let randxbacteria = random (1,windowWidth);
 let randybacteria = random (1,windowHeight);
