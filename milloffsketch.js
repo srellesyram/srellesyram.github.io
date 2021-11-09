@@ -13,9 +13,9 @@ let move2bacteria=0.2;
 let movebigbacteria=1;
 let stopbacteria=0;
 let wbacteria = 50;
-let hbacteria = 50;
+let hbacteria = 39;
 let wbigbacteria = 50;
-let hbigbacteria = 50;
+let hbigbacteria = 39;
 let xbigbacteria = 2;
 let ybigbacteria = 2;
 let testbacteria = false;
@@ -28,9 +28,9 @@ let movebillows=0.9;
 let move2billows=0.5;
 let stopbillows=0;
 let wbillows = 50;
-let hbillows = 50;
+let hbillows = 49;
 let wbigbillows = 50;
-let hbigbillows = 50;
+let hbigbillows = 49;
 let testbillows = false;
 let xbigbillows = 2;
 let ybigbillows = 2;
@@ -807,7 +807,7 @@ let movebigsatanchariot=1;
 let xtrogwhitedet=2;
 let ytrogwhitedet=2;
 let xdivtrogwhitedet = 8;
-let ydivtrogwhitedet = 12;
+let ydivtrogwhitedet = 4;
 let movetrogwhitedet=0.6;
 let move2trogwhitedet=0.2;
 let stoptrogwhitedet=0;
@@ -6345,9 +6345,9 @@ function enlargebacteria() {
       cursor();
       testbacteria = false;
       wbacteria=50;
-      hbacteria=50; 
+      hbacteria=39; 
       wbigbacteria=50;   ///******
-      hbigbacteria=50;    ////*****
+      hbigbacteria=39;    ////*****
       xbigbacteria = xbacteria
       ybigbacteria = ybacteria
       xbacteria = xbacteria+movebacteria;
@@ -6391,9 +6391,9 @@ function enlargebillows() {
     else {
       testbillows = false;
       wbillows=50;
-      hbillows=50;  
+      hbillows=49;  
       wbigbillows=50;   //
-      hbigbillows=50;    //
+      hbigbillows=49;    //
       xbigbillows = xbillows //
       ybigbillows = ybillows //
       xbillows = xbillows-movebillows; 
@@ -6427,9 +6427,9 @@ function enlargedolphin() {
     else {
       testdolphin = false;
       wdolphin=50;
-      hdolphin=50;        
+      hdolphin=44;        
       wbigdolphin=50;   //
-      hbigdolphin=50;    //
+      hbigdolphin=44;    //
       xbigdolphin = xdolphin //
       ybigdolphin = ydolphin //
       xdolphin = xdolphin-movedolphin;
@@ -6495,9 +6495,9 @@ function enlargedrop() {
         if (hbigdrop>650) {hbigdrop=650}}   
     else {
       testdrop = false;
-      wdrop=50;
+      wdrop=28;
       hdrop=50;      
-      wbigdrop=50;   //
+      wbigdrop=28;   //
       hbigdrop=50;    //
       xbigdrop = xdrop //
       ybigdrop = ydrop //  
@@ -6530,9 +6530,9 @@ function enlargeepilogue() {
     else {
       testepilogue = false;
       wepilogue=50;
-      hepilogue=50;     
+      hepilogue=35;     
       wbigepilogue=50;   //
-      hbigepilogue=50;    //
+      hbigepilogue=35;    //
       xbigepilogue = xepilogue //
       ybigepilogue = yepilogue //  
       xepilogue = xepilogue+moveepilogue;
@@ -6563,9 +6563,9 @@ function enlargegator() {
         if (hbiggator>650) {hbiggator=650}}   
     else {
       testgator = false;
-      wgator=50;
+      wgator=40;
       hgator=50;        
-      wbiggator=50;   //
+      wbiggator=40;   //
       hbiggator=50;    //
       xbiggator = xgator //
       ybiggator = ygator //
@@ -6598,9 +6598,9 @@ function enlargebugs() {
     else {
       testbugs = false;
       wbugs=50;
-      hbugs=50;      
+      hbugs=34;      
       wbigbugs=50;   //
-      hbigbugs=50;    //
+      hbigbugs=34;    //
       xbigbugs = xbugs //
       ybigbugs = ybugs //
       xbugs = xbugs-movebugs;
@@ -6631,9 +6631,9 @@ function enlargechariot() {
         if (hbigchariot>650) {hbigchariot=650}}   
     else {
       testchariot = false;
-      wchariot=50;
+      wchariot=34;
       hchariot=50;       
-      wbigchariot=50;   //
+      wbigchariot=34;   //
       hbigchariot=50;    //
       xbigchariot = xchariot //
       ybigchariot = ychariot //
@@ -6666,9 +6666,9 @@ function enlargeking() {
     else {
       testking = false;
       wking=50;
-      hking=50;     
+      hking=35;     
       wbigking=50;   //
-      hbigking=50;    //
+      hbigking=35;    //
       xbigking = xking //
       ybigking = yking // 
       xking = xking+moveking;
@@ -6700,9 +6700,9 @@ function enlargemullet() {
     else {
       testmullet = false;
       wmullet=50;
-      hmullet=50;    
+      hmullet=45;    
       wbigmullet=50;   //
-      hbigmullet=50;    //
+      hbigmullet=45;    //
       xbigmullet = xmullet //
       ybigmullet = ymullet //  
       xmullet = xmullet-movemullet;
@@ -6734,9 +6734,9 @@ function enlargemanatee() {
     else {
       testmanatee = false;
       wmanatee=50;
-      hmanatee=50;    
+      hmanatee=18;    
       wbigmanatee=50;   //
-      hbigmanatee=50;    //
+      hbigmanatee=18;    //
       xbigmanatee = xmanatee //
       ybigmanatee = ymanatee //  
       xmanatee = xmanatee+movemanatee;
@@ -6768,9 +6768,9 @@ function enlargemantaray() {
     else {
       testmantaray = false;
       wmantaray=50;
-      hmantaray=50;    
+      hmantaray=17;    
       wbigmantaray=50;   //
-      hbigmantaray=50;    //
+      hbigmantaray=17;    //
       xbigmantaray = xmantaray //
       ybigmantaray = ymantaray //   
       xmantaray = xmantaray-movemantaray;
@@ -6801,9 +6801,9 @@ function enlargepeople() {
         if (hbigpeople>650) {hbigpeople=650}}   
     else {
       testpeople = false;
-      wpeople=50;
+      wpeople=22;
       hpeople=50;      
-      wbigpeople=50;   //
+      wbigpeople=22;   //
       hbigpeople=50;    //
       xbigpeople = xpeople //
       ybigpeople = ypeople //
@@ -6835,9 +6835,9 @@ function enlargepeople2() {
         if (hbigpeople2>650) {hbigpeople2=650}}   
     else {
       testpeople2 = false;
-      wpeople2=50;
+      wpeople2=32;
       hpeople2=50;    
-      wbigpeople2=50;   //
+      wbigpeople2=32;   //
       hbigpeople2=50;    //
       xbigpeople2 = xpeople2 //
       ybigpeople2 = ypeople2 // 
@@ -6870,9 +6870,9 @@ function enlargegarden() {
     else {
       testgarden = false;
       wgarden=50;
-      hgarden=50;    
+      hgarden=32;    
       wbiggarden=50;   //
-      hbiggarden=50;    //
+      hbiggarden=32;    //
       xbiggarden = xgarden //
       ybiggarden = ygarden // 
       xgarden = xgarden+movegarden;
@@ -6903,9 +6903,9 @@ function enlargesatan() {
         if (hbigsatan>650) {hbigsatan=650}}   
     else {
       testsatan = false;
-      wsatan=50;
+      wsatan=35;
       hsatan=50;    
-      wbigsatan=50;   //
+      wbigsatan=35;   //
       hbigsatan=50;    //
       xbigsatan = xsatan //
       ybigsatan = ysatan //   
@@ -6938,9 +6938,9 @@ function enlargeschool() {
     else {
       testschool = false;
       wschool=50;
-      hschool=50;    
+      hschool=35;    
       wbigschool=50;   //
-      hbigschool=50;    //
+      hbigschool=35;    //
       xbigschool = xschool //
       ybigschool = yschool //  
       xschool = xschool+moveschool;
@@ -6972,9 +6972,9 @@ function enlargesplash() {
     else {
       testsplash = false;
       wsplash=50;
-      hsplash=50;   
+      hsplash=41;   
       wbigsplash=50;   //
-      hbigsplash=50;    //
+      hbigsplash=41;    //
       xbigsplash = xsplash //
       ybigsplash = ysplash //   
       xsplash = xsplash-movesplash;
@@ -7006,9 +7006,9 @@ function enlargesquid() {
         if (hbigsquid>650) {hbigsquid=650}}   
     else {
       testsquid = false;
-      wsquid=50;
+      wsquid=23;
       hsquid=50;     
-      wbigsquid=50;   //
+      wbigsquid=23;   //
       hbigsquid=50;    //
       xbigsquid = xsquid //
       ybigsquid = ysquid // 
@@ -7041,9 +7041,9 @@ function enlargestrip() {
     else {
       teststrip = false;
       wstrip=50;
-      hstrip=50;    
+      hstrip=27;    
       wbigstrip=50;   //
-      hbigstrip=50;    //
+      hbigstrip=27;    //
       xbigstrip = xstrip //
       ybigstrip = ystrip //  
       xstrip = xstrip-movestrip;
@@ -7075,9 +7075,9 @@ function enlargetampared() {
     else {
       testtampared = false;
       wtampared=50;
-      htampared=50;   
+      htampared=49;   
       wbigtampared=50;   //
-      hbigtampared=50;    //
+      hbigtampared=49;    //
       xbigtampared = xtampared //
       ybigtampared = ytampared //   
       xtampared = xtampared+movetampared;
@@ -7109,9 +7109,9 @@ function enlargewall() {
     else {
       testwall = false;
       wwall=50;
-      hwall=50;       
+      hwall=21;       
       wbigwall=50;   //
-      hbigwall=50;    //
+      hbigwall=21;    //
       xbigwall = xwall //
       ybigwall = ywall // 
       xwall = xwall-movewall;
@@ -7143,9 +7143,9 @@ function enlargetrog() {
     else {
       testtrog = false;
       wtrog=50;
-      htrog=50;    
+      htrog=46;    
       wbigtrog=50;   //
-      hbigtrog=50;    //
+      hbigtrog=46;    //
       xbigtrog = xtrog //
       ybigtrog = ytrog //  
       xtrog = xtrog+movetrog;
@@ -7178,9 +7178,9 @@ function enlargetrog02() {
     else {
       testtrog02 = false;
       wtrog02=50;
-      htrog02=50;  
+      htrog02=45;  
       wbigtrog02=50;   //
-      hbigtrog02=50;    //
+      hbigtrog02=45;    //
       xbigtrog02 = xtrog02 //
       ybigtrog02 = ytrog02 //    
       xtrog02 = xtrog02-movetrog02;
@@ -7213,9 +7213,9 @@ function enlargethump() {
     else {
       testthump = false;
       wthump=50;
-      hthump=50;      
+      hthump=49;      
       wbigthump=50;   //
-      hbigthump=50;    //
+      hbigthump=49;    //
       xbigthump = xthump //
       ybigthump = ythump //
       xthump = xthump+movethump;
@@ -7247,9 +7247,9 @@ function enlargewhale() {
     else {
       testwhale = false;
       wwhale=50;
-      hwhale=50;     
+      hwhale=22;     
       wbigwhale=50;   //
-      hbigwhale=50;    //
+      hbigwhale=22;    //
       xbigwhale = xwhale //
       ybigwhale = ywhale // 
       xwhale = xwhale-movewhale;
@@ -7282,9 +7282,9 @@ function enlargelotus() {
     else {
       testlotus = false;
       wlotus=50;
-      hlotus=50;     
+      hlotus=49;     
       wbiglotus=50;   //
-      hbiglotus=50;    //
+      hbiglotus=49;    //
       xbiglotus = xlotus //
       ybiglotus = ylotus // 
       xlotus = xlotus+movelotus;
@@ -7314,9 +7314,9 @@ function enlargebirthvenus () {
         if (hbigbirthvenus>650) {hbigbirthvenus=650}}   
     else {
       testbirthvenus = false;
-      wbirthvenus=50;
+      wbirthvenus=35;
       hbirthvenus=50;   
-      wbigbirthvenus=50;   //
+      wbigbirthvenus=35;   //
       hbigbirthvenus=50;    //
       xbigbirthvenus = xbirthvenus //
       ybigbirthvenus = ybirthvenus //     
@@ -7348,9 +7348,9 @@ function enlargeboat ()  {
     else {
       testboat = false;
       wboat=50;
-      hboat=50;        
+      hboat=33;        
       wbigboat=50;   //
-      hbigboat=50;    //
+      hbigboat=33;    //
       xbigboat = xboat //
       ybigboat = yboat //
       xboat = xboat+moveboat;
@@ -7381,9 +7381,9 @@ function enlargeboat70s () {
     else {
       testboat70s = false;
       wboat70s=50;
-      hboat70s=50;    
+      hboat70s=32;    
       wbigboat70s=50;   //
-      hbigboat70s=50;    //
+      hbigboat70s=32;    //
       xbigboat70s = xboat70s //
       ybigboat70s = yboat70s //  
       xboat70s = xboat70s+moveboat70s;
@@ -7413,9 +7413,9 @@ function enlargebruno () {
         if (hbigbruno>650) {hbigbruno=650}}   
     else {
       testbruno = false;
-      wbruno=50;
+      wbruno=30;
       hbruno=50;    
-      wbigbruno=50;   //
+      wbigbruno=30;   //
       hbigbruno=50;    //
       xbigbruno = xbruno //
       ybigbruno = ybruno //  
@@ -7446,9 +7446,9 @@ function enlargeearlyfish () {
         if (hbigearlyfish>650) {hbigearlyfish=650}}   
     else {
       testearlyfish = false;
-      wearlyfish=50;
+      wearlyfish=23;
       hearlyfish=50;     
-      wbigearlyfish=50;   //
+      wbigearlyfish=23;   //
       hbigearlyfish=50;    //
       xbigearlyfish = xearlyfish //
       ybigearlyfish = yearlyfish // 
@@ -7479,9 +7479,9 @@ function enlargefightside () {
         if (hbigfightside>650) {hbigfightside=650}}   
     else {
       testfightside = false;
-      wfightside=50;
+      wfightside=34;
       hfightside=50;     
-      wbigfightside=50;   //
+      wbigfightside=34;   //
       hbigfightside=50;    //
       xbigfightside = xfightside //
       ybigfightside = yfightside // 
@@ -7513,9 +7513,9 @@ function enlargefightwithme () {
     else {
       testfightwithme = false;
       wfightwithme=50;
-      hfightwithme=50;    
+      hfightwithme=33;    
       wbigfightwithme=50;   //
-      hbigfightwithme=50;    //
+      hbigfightwithme=33;    //
       xbigfightwithme = xfightwithme //
       ybigfightwithme = yfightwithme //  
       xfightwithme = xfightwithme+movefightwithme;
@@ -7546,9 +7546,9 @@ function enlargefishcodcuttle () {
     else {
       testfishcodcuttle = false;
       wfishcodcuttle=50;
-      hfishcodcuttle=50;     
+      hfishcodcuttle=33;     
       wbigfishcodcuttle=50;   //
-      hbigfishcodcuttle=50;    //
+      hbigfishcodcuttle=33;    //
       xbigfishcodcuttle = xfishcodcuttle //
       ybigfishcodcuttle = yfishcodcuttle // 
       xfishcodcuttle = xfishcodcuttle+movefishcodcuttle;
@@ -7578,9 +7578,9 @@ function enlargehead () {
         if (hbighead>650) {hbighead=650}}   
     else {
       testhead = false;
-      whead=50;
+      whead=33;
       hhead=50;        
-      wbighead=50;   //
+      wbighead=33;   //
       hbighead=50;    //
       xbighead = xhead //
       ybighead = yhead //
@@ -7611,9 +7611,9 @@ function enlargeheadside () {
         if (hbigheadside>650) {hbigheadside=650}}   
     else {
       testheadside = false;
-      wheadside=50;
+      wheadside=35;
       hheadside=50;    
-      wbigheadside=50;   //
+      wbigheadside=35;   //
       hbigheadside=50;    //
       xbigheadside = xheadside //
       ybigheadside = yheadside //  
@@ -7644,9 +7644,9 @@ function enlargeheadstand () {
         if (hbigheadstand>650) {hbigheadstand=650}}   
     else {
       testheadstand = false;
-      wheadstand=50;
+      wheadstand=19;
       hheadstand=50;    
-      wbigheadstand=50;   //
+      wbigheadstand=19;   //
       hbigheadstand=50;    //
       xbigheadstand = xheadstand //
       ybigheadstand = yheadstand //  
@@ -7678,9 +7678,9 @@ function enlargemansailfish () {
     else {
       testmansailfish = false;
       wmansailfish=50;
-      hmansailfish=50;    
+      hmansailfish=32;    
       wbigmansailfish=50;   //
-      hbigmansailfish=50;    //
+      hbigmansailfish=32;    //
       xbigmansailfish = xmansailfish //
       ybigmansailfish = ymansailfish //  
       xmansailfish = xmansailfish+movemansailfish;
@@ -7711,9 +7711,9 @@ function enlargemedallion () {
     else {
       testmedallion = false;
       wmedallion=50;
-      hmedallion=50;      
+      hmedallion=48;      
       wbigmedallion=50;   //
-      hbigmedallion=50;    //
+      hbigmedallion=48;    //
       xbigmedallion = xmedallion //
       ybigmedallion = ymedallion //
       xmedallion = xmedallion+movemedallion;
@@ -7744,9 +7744,9 @@ function enlargemedallion3 () {
     else {
       testmedallion3 = false;
       wmedallion3=50;
-      hmedallion3=50;      
+      hmedallion3=48;      
       wbigmedallion3=50;   //
-      hbigmedallion3=50;    //
+      hbigmedallion3=48;    //
       xbigmedallion3 = xmedallion3 //
       ybigmedallion3 = ymedallion3 //
       xmedallion3 = xmedallion3+movemedallion3;
@@ -7776,9 +7776,9 @@ function enlargemedallion4 () {
         if (hbigmedallion4>550) {hbigmedallion4=550}}   
     else {
       testmedallion4 = false;
-      wmedallion4=50;
+      wmedallion4=46;
       hmedallion4=50;     
-      wbigmedallion4=50;   //
+      wbigmedallion4=46;   //
       hbigmedallion4=50;    //
       xbigmedallion4 = xmedallion4 //
       ybigmedallion4 = ymedallion4 // 
@@ -7809,9 +7809,9 @@ function enlargemedallion5 () {
         if (hbigmedallion5>550) {hbigmedallion5=550}}   
     else {
       testmedallion5 = false;
-      wmedallion5=50;
+      wmedallion5=47;
       hmedallion5=50;      
-      wbigmedallion5=50;   //
+      wbigmedallion5=47;   //
       hbigmedallion5=50;    //
       xbigmedallion5 = xmedallion5 //
       ybigmedallion5 = ymedallion5 //
@@ -7842,9 +7842,9 @@ function enlargemehead () {
         if (hbigmehead>650) {hbigmehead=650}}   
     else {
       testmehead = false;
-      wmehead=50;
+      wmehead=36;
       hmehead=50;        
-      wbigmehead=50;   //
+      wbigmehead=36;   //
       hbigmehead=50;    //
       xbigmehead = xmehead //
       ybigmehead = ymehead //
@@ -7875,9 +7875,9 @@ function enlargesatanchariot () {
         if (hbigsatanchariot>650) {hbigsatanchariot=650}}   
     else {
       testsatanchariot = false;
-      wsatanchariot=50;
+      wsatanchariot=34;
       hsatanchariot=50;    
-      wbigsatanchariot=50;   //
+      wbigsatanchariot=34;   //
       hbigsatanchariot=50;    //
       xbigsatanchariot = xsatanchariot //
       ybigsatanchariot = ysatanchariot //  
@@ -7908,9 +7908,9 @@ function enlargetrogwhitedet () {
         if (hbigtrogwhitedet>650) {hbigtrogwhitedet=650}}   
     else {
       testtrogwhitedet = false;
-      wtrogwhitedet=50;
+      wtrogwhitedet=35;
       htrogwhitedet=50;    
-      wbigtrogwhitedet=50;   //
+      wbigtrogwhitedet=35;   //
       hbigtrogwhitedet=50;    //
       xbigtrogwhitedet = xtrogwhitedet //
       ybigtrogwhitedet = ytrogwhitedet //  
@@ -7941,9 +7941,9 @@ function enlargetrolling () {
         if (hbigtrolling>550) {hbigtrolling=550}}   
     else {
       testtrolling = false;
-      wtrolling=50;
+      wtrolling=48;
       htrolling=50;     
-      wbigtrolling=50;   //
+      wbigtrolling=48;   //
       hbigtrolling=50;    //
       xbigtrolling = xtrolling //
       ybigtrolling = ytrolling // 
@@ -7975,9 +7975,9 @@ function enlargebear () {
     else {
       testbear = false;
       wbear=50;
-      hbear=50;        
+      hbear=34;        
       wbigbear=50;   //
-      hbigbear=50;    //
+      hbigbear=34;    //
       xbigbear = xbear //
       ybigbear = ybear //
       xbear = xbear+movebear;
@@ -8008,9 +8008,9 @@ function enlargebearearly () {
     else {
       testbearearly = false;
       wbearearly=50;
-      hbearearly=50;    
+      hbearearly=40;    
       wbigbearearly=50;   //
-      hbigbearearly=50;    //
+      hbigbearearly=40;    //
       xbigbearearly = xbearearly //
       ybigbearearly = ybearearly //  
       xbearearly = xbearearly+movebearearly;
@@ -8041,9 +8041,9 @@ function enlargebearr () {
     else {
       testbearr = false;
       wbearr=50;
-      hbearr=50;        
+      hbearr=38;        
       wbigbearr=50;   //
-      hbigbearr=50;    //
+      hbigbearr=38;    //
       xbigbearr = xbearr //
       ybigbearr = ybearr //
       xbearr = xbearr+movebearr;
@@ -8074,9 +8074,9 @@ function enlargebearrr () {
     else {
       testbearrr = false;
       wbearrr=50;
-      hbearrr=50;     
+      hbearrr=30;     
       wbigbearrr=50;   //
-      hbigbearrr=50;    //
+      hbigbearrr=30;    //
       xbigbearrr = xbearrr //
       ybigbearrr = ybearrr // 
       xbearrr = xbearrr+movebearrr;
@@ -8107,9 +8107,9 @@ function enlargeberkshire () {
     else {
       testberkshire = false;
       wberkshire=50;
-      hberkshire=50;    
+      hberkshire=49;    
       wbigberkshire=50;   //
-      hbigberkshire=50;    //
+      hbigberkshire=49;    //
       xbigberkshire = xberkshire //
       ybigberkshire = yberkshire //  
       xberkshire = xberkshire+moveberkshire;
@@ -8139,9 +8139,9 @@ function enlargecast () {
         if (hbigcast>650) {hbigcast=650}}   
     else {
       testcast = false;
-      wcast=50;
+      wcast=29;
       hcast=50;       
-      wbigcast=50;   //
+      wbigcast=29;   //
       hbigcast=50;    //
       xbigcast = xcast //
       ybigcast = ycast // 
@@ -8173,9 +8173,9 @@ function enlargedoy () {
     else {
       testdoy = false;
       wdoy=50;
-      hdoy=50;     
+      hdoy=22;     
       wbigdoy=50;   //
-      hbigdoy=50;    //
+      hbigdoy=22;    //
       xbigdoy = xdoy //
       ybigdoy = ydoy // 
       xdoy = xdoy+movedoy;
@@ -8206,9 +8206,9 @@ function enlargedeepwwods () {
     else {
       testdeepwwods = false;
       wdeepwwods=50;
-      hdeepwwods=50;     
+      hdeepwwods=35;     
       wbigdeepwwods=50;   //
-      hbigdeepwwods=50;    //
+      hbigdeepwwods=35;    //
       xbigdeepwwods = xdeepwwods //
       ybigdeepwwods = ydeepwwods // 
       xdeepwwods = xdeepwwods+movedeepwwods;
@@ -8239,9 +8239,9 @@ function enlargedogdollystorm () {
     else {
       testdogdollystorm = false;
       wdogdollystorm=50;
-      hdogdollystorm=50;       
+      hdogdollystorm=37;       
       wbigdogdollystorm=50;   //
-      hbigdogdollystorm=50;    //
+      hbigdogdollystorm=37;    //
       xbigdogdollystorm = xdogdollystorm //
       ybigdogdollystorm = ydogdollystorm // 
       xdogdollystorm = xdogdollystorm+movedogdollystorm;
@@ -8272,9 +8272,9 @@ function enlargedogsdeepwoods () {
     else {
       testdogsdeepwoods = false;
       wdogsdeepwoods=50;
-      hdogsdeepwoods=50;      
+      hdogsdeepwoods=33;      
       wbigdogsdeepwoods=50;   //
-      hbigdogsdeepwoods=50;    //
+      hbigdogsdeepwoods=33;    //
       xbigdogsdeepwoods = xdogsdeepwoods //
       ybigdogsdeepwoods = ydogsdeepwoods //
       xdogsdeepwoods = xdogsdeepwoods+movedogsdeepwoods;
@@ -8305,9 +8305,9 @@ function enlargedogsdrinking () {
     else {
       testdogsdrinking = false;
       wdogsdrinking=50;
-      hdogsdrinking=50;       
+      hdogsdrinking=40;       
       wbigdogsdrinking=50;   //
-      hbigdogsdrinking=50;    //
+      hbigdogsdrinking=40;    //
       xbigdogsdrinking = xdogsdrinking //
       ybigdogsdrinking = ydogsdrinking // 
       xdogsdrinking = xdogsdrinking+movedogsdrinking;
@@ -8337,9 +8337,9 @@ function enlargedogsdusk () {
         if (hbigdogsdusk>650) {hbigdogsdusk=650}}   
     else {
       testdogsdusk = false;
-      wdogsdusk=50;
+      wdogsdusk=39;
       hdogsdusk=50;        
-      wbigdogsdusk=50;   //
+      wbigdogsdusk=39;   //
       hbigdogsdusk=50;    //
       xbigdogsdusk = xdogsdusk //
       ybigdogsdusk = ydogsdusk //
@@ -8370,9 +8370,9 @@ function enlargedogsrunning () {
         if (hbigdogsrunning>650) {hbigdogsrunning=650}}   
     else {
       testdogsrunning = false;
-      wdogsrunning=50;
+      wdogsrunning=38;
       hdogsrunning=50;    
-      wbigdogsrunning=50;   //
+      wbigdogsrunning=38;   //
       hbigdogsrunning=50;    //
       xbigdogsrunning = xdogsrunning //
       ybigdogsrunning = ydogsrunning //  
@@ -8404,9 +8404,9 @@ function enlargedogstorm () {
     else {
       testdogstorm = false;
       wdogstorm=50;
-      hdogstorm=50;    
+      hdogstorm=34;    
       wbigdogstorm=50;   //
-      hbigdogstorm=50;    //
+      hbigdogstorm=34;    //
       xbigdogstorm = xdogstorm //
       ybigdogstorm = ydogstorm //  
       xdogstorm = xdogstorm+movedogstorm;
@@ -8437,9 +8437,9 @@ function enlargedogsvsowl () {
     else {
       testdogsvsowl = false;
       wdogsvsowl=50;
-      hdogsvsowl=50;    
+      hdogsvsowl=22;    
       wbigdogsvsowl=50;   //
-      hbigdogsvsowl=50;    //
+      hbigdogsvsowl=22;    //
       xbigdogsvsowl = xdogsvsowl //
       ybigdogsvsowl = ydogsvsowl //  
       xdogsvsowl = xdogsvsowl+movedogsvsowl;
@@ -8469,9 +8469,9 @@ function enlargedogsvsturkey () {
         if (hbigdogsvsturkey>650) {hbigdogsvsturkey=650}}   
     else {
       testdogsvsturkey = false;
-      wdogsvsturkey=50;
+      wdogsvsturkey=38;
       hdogsvsturkey=50;     
-      wbigdogsvsturkey=50;   //
+      wbigdogsvsturkey=38;   //
       hbigdogsvsturkey=50;    //
       xbigdogsvsturkey = xdogsvsturkey //
       ybigdogsvsturkey = ydogsvsturkey // 
@@ -8503,9 +8503,9 @@ function enlargedollysunset () {
     else {
       testdollysunset = false;
       wdollysunset=50;
-      hdollysunset=50;    
+      hdollysunset=37;    
       wbigdollysunset=50;   //
-      hbigdollysunset=50;    //
+      hbigdollysunset=37;    //
       xbigdollysunset = xdollysunset //
       ybigdollysunset = ydollysunset //  
       xdollysunset = xdollysunset+movedollysunset;
@@ -8536,9 +8536,9 @@ function enlargedollyswim() {
     else {
       testdollyswim = false;
       wdollyswim=50;
-      hdollyswim=50;      
+      hdollyswim=37;      
       wbigdollyswim=50;   //
-      hbigdollyswim=50;    //
+      hbigdollyswim=37;    //
       xbigdollyswim = xdollyswim //
       ybigdollyswim = ydollyswim //
       xdollyswim = xdollyswim+movedollyswim;
@@ -8569,9 +8569,9 @@ function enlargedyingwhale () {
     else {
       testdyingwhale = false;
       wdyingwhale=50;
-      hdyingwhale=50;    
+      hdyingwhale=17;    
       wbigdyingwhale=50;   //
-      hbigdyingwhale=50;    //
+      hbigdyingwhale=17;    //
       xbigdyingwhale = xdyingwhale //
       ybigdyingwhale = ydyingwhale //  
       xdyingwhale = xdyingwhale+movedyingwhale;
@@ -8602,9 +8602,9 @@ function enlargefedallah () {
     else {
       testfedallah = false;
       wfedallah=50;
-      hfedallah=50;    
+      hfedallah=33;    
       wbigfedallah=50;   //
-      hbigfedallah=50;    //
+      hbigfedallah=33;    //
       xbigfedallah = xfedallah //
       ybigfedallah = yfedallah //  
       xfedallah = xfedallah+movefedallah;
@@ -8635,9 +8635,9 @@ function enlargeflyingdog () {
     else {
       testflyingdog = false;
       wflyingdog=50;
-      hflyingdog=50;    
+      hflyingdog=33;    
       wbigflyingdog=50;   //
-      hbigflyingdog=50;    //
+      hbigflyingdog=33;    //
       xbigflyingdog = xflyingdog //
       ybigflyingdog = yflyingdog //  
       xflyingdog = xflyingdog+moveflyingdog;
@@ -8668,9 +8668,9 @@ function enlargefortuna () {
     else {
       testfortuna = false;
       wfortuna=50;
-      hfortuna=50;      
+      hfortuna=25;      
       wbigfortuna=50;   //
-      hbigfortuna=50;    //
+      hbigfortuna=25;    //
       xbigfortuna = xfortuna //
       ybigfortuna = yfortuna //
       xfortuna = xfortuna+movefortuna;
@@ -8700,9 +8700,9 @@ function enlargehibiscuss () {
         if (hbighibiscuss>650) {hbighibiscuss=650}}   
     else {
       testhibiscuss = false;
-      whibiscuss=50;
+      whibiscuss=33;
       hhibiscuss=50;     
-      wbighibiscuss=50;   //
+      wbighibiscuss=33;   //
       hbighibiscuss=50;    //
       xbighibiscuss = xhibiscuss //
       ybighibiscuss = yhibiscuss // 
@@ -8734,9 +8734,9 @@ function enlargehowl () {
     else {
       testhowl = false;
       whowl=50;
-      hhowl=50;      
+      hhowl=41;      
       wbighowl=50;   //
-      hbighowl=50;    //
+      hbighowl=41;    //
       xbighowl = xhowl //
       ybighowl = yhowl //
       xhowl = xhowl+movehowl;
@@ -8766,9 +8766,9 @@ function enlargewalldet () {
         if (hbigwalldet>650) {hbigwalldet=650}}   
     else {
       testwalldet = false;
-      wwalldet=50;
+      wwalldet=33;
       hwalldet=50;    
-      wbigwalldet=50;   //
+      wbigwalldet=33;   //
       hbigwalldet=50;    //
       xbigwalldet = xwalldet //
       ybigwalldet = ywalldet //  
@@ -8800,9 +8800,9 @@ function enlargeluthersnow () {
     else {
       testluthersnow = false;
       wluthersnow=50;
-      hluthersnow=50;    
+      hluthersnow=23;    
       wbigluthersnow=50;   //
-      hbigluthersnow=50;    //
+      hbigluthersnow=23;    //
       xbigluthersnow = xluthersnow //
       ybigluthersnow = yluthersnow //  
       xluthersnow = xluthersnow+moveluthersnow;
@@ -8833,9 +8833,9 @@ function enlargelutherwatch () {
     else {
       testlutherwatch = false;
       wlutherwatch=50;
-      hlutherwatch=50;     
+      hlutherwatch=14;     
       wbiglutherwatch=50;   //
-      hbiglutherwatch=50;    //
+      hbiglutherwatch=14;    //
       xbiglutherwatch = xlutherwatch //
       ybiglutherwatch = ylutherwatch // 
       xlutherwatch = xlutherwatch+movelutherwatch;
@@ -8865,9 +8865,9 @@ function enlargemountainbear () {
         if (hbigmountainbear>550) {hbigmountainbear=550}}   
     else {
       testmountainbear = false;
-      wmountainbear=50;
+      wmountainbear=49;
       hmountainbear=50;    
-      wbigmountainbear=50;   //
+      wbigmountainbear=49;   //
       hbigmountainbear=50;    //
       xbigmountainbear = xmountainbear //
       ybigmountainbear = ymountainbear //  
@@ -8899,9 +8899,9 @@ function enlargenevsky () {
     else {
       testnevsky = false;
       wnevsky=50;
-      hnevsky=50;      
+      hnevsky=33;      
       wbignevsky=50;   //
-      hbignevsky=50;    //
+      hbignevsky=33;    //
       xbignevsky = xnevsky //
       ybignevsky = ynevsky //
       xnevsky = xnevsky+movenevsky;
@@ -8932,9 +8932,9 @@ function enlargenightbite () {
     else {
       testnightbite = false;
       wnightbite=50;
-      hnightbite=50;  
+      hnightbite=34;  
       wbignightbite=50;   //
-      hbignightbite=50;    //
+      hbignightbite=34;    //
       xbignightbite = xnightbite //
       ybignightbite = ynightbite //    
       xnightbite = xnightbite+movenightbite;
@@ -8965,9 +8965,9 @@ function enlargenightbitedayplay () {
     else {
       testnightbitedayplay = false;
       wnightbitedayplay=50;
-      hnightbitedayplay=50;    
+      hnightbitedayplay=35;    
       wbignightbitedayplay=50;   //
-      hbignightbitedayplay=50;    //
+      hbignightbitedayplay=35;    //
       xbignightbitedayplay = xnightbitedayplay //
       ybignightbitedayplay = ynightbitedayplay //  
       xnightbitedayplay = xnightbitedayplay+movenightbitedayplay;
@@ -8997,9 +8997,9 @@ function enlargenubby () {
         if (hbignubby>650) {hbignubby=650}}   
     else {
       testnubby = false;
-      wnubby=50;
+      wnubby=32;
       hnubby=50;        
-      wbignubby=50;   //
+      wbignubby=32;   //
       hbignubby=50;    //
       xbignubby = xnubby //
       ybignubby = ynubby //
@@ -9030,9 +9030,9 @@ function enlargenubbyhib () {
         if (hbignubbyhib>650) {hbignubbyhib=650}}   
     else {
       testnubbyhib = false;
-      wnubbyhib=50;
+      wnubbyhib=32;
       hnubbyhib=50;    
-      wbignubbyhib=50;   //
+      wbignubbyhib=32;   //
       hbignubbyhib=50;    //
       xbignubbyhib = xnubbyhib //
       ybignubbyhib = ynubbyhib //  
@@ -9064,9 +9064,9 @@ function enlargeoiling () {
     else {
       testoiling = false;
       woiling=50;
-      hoiling=50;       
+      hoiling=31;       
       wbigoiling=50;   //
-      hbigoiling=50;    //
+      hbigoiling=31;    //
       xbigoiling = xoiling //
       ybigoiling = yoiling // 
       xoiling = xoiling+moveoiling;
@@ -9097,9 +9097,9 @@ function enlargestripdet () {
     else {
       teststripdet = false;
       wstripdet=50;
-      hstripdet=50;     
+      hstripdet=32;     
       wbigstripdet=50;   //
-      hbigstripdet=50;    //
+      hbigstripdet=32;    //
       xbigstripdet = xstripdet //
       ybigstripdet = ystripdet // 
       xstripdet = xstripdet+movestripdet;
@@ -9129,9 +9129,9 @@ function enlargeredbear () {
         if (hbigredbear>650) {hbigredbear=650}}   
     else {
       testredbear = false;
-      wredbear=50;
+      wredbear=35;
       hredbear=50;     
-      wbigredbear=50;   //
+      wbigredbear=35;   //
       hbigredbear=50;    //
       xbigredbear = xredbear //
       ybigredbear = yredbear // 
@@ -9163,9 +9163,9 @@ function enlargesail () {
     else {
       testsail = false;
       wsail=50;
-      hsail=50;       
+      hsail=30;       
       wbigsail=50;   //
-      hbigsail=50;    //
+      hbigsail=30;    //
       xbigsail = xsail //
       ybigsail = ysail // 
       xsail = xsail+movesail;
@@ -9229,9 +9229,9 @@ function enlargesquash () {
     else {
       testsquash = false;
       wsquash=50;
-      hsquash=50;     
+      hsquash=35;     
       wbigsquash=50;   //
-      hbigsquash=50;    //
+      hbigsquash=35;    //
       xbigsquash = xsquash //
       ybigsquash = ysquash // 
       xsquash = xsquash+movesquash;
@@ -9261,9 +9261,9 @@ function enlargesquashbear () {
         if (hbigsquashbear>650) {hbigsquashbear=650}}   
     else {
       testsquashbear = false;
-      wsquashbear=50;
+      wsquashbear=33;
       hsquashbear=50;   
-      wbigsquashbear=50;   //
+      wbigsquashbear=33;   //
       hbigsquashbear=50;    //
       xbigsquashbear = xsquashbear //
       ybigsquashbear = ysquashbear //   
@@ -9295,9 +9295,9 @@ function enlargesquashdog () {
     else {
       testsquashdog = false;
       wsquashdog=50;
-      hsquashdog=50;     
+      hsquashdog=33;     
       wbigsquashdog=50;   //
-      hbigsquashdog=50;    //
+      hbigsquashdog=33;    //
       xbigsquashdog = xsquashdog //
       ybigsquashdog = ysquashdog // 
       xsquashdog = xsquashdog+movesquashdog;
@@ -9328,9 +9328,9 @@ function enlargesquashdogs () {
     else {
       testsquashdogs = false;
       wsquashdogs=50;
-      hsquashdogs=50;     
+      hsquashdogs=33;     
       wbigsquashdogs=50;   //
-      hbigsquashdogs=50;    //
+      hbigsquashdogs=33;    //
       xbigsquashdogs = xsquashdogs //
       ybigsquashdogs = ysquashdogs // 
       xsquashdogs = xsquashdogs+movesquashdogs;
@@ -9361,9 +9361,9 @@ function enlargesquashswim () {
     else {
       testsquashswim = false;
       wsquashswim=50;
-      hsquashswim=50;    
+      hsquashswim=29;    
       wbigsquashswim=50;   //
-      hbigsquashswim=50;    //
+      hbigsquashswim=29;    //
       xbigsquashswim = xsquashswim //
       ybigsquashswim = ysquashswim //  
       xsquashswim = xsquashswim+movesquashswim;
@@ -9393,9 +9393,9 @@ function enlargesquashturkey () {
         if (hbigsquashturkey>650) {hbigsquashturkey=650}}   
     else {
       testsquashturkey = false;
-      wsquashturkey=50;
+      wsquashturkey=32;
       hsquashturkey=50;     
-      wbigsquashturkey=50;   //
+      wbigsquashturkey=32;   //
       hbigsquashturkey=50;    //
       xbigsquashturkey = xsquashturkey //
       ybigsquashturkey = ysquashturkey // 
@@ -9427,9 +9427,9 @@ function enlargestickdogs () {
     else {
       teststickdogs = false;
       wstickdogs=50;
-      hstickdogs=50;       
+      hstickdogs=40;       
       wbigstickdogs=50;   //
-      hbigstickdogs=50;    //
+      hbigstickdogs=40;    //
       xbigstickdogs = xstickdogs //
       ybigstickdogs = ystickdogs // 
       xstickdogs = xstickdogs+movestickdogs;
@@ -9460,9 +9460,9 @@ function enlargestuxshow () {
     else {
       teststuxshow = false;
       wstuxshow=50;
-      hstuxshow=50;      
+      hstuxshow=27;      
       wbigstuxshow=50;   //
-      hbigstuxshow=50;    //
+      hbigstuxshow=27;    //
       xbigstuxshow = xstuxshow //
       ybigstuxshow = ystuxshow //
       xstuxshow = xstuxshow+movestuxshow;
@@ -9492,9 +9492,9 @@ function enlargetwodogsonegoat () {
         if (hbigtwodogsonegoat>650) {hbigtwodogsonegoat=650}}   
     else {
       testtwodogsonegoat = false;
-      wtwodogsonegoat=50;
+      wtwodogsonegoat=35;
       htwodogsonegoat=50;      
-      wbigtwodogsonegoat=50;   //
+      wbigtwodogsonegoat=35;   //
       hbigtwodogsonegoat=50;    //
       xbigtwodogsonegoat = xtwodogsonegoat //
       ybigtwodogsonegoat = ytwodogsonegoat //
@@ -9526,9 +9526,9 @@ function enlargetwodogsonestick () {
     else {
       testtwodogsonestick = false;
       wtwodogsonestick=50;
-      htwodogsonestick=50;      
+      htwodogsonestick=35;      
       wbigtwodogsonestick=50;   //
-      hbigtwodogsonestick=50;    //
+      hbigtwodogsonestick=35;    //
       xbigtwodogsonestick = xtwodogsonestick //
       ybigtwodogsonestick = ytwodogsonestick //
       xtwodogsonestick = xtwodogsonestick+movetwodogsonestick;
@@ -9559,9 +9559,9 @@ function enlargebearsunset () {
     else {
       testbearsunset = false;
       wbearsunset=50;
-      hbearsunset=50;      
+      hbearsunset=33;      
       wbigbearsunset=50;   //
-      hbigbearsunset=50;    //
+      hbigbearsunset=33;    //
       xbigbearsunset = xbearsunset //
       ybigbearsunset = ybearsunset //
       xbearsunset = xbearsunset+movebearsunset;
@@ -9591,9 +9591,9 @@ function enlargecaterpillers () {
         if (hbigcaterpillers>650) {hbigcaterpillers=650}}   
     else {
       testcaterpillers = false;
-      wcaterpillers=50;
+      wcaterpillers=34;
       hcaterpillers=50;      
-      wbigcaterpillers=50;   //
+      wbigcaterpillers=34;   //
       hbigcaterpillers=50;    //
       xbigcaterpillers = xcaterpillers //
       ybigcaterpillers = ycaterpillers //
@@ -9625,9 +9625,9 @@ function enlargecrazydogs () {
     else {
       testcrazydogs = false;
       wcrazydogs=50;
-      hcrazydogs=50;      
+      hcrazydogs=33;      
       wbigcrazydogs=50;   //
-      hbigcrazydogs=50;    //
+      hbigcrazydogs=33;    //
       xbigcrazydogs = xcrazydogs //
       ybigcrazydogs = ycrazydogs //
       xcrazydogs = xcrazydogs+movecrazydogs;
@@ -9658,9 +9658,9 @@ function enlargedogbutterfly () {
     else {
       testdogbutterfly = false;
       wdogbutterfly=50;
-      hdogbutterfly=50;      
+      hdogbutterfly=37;      
       wbigdogbutterfly=50;   //
-      hbigdogbutterfly=50;    //
+      hbigdogbutterfly=37;    //
       xbigdogbutterfly = xdogbutterfly //
       ybigdogbutterfly = ydogbutterfly //
       xdogbutterfly = xdogbutterfly+movedogbutterfly;
@@ -9690,9 +9690,9 @@ function enlargedogman () {
         if (hbigdogman>650) {hbigdogman=650}}   
     else {
       testdogman = false;
-      wdogman=50;
+      wdogman=33;
       hdogman=50;      
-      wbigdogman=50;   //
+      wbigdogman=33;   //
       hbigdogman=50;    //
       xbigdogman = xdogman //
       ybigdogman = ydogman //
@@ -9724,9 +9724,9 @@ function enlargedogsonrocks () {
     else {
       testdogsonrocks = false;
       wdogsonrocks=50;
-      hdogsonrocks=50;      
+      hdogsonrocks=34;      
       wbigdogsonrocks=50;   //
-      hbigdogsonrocks=50;    //
+      hbigdogsonrocks=34;    //
       xbigdogsonrocks = xdogsonrocks //
       ybigdogsonrocks = ydogsonrocks //
       xdogsonrocks = xdogsonrocks+movedogsonrocks;
@@ -9757,9 +9757,9 @@ function enlargedogturkey () {
     else {
       testdogturkey = false;
       wdogturkey=50;
-      hdogturkey=50;      
+      hdogturkey=33;      
       wbigdogturkey=50;   //
-      hbigdogturkey=50;    //
+      hbigdogturkey=33;    //
       xbigdogturkey = xdogturkey //
       ybigdogturkey = ydogturkey //
       xdogturkey = xdogturkey+movedogturkey;
@@ -9790,9 +9790,9 @@ function enlargedollyandmona () {
     else {
       testdollyandmona = false;
       wdollyandmona=50;
-      hdollyandmona=50;      
+      hdollyandmona=32;      
       wbigdollyandmona=50;   //
-      hbigdollyandmona=50;    //
+      hbigdollyandmona=32;    //
       xbigdollyandmona = xdollyandmona //
       ybigdollyandmona = ydollyandmona //
       xdollyandmona = xdollyandmona+movedollyandmona;
@@ -9823,9 +9823,9 @@ function enlargeearlybear () {
     else {
       testearlybear = false;
       wearlybear=50;
-      hearlybear=50;      
+      hearlybear=24;      
       wbigearlybear=50;   //
-      hbigearlybear=50;    //
+      hbigearlybear=24;    //
       xbigearlybear = xearlybear //
       ybigearlybear = yearlybear //
       xearlybear = xearlybear+moveearlybear;
@@ -9855,9 +9855,9 @@ function enlargegoatramsdog () {
         if (hbiggoatramsdog>650) {hbiggoatramsdog=650}}   
     else {
       testgoatramsdog = false;
-      wgoatramsdog=50;
+      wgoatramsdog=36;
       hgoatramsdog=50;      
-      wbiggoatramsdog=50;   //
+      wbiggoatramsdog=36;   //
       hbiggoatramsdog=50;    //
       xbiggoatramsdog = xgoatramsdog //
       ybiggoatramsdog = ygoatramsdog //
@@ -9889,9 +9889,9 @@ function enlargegoats () {
         if (hbiggoats>650) {hbiggoats=650}}   
     else {
       testgoats = false;
-      wgoats=50;
+      wgoats=35;
       hgoats=50;      
-      wbiggoats=50;   //
+      wbiggoats=35;   //
       hbiggoats=50;    //
       xbiggoats = xgoats //
       ybiggoats = ygoats //
@@ -9923,9 +9923,9 @@ function enlargemackerelandmullet () {
     else {
       testmackerelandmullet = false;
       wmackerelandmullet=50;
-      hmackerelandmullet=50;      
+      hmackerelandmullet=33;      
       wbigmackerelandmullet=50;   //
-      hbigmackerelandmullet=50;    //
+      hbigmackerelandmullet=33;    //
       xbigmackerelandmullet = xmackerelandmullet //
       ybigmackerelandmullet = ymackerelandmullet //
       xmackerelandmullet = xmackerelandmullet+movemackerelandmullet;
@@ -9955,9 +9955,9 @@ function enlargemananddog () {
         if (hbigmananddog>650) {hbigmananddog=650}}   
     else {
       testmananddog = false;
-      wmananddog=50;
+      wmananddog=34;
       hmananddog=50;      
-      wbigmananddog=50;   //
+      wbigmananddog=34;   //
       hbigmananddog=50;    //
       xbigmananddog = xmananddog //
       ybigmananddog = ymananddog //
@@ -9988,9 +9988,9 @@ function enlargemanandgoat () {
         if (hbigmanandgoat>650) {hbigmanandgoat=650}}   
     else {
       testmanandgoat = false;
-      wmanandgoat=50;
+      wmanandgoat=34;
       hmanandgoat=50;      
-      wbigmanandgoat=50;   //
+      wbigmanandgoat=34;   //
       hbigmanandgoat=50;    //
       xbigmanandgoat = xmanandgoat //
       ybigmanandgoat = ymanandgoat //
@@ -10021,9 +10021,9 @@ function enlargemona () {
         if (hbigmona>650) {hbigmona=650}}   
     else {
       testmona = false;
-      wmona=50;
+      wmona=36;
       hmona=50;      
-      wbigmona=50;   //
+      wbigmona=36;   //
       hbigmona=50;    //
       xbigmona = xmona //
       ybigmona = ymona //
@@ -10054,9 +10054,9 @@ function enlargemonagoat () {
         if (hbigmonagoat>650) {hbigmonagoat=650}}   
     else {
       testmonagoat = false;
-      wmonagoat=50;
+      wmonagoat=33;
       hmonagoat=50;      
-      wbigmonagoat=50;   //
+      wbigmonagoat=33;   //
       hbigmonagoat=50;    //
       xbigmonagoat = xmonagoat //
       ybigmonagoat = ymonagoat //
@@ -10088,9 +10088,9 @@ function enlargeredcloud () {
     else {
       testredcloud = false;
       wredcloud=50;
-      hredcloud=50;      
+      hredcloud=34;      
       wbigredcloud=50;   //
-      hbigredcloud=50;    //
+      hbigredcloud=34;    //
       xbigredcloud = xredcloud //
       ybigredcloud = yredcloud //
       xredcloud = xredcloud+moveredcloud;
@@ -10121,9 +10121,9 @@ function enlargethreegoats () {
     else {
       testthreegoats = false;
       wthreegoats=50;
-      hthreegoats=50;      
+      hthreegoats=22;      
       wbigthreegoats=50;   //
-      hbigthreegoats=50;    //
+      hbigthreegoats=22;    //
       xbigthreegoats = xthreegoats //
       ybigthreegoats = ythreegoats //
       xthreegoats = xthreegoats+movethreegoats;
@@ -10153,9 +10153,9 @@ function enlargewomananddog () {
         if (hbigwomananddog>650) {hbigwomananddog=650}}   
     else {
       testwomananddog = false;
-      wwomananddog=50;
+      wwomananddog=33;
       hwomananddog=50;      
-      wbigwomananddog=50;   //
+      wbigwomananddog=33;   //
       hbigwomananddog=50;    //
       xbigwomananddog = xwomananddog //
       ybigwomananddog = ywomananddog //
@@ -10186,9 +10186,9 @@ function enlargeabutment () {
         if (hbigabutment>650) {hbigabutment=650}}   
     else {
       testabutment = false;
-      wabutment=50;
+      wabutment=35;
       habutment=50;      
-      wbigabutment=50;   //
+      wbigabutment=35;   //
       hbigabutment=50;    //
       xbigabutment = xabutment //
       ybigabutment = yabutment //
@@ -10219,9 +10219,9 @@ function enlargeabutment03 () {
         if (hbigabutment03>650) {hbigabutment03=650}}   
     else {
       testabutment03 = false;
-      wabutment03=50;
+      wabutment03=37;
       habutment03=50;      
-      wbigabutment03=50;   //
+      wbigabutment03=37;   //
       hbigabutment03=50;    //
       xbigabutment03 = xabutment03 //
       ybigabutment03 = yabutment03 //
@@ -10253,9 +10253,9 @@ function enlargebloodmilk () {
     else {
       testbloodmilk = false;
       wbloodmilk=50;
-      hbloodmilk=50;      
+      hbloodmilk=30;      
       wbigbloodmilk=50;   //
-      hbigbloodmilk=50;    //
+      hbigbloodmilk=30;    //
       xbigbloodmilk = xbloodmilk //
       ybigbloodmilk = ybloodmilk //
       xbloodmilk = xbloodmilk+movebloodmilk;
@@ -10286,9 +10286,9 @@ function enlargeblueredyellow () {
     else {
       testblueredyellow = false;
       wblueredyellow=50;
-      hblueredyellow=50;      
+      hblueredyellow=49;      
       wbigblueredyellow=50;   //
-      hbigblueredyellow=50;    //
+      hbigblueredyellow=49;    //
       xbigblueredyellow = xblueredyellow //
       ybigblueredyellow = yblueredyellow //
       xblueredyellow = xblueredyellow+moveblueredyellow;
@@ -10319,9 +10319,9 @@ function enlargeblueyellowwhiteblue () {
     else {
       testblueyellowwhiteblue = false;
       wblueyellowwhiteblue=50;
-      hblueyellowwhiteblue=50;      
+      hblueyellowwhiteblue=49;      
       wbigblueyellowwhiteblue=50;   //
-      hbigblueyellowwhiteblue=50;    //
+      hbigblueyellowwhiteblue=49;    //
       xbigblueyellowwhiteblue = xblueyellowwhiteblue //
       ybigblueyellowwhiteblue = yblueyellowwhiteblue //
       xblueyellowwhiteblue = xblueyellowwhiteblue+moveblueyellowwhiteblue;
@@ -10351,9 +10351,9 @@ function enlargebombblue () {
         if (hbigbombblue>550) {hbigbombblue=550}}   
     else {
       testbombblue = false;
-      wbombblue=50;
+      wbombblue=46;
       hbombblue=50;      
-      wbigbombblue=50;   //
+      wbigbombblue=46;   //
       hbigbombblue=50;    //
       xbigbombblue = xbombblue //
       ybigbombblue = ybombblue //
@@ -10385,9 +10385,9 @@ function enlargebregenz () {
     else {
       testbregenz = false;
       wbregenz=50;
-      hbregenz=50;      
+      hbregenz=38;      
       wbigbregenz=50;   //
-      hbigbregenz=50;    //
+      hbigbregenz=38;    //
       xbigbregenz = xbregenz //
       ybigbregenz = ybregenz //
       xbregenz = xbregenz+movebregenz;
@@ -10418,9 +10418,9 @@ function enlargecastpaint () {
     else {
       testcastpaint = false;
       wcastpaint=50;
-      hcastpaint=50;      
+      hcastpaint=37;      
       wbigcastpaint=50;   //
-      hbigcastpaint=50;    //
+      hbigcastpaint=37;    //
       xbigcastpaint = xcastpaint //
       ybigcastpaint = ycastpaint //
       xcastpaint = xcastpaint+movecastpaint;
@@ -10451,9 +10451,9 @@ function enlargecastpaint2 () {
     else {
       testcastpaint2 = false;
       wcastpaint2=50;
-      hcastpaint2=50;      
+      hcastpaint2=39;      
       wbigcastpaint2=50;   //
-      hbigcastpaint2=50;    //
+      hbigcastpaint2=39;    //
       xbigcastpaint2 = xcastpaint2 //
       ybigcastpaint2 = ycastpaint2 //
       xcastpaint2 = xcastpaint2+movecastpaint2;
@@ -10484,9 +10484,9 @@ function enlargecastpaint3 () {
     else {
       testcastpaint3 = false;
       wcastpaint3=50;
-      hcastpaint3=50;      
+      hcastpaint3=40;      
       wbigcastpaint3=50;   //
-      hbigcastpaint3=50;    //
+      hbigcastpaint3=40;    //
       xbigcastpaint3 = xcastpaint3 //
       ybigcastpaint3 = ycastpaint3 //
       xcastpaint3 = xcastpaint3+movecastpaint3;
@@ -10517,9 +10517,9 @@ function enlargecastpaint4 () {
     else {
       testcastpaint4 = false;
       wcastpaint4=50;
-      hcastpaint4=50;      
+      hcastpaint4=38;      
       wbigcastpaint4=50;   //
-      hbigcastpaint4=50;    //
+      hbigcastpaint4=38;    //
       xbigcastpaint4 = xcastpaint4 //
       ybigcastpaint4 = ycastpaint4 //
       xcastpaint4 = xcastpaint4+movecastpaint4;
@@ -10549,9 +10549,9 @@ function enlargecell () {
         if (hbigcell>650) {hbigcell=650}}   
     else {
       testcell = false;
-      wcell=50;
+      wcell=36;
       hcell=50;      
-      wbigcell=50;   //
+      wbigcell=36;   //
       hbigcell=50;    //
       xbigcell = xcell //
       ybigcell = ycell //
@@ -10583,9 +10583,9 @@ function enlargecolorspiral () {
     else {
       testcolorspiral  = false;
       wcolorspiral =50;
-      hcolorspiral =50;      
+      hcolorspiral =35;      
       wbigcolorspiral =50;   //
-      hbigcolorspiral =50;    //
+      hbigcolorspiral =35;    //
       xbigcolorspiral  = xcolorspiral  //
       ybigcolorspiral  = ycolorspiral  //
       xcolorspiral  = xcolorspiral +movecolorspiral ;
@@ -10615,9 +10615,9 @@ function enlargedboot () {
         if (hbigdboot>650) {hbigdboot=650}}   
     else {
       testdboot = false;
-      wdboot=50;
+      wdboot=32;
       hdboot=50;      
-      wbigdboot=50;   //
+      wbigdboot=32;   //
       hbigdboot=50;    //
       xbigdboot = xdboot //
       ybigdboot = ydboot //
@@ -10648,9 +10648,9 @@ function enlargedeadsea () {
         if (hbigdeadsea>650) {hbigdeadsea=650}}   
     else {
       testdeadsea = false;
-      wdeadsea=50;
+      wdeadsea=34;
       hdeadsea=50;      
-      wbigdeadsea=50;   //
+      wbigdeadsea=34;   //
       hbigdeadsea=50;    //
       xbigdeadsea = xdeadsea //
       ybigdeadsea = ydeadsea //
@@ -10682,9 +10682,9 @@ function enlargedeadsea2 () {
     else {
       testdeadsea2 = false;
       wdeadsea2=50;
-      hdeadsea2=50;      
+      hdeadsea2=38;      
       wbigdeadsea2=50;   //
-      hbigdeadsea2=50;    //
+      hbigdeadsea2=38;    //
       xbigdeadsea2 = xdeadsea2 //
       ybigdeadsea2 = ydeadsea2 //
       xdeadsea2 = xdeadsea2+movedeadsea2;
@@ -10715,9 +10715,9 @@ function enlargedeadsea3 () {
     else {
       testdeadsea3 = false;
       wdeadsea3=50;
-      hdeadsea3=50;      
+      hdeadsea3=36;      
       wbigdeadsea3=50;   //
-      hbigdeadsea3=50;    //
+      hbigdeadsea3=36;    //
       xbigdeadsea3 = xdeadsea3 //
       ybigdeadsea3 = ydeadsea3 //
       xdeadsea3 = xdeadsea3+movedeadsea3;
@@ -10748,9 +10748,9 @@ function enlargedeadsea4 () {
     else {
       testdeadsea4 = false;
       wdeadsea4=50;
-      hdeadsea4=50;      
+      hdeadsea4=39;      
       wbigdeadsea4=50;   //
-      hbigdeadsea4=50;    //
+      hbigdeadsea4=39;    //
       xbigdeadsea4 = xdeadsea4 //
       ybigdeadsea4 = ydeadsea4 //
       xdeadsea4 = xdeadsea4+movedeadsea4;
@@ -10781,9 +10781,9 @@ function enlargedeadsea5 () {
     else {
       testdeadsea5 = false;
       wdeadsea5=50;
-      hdeadsea5=50;      
+      hdeadsea5=40;      
       wbigdeadsea5=50;   //
-      hbigdeadsea5=50;    //
+      hbigdeadsea5=40;    //
       xbigdeadsea5 = xdeadsea5 //
       ybigdeadsea5 = ydeadsea5 //
       xdeadsea5 = xdeadsea5+movedeadsea5;
@@ -10813,9 +10813,9 @@ function enlargedeepbluesea () {
         if (hbigdeepbluesea>650) {hbigdeepbluesea=650}}   
     else {
       testdeepbluesea = false;
-      wdeepbluesea=50;
+      wdeepbluesea=33;
       hdeepbluesea=50;      
-      wbigdeepbluesea=50;   //
+      wbigdeepbluesea=33;   //
       hbigdeepbluesea=50;    //
       xbigdeepbluesea = xdeepbluesea //
       ybigdeepbluesea = ydeepbluesea //
@@ -10846,9 +10846,9 @@ function enlargedrop2 () {
         if (hbigdrop2>650) {hbigdrop2=650}}   
     else {
       testdrop2 = false;
-      wdrop2=50;
+      wdrop2=33;
       hdrop2=50;      
-      wbigdrop2=50;   //
+      wbigdrop2=33;   //
       hbigdrop2=50;    //
       xbigdrop2 = xdrop2 //
       ybigdrop2 = ydrop2 //
@@ -10880,9 +10880,9 @@ function enlargedying () {
     else {
       testdying = false;
       wdying=50;
-      hdying=50;      
+      hdying=17;      
       wbigdying=50;   //
-      hbigdying=50;    //
+      hbigdying=17;    //
       xbigdying = xdying //
       ybigdying = ydying //
       xdying = xdying+movedying;
@@ -10913,9 +10913,9 @@ function enlargeepilogue () {
     else {
       testepilogue = false;
       wepilogue=50;
-      hepilogue=50;      
+      hepilogue=35;      
       wbigepilogue=50;   //
-      hbigepilogue=50;    //
+      hbigepilogue=35;    //
       xbigepilogue = xepilogue //
       ybigepilogue = yepilogue //
       xepilogue = xepilogue+moveepilogue;
@@ -10945,9 +10945,9 @@ function enlargeghost () {
         if (hbigghost>550) {hbigghost=550}}   
     else {
       testghost = false;
-      wghost=50;
+      wghost=49;
       hghost=50;      
-      wbigghost=50;   //
+      wbigghost=49;   //
       hbigghost=50;    //
       xbigghost = xghost //
       ybigghost = yghost //
@@ -10978,9 +10978,9 @@ function enlargegreybasking () {
         if (hbiggreybasking>650) {hbiggreybasking=650}}   
     else {
       testgreybasking = false;
-      wgreybasking=50;
+      wgreybasking=31;
       hgreybasking=50;      
-      wbiggreybasking=50;   //
+      wbiggreybasking=31;   //
       hbiggreybasking=50;    //
       xbiggreybasking = xgreybasking //
       ybiggreybasking = ygreybasking //
@@ -11011,9 +11011,9 @@ function enlargegreyroller () {
         if (hbiggreyroller>550) {hbiggreyroller=550}}   
     else {
       testgreyroller = false;
-      wgreyroller=50;
+      wgreyroller=47;
       hgreyroller=50;      
-      wbiggreyroller=50;   //
+      wbiggreyroller=47;   //
       hbiggreyroller=50;    //
       xbiggreyroller = xgreyroller //
       ybiggreyroller = ygreyroller //
@@ -11044,9 +11044,9 @@ function enlargekunst () {
         if (hbigkunst>550) {hbigkunst=550}}   
     else {
       testkunst = false;
-      wkunst=50;
+      wkunst=48;
       hkunst=50;      
-      wbigkunst=50;   //
+      wbigkunst=48;   //
       hbigkunst=50;    //
       xbigkunst = xkunst //
       ybigkunst = ykunst //
@@ -11078,9 +11078,9 @@ function enlargeleadwhiteashtray () {
     else {
       testleadwhiteashtray = false;
       wleadwhiteashtray=50;
-      hleadwhiteashtray=50;      
+      hleadwhiteashtray=48;      
       wbigleadwhiteashtray=50;   //
-      hbigleadwhiteashtray=50;    //
+      hbigleadwhiteashtray=48;    //
       xbigleadwhiteashtray = xleadwhiteashtray //
       ybigleadwhiteashtray = yleadwhiteashtray //
       xleadwhiteashtray = xleadwhiteashtray+moveleadwhiteashtray;
@@ -11111,9 +11111,9 @@ function enlargeleadwhiteballs () {
     else {
       testleadwhiteballs = false;
       wleadwhiteballs=50;
-      hleadwhiteballs=50;      
+      hleadwhiteballs=49;      
       wbigleadwhiteballs=50;   //
-      hbigleadwhiteballs=50;    //
+      hbigleadwhiteballs=49;    //
       xbigleadwhiteballs = xleadwhiteballs //
       ybigleadwhiteballs = yleadwhiteballs //
       xleadwhiteballs = xleadwhiteballs+moveleadwhiteballs;
@@ -11144,9 +11144,9 @@ function enlargeleadwhiteeye () {
     else {
       testleadwhiteeye = false;
       wleadwhiteeye=50;
-      hleadwhiteeye=50;      
+      hleadwhiteeye=48;      
       wbigleadwhiteeye=50;   //
-      hbigleadwhiteeye=50;    //
+      hbigleadwhiteeye=48;    //
       xbigleadwhiteeye = xleadwhiteeye //
       ybigleadwhiteeye = yleadwhiteeye //
       xleadwhiteeye = xleadwhiteeye+moveleadwhiteeye;
@@ -11177,9 +11177,9 @@ function enlargeleadwhitescroll () {
     else {
       testleadwhitescroll = false;
       wleadwhitescroll=50;
-      hleadwhitescroll=50;      
+      hleadwhitescroll=48;      
       wbigleadwhitescroll=50;   //
-      hbigleadwhitescroll=50;    //
+      hbigleadwhitescroll=48;    //
       xbigleadwhitescroll = xleadwhitescroll //
       ybigleadwhitescroll = yleadwhitescroll //
       xleadwhitescroll = xleadwhitescroll+moveleadwhitescroll;
@@ -11210,9 +11210,9 @@ function enlargelifecycle () {
     else {
       testlifecycle = false;
       wlifecycle=50;
-      hlifecycle=50;      
+      hlifecycle=16;      
       wbiglifecycle=50;   //
-      hbiglifecycle=50;    //
+      hbiglifecycle=16;    //
       xbiglifecycle = xlifecycle //
       ybiglifecycle = ylifecycle //
       xlifecycle = xlifecycle+movelifecycle;
@@ -11242,9 +11242,9 @@ function enlargelightchamber () {
         if (hbiglightchamber>550) {hbiglightchamber=550}}   
     else {
       testlightchamber = false;
-      wlightchamber=50;
+      wlightchamber=49;
       hlightchamber=50;      
-      wbiglightchamber=50;   //
+      wbiglightchamber=49;   //
       hbiglightchamber=50;    //
       xbiglightchamber = xlightchamber //
       ybiglightchamber = ylightchamber //
@@ -11276,9 +11276,9 @@ function enlargemanandmantaray () {
     else {
       testmanandmantaray = false;
       wmanandmantaray=50;
-      hmanandmantaray=50;      
+      hmanandmantaray=44;      
       wbigmanandmantaray=50;   //
-      hbigmanandmantaray=50;    //
+      hbigmanandmantaray=44;    //
       xbigmanandmantaray = xmanandmantaray //
       ybigmanandmantaray = ymanandmantaray //
       xmanandmantaray = xmanandmantaray+movemanandmantaray;
@@ -11309,9 +11309,9 @@ function enlargemansailnubby () {
     else {
       testmansailnubby = false;
       wmansailnubby=50;
-      hmansailnubby=50;      
+      hmansailnubby=32;      
       wbigmansailnubby=50;   //
-      hbigmansailnubby=50;    //
+      hbigmansailnubby=32;    //
       xbigmansailnubby = xmansailnubby //
       ybigmansailnubby = ymansailnubby //
       xmansailnubby = xmansailnubby+movemansailnubby;
@@ -11342,9 +11342,9 @@ function enlargemiami () {
     else {
       testmiami = false;
       wmiami=50;
-      hmiami=50;      
+      hmiami=16;      
       wbigmiami=50;   //
-      hbigmiami=50;    //
+      hbigmiami=16;    //
       xbigmiami = xmiami //
       ybigmiami = ymiami //
       xmiami = xmiami+movemiami;
@@ -11374,9 +11374,9 @@ function enlargenubhibiscus () {
         if (hbignubhibiscus>650) {hbignubhibiscus=650}}   
     else {
       testnubhibiscus = false;
-      wnubhibiscus=50;
+      wnubhibiscus=32;
       hnubhibiscus=50;      
-      wbignubhibiscus=50;   //
+      wbignubhibiscus=32;   //
       hbignubhibiscus=50;    //
       xbignubhibiscus = xnubhibiscus //
       ybignubhibiscus = ynubhibiscus //
@@ -11408,9 +11408,9 @@ function enlargepaint () {
     else {
       testpaint = false;
       wpaint=50;
-      hpaint=50;      
+      hpaint=41;      
       wbigpaint=50;   //
-      hbigpaint=50;    //
+      hbigpaint=41 ;    //
       xbigpaint = xpaint //
       ybigpaint = ypaint //
       xpaint = xpaint+movepaint;
@@ -11474,9 +11474,9 @@ function enlargepink () {
     else {
       testpink = false;
       wpink=50;
-      hpink=50;      
+      hpink=34;      
       wbigpink=50;   //
-      hbigpink=50;    //
+      hbigpink=34;    //
       xbigpink = xpink //
       ybigpink = ypink //
       xpink = xpink+movepink;
@@ -11507,9 +11507,9 @@ function enlargerescue () {
     else {
       testrescue = false;
       wrescue=50;
-      hrescue=50;      
+      hrescue=24;      
       wbigrescue=50;   //
-      hbigrescue=50;    //
+      hbigrescue=24;    //
       xbigrescue = xrescue //
       ybigrescue = yrescue //
       xrescue = xrescue+moverescue;
@@ -11540,9 +11540,9 @@ function enlargeshrink () {
     else {
       testshrink = false;
       wshrink=50;
-      hshrink=50;      
+      hshrink=46;      
       wbigshrink=50;   //
-      hbigshrink=50;    //
+      hbigshrink=46;    //
       xbigshrink = xshrink //
       ybigshrink = yshrink //
       xshrink = xshrink+moveshrink;
@@ -11573,9 +11573,9 @@ function enlargesidewase () {
     else {
       testsidewase = false;
       wsidewase=50;
-      hsidewase=50;      
+      hsidewase=37;      
       wbigsidewase=50;   //
-      hbigsidewase=50;    //
+      hbigsidewase=37;    //
       xbigsidewase = xsidewase //
       ybigsidewase = ysidewase //
       xsidewase = xsidewase+movesidewase;
@@ -11605,9 +11605,9 @@ function enlargesideways () {
         if (hbigsideways>550) {hbigsideways=550}}   
     else {
       testsideways = false;
-      wsideways=50;
+      wsideways=49;
       hsideways=50;      
-      wbigsideways=50;   //
+      wbigsideways=49;   //
       hbigsideways=50;    //
       xbigsideways = xsideways //
       ybigsideways = ysideways //
@@ -11638,9 +11638,9 @@ function enlargesleeping () {
         if (hbigsleeping>650) {hbigsleeping=650}}   
     else {
       testsleeping = false;
-      wsleeping=50;
+      wsleeping=31;
       hsleeping=50;      
-      wbigsleeping=50;   //
+      wbigsleeping=31;   //
       hbigsleeping=50;    //
       xbigsleeping = xsleeping //
       ybigsleeping = ysleeping //
@@ -11671,9 +11671,9 @@ function enlargesmall () {
         if (hbigsmall>550) {hbigsmall=550}}   
     else {
       testsmall = false;
-      wsmall=50;
+      wsmall=48;
       hsmall=50;      
-      wbigsmall=50;   //
+      wbigsmall=48;   //
       hbigsmall=50;    //
       xbigsmall = xsmall //
       ybigsmall = ysmall //
@@ -11704,9 +11704,9 @@ function enlargespiralbear () {
         if (hbigspiralbear>550) {hbigspiralbear=550}}   
     else {
       testspiralbear = false;
-      wspiralbear=50;
+      wspiralbear=49;
       hspiralbear=50;      
-      wbigspiralbear=50;   //
+      wbigspiralbear=49;   //
       hbigspiralbear=50;    //
       xbigspiralbear = xspiralbear //
       ybigspiralbear = yspiralbear //
@@ -11738,9 +11738,9 @@ function enlargestream () {
     else {
       teststream = false;
       wstream=50;
-      hstream=50;      
+      hstream=33;      
       wbigstream=50;   //
-      hbigstream=50;    //
+      hbigstream=33;    //
       xbigstream = xstream //
       ybigstream = ystream //
       xstream = xstream+movestream;
@@ -11771,9 +11771,9 @@ function enlargestreamdots () {
     else {
       teststreamdots = false;
       wstreamdots=50;
-      hstreamdots=50;      
+      hstreamdots=27;      
       wbigstreamdots=50;   //
-      hbigstreamdots=50;    //
+      hbigstreamdots=27;    //
       xbigstreamdots = xstreamdots //
       ybigstreamdots = ystreamdots //
       xstreamdots = xstreamdots+movestreamdots;
@@ -11804,9 +11804,9 @@ function enlargestripes () {
     else {
       teststripes = false;
       wstripes=50;
-      hstripes=50;      
+      hstripes=32;      
       wbigstripes=50;   //
-      hbigstripes=50;    //
+      hbigstripes=32;    //
       xbigstripes = xstripes //
       ybigstripes = ystripes //
       xstripes = xstripes+movestripes;
@@ -11836,9 +11836,9 @@ function enlargesub () {
         if (hbigsub>550) {hbigsub=550}}   
     else {
       testsub = false;
-      wsub=50;
+      wsub=48;
       hsub=50;      
-      wbigsub=50;   //
+      wbigsub=48;   //
       hbigsub=50;    //
       xbigsub = xsub //
       ybigsub = ysub //
@@ -11869,9 +11869,9 @@ function enlargewater () {
         if (hbigwater>550) {hbigwater=550}}   
     else {
       testwater = false;
-      wwater=50;
+      wwater=49;
       hwater=50;      
-      wbigwater=50;   //
+      wbigwater=49;   //
       hbigwater=50;    //
       xbigwater = xwater //
       ybigwater = ywater //
@@ -11903,9 +11903,9 @@ function enlargeyellowred () {
     else {
       testyellowred = false;
       wyellowred=50;
-      hyellowred=50;      
+      hyellowred=47;      
       wbigyellowred=50;   //
-      hbigyellowred=50;    //
+      hbigyellowred=47;    //
       xbigyellowred = xyellowred //
       ybigyellowred = yyellowred //
       xyellowred = xyellowred+moveyellowred;
@@ -11935,9 +11935,9 @@ function enlargebaddog () {
         if (hbigbaddog>550) {hbigbaddog=550}}   
     else {
       testbaddog = false;
-      wbaddog=50;
+      wbaddog=41;
       hbaddog=50;      
-      wbigbaddog=50;   //
+      wbigbaddog=41;   //
       hbigbaddog=50;    //
       xbigbaddog = xbaddog //
       ybigbaddog = ybaddog //
@@ -11969,9 +11969,9 @@ function enlargeblackandreddolphin () {
     else {
       testblackandreddolphin = false;
       wblackandreddolphin=50;
-      hblackandreddolphin=50;      
+      hblackandreddolphin=22;      
       wbigblackandreddolphin=50;   //
-      hbigblackandreddolphin=50;    //
+      hbigblackandreddolphin=22;    //
       xbigblackandreddolphin = xblackandreddolphin //
       ybigblackandreddolphin = yblackandreddolphin //
       xblackandreddolphin = xblackandreddolphin+moveblackandreddolphin;
@@ -12035,9 +12035,9 @@ function enlargeshipwreck () {
     else {
       testshipwreck = false;
       wshipwreck=50;
-      hshipwreck=50;      
+      hshipwreck=23;      
       wbigshipwreck=50;   //
-      hbigshipwreck=50;    //
+      hbigshipwreck=23;    //
       xbigshipwreck = xshipwreck //
       ybigshipwreck = yshipwreck //
       xshipwreck = xshipwreck+moveshipwreck;
@@ -12067,9 +12067,9 @@ function enlargesquidandme () {
         if (hbigsquidandme>650) {hbigsquidandme=650}}   
     else {
       testsquidandme = false;
-      wsquidandme=50;
+      wsquidandme=28;
       hsquidandme=50;      
-      wbigsquidandme=50;   //
+      wbigsquidandme=28;   //
       hbigsquidandme=50;    //
       xbigsquidandme = xsquidandme //
       ybigsquidandme = ysquidandme //
@@ -12100,9 +12100,9 @@ function enlargewwii () {
         if (hbigwwii>550) {hbigwwii=550}}   
     else {
       testwwii = false;
-      wwwii=50;
+      wwwii=49;
       hwwii=50;      
-      wbigwwii=50;   //
+      wbigwwii=49;   //
       hbigwwii=50;    //
       xbigwwii = xwwii //
       ybigwwii = ywwii //
@@ -12134,9 +12134,9 @@ function enlargeyellowred () {
     else {
       testyellowred = false;
       wyellowred=50;
-      hyellowred=50;      
+      hyellowred=49;      
       wbigyellowred=50;   //
-      hbigyellowred=50;    //
+      hbigyellowred=49;    //
       xbigyellowred = xyellowred //
       ybigyellowred = yyellowred //
       xyellowred = xyellowred+moveyellowred;
@@ -12166,9 +12166,9 @@ function enlargeatelier () {
         if (hbigatelier>550) {hbigatelier=550}}   
     else {
       testatelier = false;
-      watelier=50;
+      watelier=40;
       hatelier=50;      
-      wbigatelier=50;   //
+      wbigatelier=40;   //
       hbigatelier=50;    //
       xbigatelier = xatelier //
       ybigatelier = yatelier //
@@ -12200,9 +12200,9 @@ function enlargegrey () {
     else {
       testgrey = false;
       wgrey=50;
-      hgrey=50;      
+      hgrey=40;      
       wbiggrey=50;   //
-      hbiggrey=50;    //
+      hbiggrey=40;    //
       xbiggrey = xgrey //
       ybiggrey = ygrey //
       xgrey = xgrey+movegrey;
@@ -12233,9 +12233,9 @@ function enlargehappycouple () {
     else {
       testhappycouple = false;
       whappycouple=50;
-      hhappycouple=50;      
+      hhappycouple=41;      
       wbighappycouple=50;   //
-      hbighappycouple=50;    //
+      hbighappycouple=41;    //
       xbighappycouple = xhappycouple //
       ybighappycouple = yhappycouple //
       xhappycouple = xhappycouple+movehappycouple;
@@ -12266,9 +12266,9 @@ function enlargehappycoupledet () {
     else {
       testhappycoupledet = false;
       whappycoupledet=50;
-      hhappycoupledet=50;      
+      hhappycoupledet=37;      
       wbighappycoupledet=50;   //
-      hbighappycoupledet=50;    //
+      hbighappycoupledet=37;    //
       xbighappycoupledet = xhappycoupledet //
       ybighappycoupledet = yhappycoupledet //
       xhappycoupledet = xhappycoupledet+movehappycoupledet;
@@ -12299,9 +12299,9 @@ function enlargehappycoupledet2 () {
     else {
       testhappycoupledet2 = false;
       whappycoupledet2=50;
-      hhappycoupledet2=50;      
+      hhappycoupledet2=37;      
       wbighappycoupledet2=50;   //
-      hbighappycoupledet2=50;    //
+      hbighappycoupledet2=37;    //
       xbighappycoupledet2 = xhappycoupledet2 //
       ybighappycoupledet2 = yhappycoupledet2 //
       xhappycoupledet2 = xhappycoupledet2+movehappycoupledet2;
@@ -12331,9 +12331,9 @@ function enlargehappycoupledet3 () {
         if (hbighappycoupledet3>650) {hbighappycoupledet3=650}}   
     else {
       testhappycoupledet3 = false;
-      whappycoupledet3=50;
+      whappycoupledet3=37;
       hhappycoupledet3=50;      
-      wbighappycoupledet3=50;   //
+      wbighappycoupledet3=37;   //
       hbighappycoupledet3=50;    //
       xbighappycoupledet3 = xhappycoupledet3 //
       ybighappycoupledet3 = yhappycoupledet3 //
@@ -12364,9 +12364,9 @@ function enlargehappycoupledet4 () {
         if (hbighappycoupledet4>650) {hbighappycoupledet4=650}}   
     else {
       testhappycoupledet4 = false;
-      whappycoupledet4=50;
+      whappycoupledet4=37;
       hhappycoupledet4=50;      
-      wbighappycoupledet4=50;   //
+      wbighappycoupledet4=37;   //
       hbighappycoupledet4=50;    //
       xbighappycoupledet4 = xhappycoupledet4 //
       ybighappycoupledet4 = yhappycoupledet4 //
@@ -12397,9 +12397,9 @@ function enlargehappycoupledet5 () {
         if (hbighappycoupledet5>650) {hbighappycoupledet5=650}}   
     else {
       testhappycoupledet5 = false;
-      whappycoupledet5=50;
+      whappycoupledet5=37;
       hhappycoupledet5=50;      
-      wbighappycoupledet5=50;   //
+      wbighappycoupledet5=37;   //
       hbighappycoupledet5=50;    //
       xbighappycoupledet5 = xhappycoupledet5 //
       ybighappycoupledet5 = yhappycoupledet5 //
@@ -12431,9 +12431,9 @@ function enlargenew () {
     else {
       testnew = false;
       wnew=50;
-      hnew=50;      
+      hnew=47;      
       wbignew=50;   //
-      hbignew=50;    //
+      hbignew=47;    //
       xbignew = xnew //
       ybignew = ynew //
       xnew = xnew+movenew;
@@ -12464,9 +12464,9 @@ function enlargenewgrid () {
     else {
       testnewgrid = false;
       wnewgrid=50;
-      hnewgrid=50;      
+      hnewgrid=48;      
       wbignewgrid=50;   //
-      hbignewgrid=50;    //
+      hbignewgrid=48;    //
       xbignewgrid = xnewgrid //
       ybignewgrid = ynewgrid //
       xnewgrid = xnewgrid+movenewgrid;
@@ -12496,9 +12496,9 @@ function enlargenewgrid2 () {
         if (hbignewgrid2>550) {hbignewgrid2=550}}   
     else {
       testnewgrid2 = false;
-      wnewgrid2=50;
+      wnewgrid2=47;
       hnewgrid2=50;      
-      wbignewgrid2=50;   //
+      wbignewgrid2=47;   //
       hbignewgrid2=50;    //
       xbignewgrid2 = xnewgrid2 //
       ybignewgrid2 = ynewgrid2 //
@@ -12530,9 +12530,9 @@ function enlargenewgrid3 () {
     else {
       testnewgrid3 = false;
       wnewgrid3=50;
-      hnewgrid3=50;      
+      hnewgrid3=46;      
       wbignewgrid3=50;   //
-      hbignewgrid3=50;    //
+      hbignewgrid3=46;    //
       xbignewgrid3 = xnewgrid3 //
       ybignewgrid3 = ynewgrid3 //
       xnewgrid3 = xnewgrid3+movenewgrid3;
@@ -12563,9 +12563,9 @@ function enlargesmallblue () {
     else {
       testsmallblue = false;
       wsmallblue=50;
-      hsmallblue=50;      
+      hsmallblue=38;      
       wbigsmallblue=50;   //
-      hbigsmallblue=50;    //
+      hbigsmallblue=38;    //
       xbigsmallblue = xsmallblue //
       ybigsmallblue = ysmallblue //
       xsmallblue = xsmallblue+movesmallblue;
@@ -12596,9 +12596,9 @@ function enlargesmallblue2 () {
     else {
       testsmallblue2 = false;
       wsmallblue2=50;
-      hsmallblue2=50;      
+      hsmallblue2=38;      
       wbigsmallblue2=50;   //
-      hbigsmallblue2=50;    //
+      hbigsmallblue2=38;    //
       xbigsmallblue2 = xsmallblue2 //
       ybigsmallblue2 = ysmallblue2 //
       xsmallblue2 = xsmallblue2+movesmallblue2;
@@ -12629,9 +12629,9 @@ function enlargesmallsky () {
     else {
       testsmallsky = false;
       wsmallsky=50;
-      hsmallsky=50;      
+      hsmallsky=40;      
       wbigsmallsky=50;   //
-      hbigsmallsky=50;    //
+      hbigsmallsky=40;    //
       xbigsmallsky = xsmallsky //
       ybigsmallsky = ysmallsky //
       xsmallsky = xsmallsky+movesmallsky;
@@ -12662,9 +12662,9 @@ function enlargesmallsky2 () {
     else {
       testsmallsky2 = false;
       wsmallsky2=50;
-      hsmallsky2=50;      
+      hsmallsky2=39;      
       wbigsmallsky2=50;   //
-      hbigsmallsky2=50;    //
+      hbigsmallsky2=39;    //
       xbigsmallsky2 = xsmallsky2 //
       ybigsmallsky2 = ysmallsky2 //
       xsmallsky2 = xsmallsky2+movesmallsky2;
@@ -12695,9 +12695,9 @@ function enlargestwall () {
     else {
       teststwall = false;
       wstwall=50;
-      hstwall=50;      
+      hstwall=34;      
       wbigstwall=50;   //
-      hbigstwall=50;    //
+      hbigstwall=34;    //
       xbigstwall = xstwall //
       ybigstwall = ystwall //
       xstwall = xstwall+movestwall;
@@ -12728,9 +12728,9 @@ function enlargeadolph () {
         if (hbigadolph>550) {hbigadolph=550}}   
     else {
       testadolph = false;
-      wadolph=50;
+      wadolph=48;
       hadolph=50;      
-      wbigadolph=50;   //
+      wbigadolph=48;   //
       hbigadolph=50;    //
       xbigadolph = xadolph //
       ybigadolph = yadolph //
@@ -12762,9 +12762,9 @@ function enlargeafterlife () {
         if (hbigafterlife>650) {hbigafterlife=650}}   
     else {
       testafterlife = false;
-      wafterlife=50;
+      wafterlife=37;
       hafterlife=50;      
-      wbigafterlife=50;   //
+      wbigafterlife=37;   //
       hbigafterlife=50;    //
       xbigafterlife = xafterlife //
       ybigafterlife = yafterlife //
@@ -12796,9 +12796,9 @@ function enlargeberkshireinstagram () {
         if (hbigberkshireinstagram>650) {hbigberkshireinstagram=650}}   
     else {
       testberkshireinstagram = false;
-      wberkshireinstagram=50;
+      wberkshireinstagram=33;
       hberkshireinstagram=50;      
-      wbigberkshireinstagram=50;   //
+      wbigberkshireinstagram=33;   //
       hbigberkshireinstagram=50;    //
       xbigberkshireinstagram = xberkshireinstagram //
       ybigberkshireinstagram = yberkshireinstagram //
@@ -12831,9 +12831,9 @@ function enlargebird () {
     else {
       testbird = false;
       wbird=50;
-      hbird=50;      
+      hbird=49;      
       wbigbird=50;   //
-      hbigbird=50;    //
+      hbigbird=49;    //
       xbigbird = xbird //
       ybigbird = ybird //
       xbird = xbird+movebird;
@@ -12865,9 +12865,9 @@ function enlargecoffin () {
     else {
       testcoffin = false;
       wcoffin=50;
-      hcoffin=50;      
+      hcoffin=37;      
       wbigcoffin=50;   //
-      hbigcoffin=50;    //
+      hbigcoffin=37;    //
       xbigcoffin = xcoffin //
       ybigcoffin = ycoffin //
       xcoffin = xcoffin+movecoffin;
@@ -12899,9 +12899,9 @@ function enlargedeepblue () {
     else {
       testdeepblue = false;
       wdeepblue=50;
-      hdeepblue=50;      
+      hdeepblue=37;      
       wbigdeepblue=50;   //
-      hbigdeepblue=50;    //
+      hbigdeepblue=37;    //
       xbigdeepblue = xdeepblue //
       ybigdeepblue = ydeepblue //
       xdeepblue = xdeepblue+movedeepblue;
@@ -12932,9 +12932,9 @@ function enlargeheads () {
         if (hbigheads>650) {hbigheads=650}}   
     else {
       testheads = false;
-      wheads=50;
+      wheads=37;
       hheads=50;      
-      wbigheads=50;   //
+      wbigheads=37;   //
       hbigheads=50;    //
       xbigheads = xheads //
       ybigheads = yheads //
@@ -12966,9 +12966,9 @@ function enlargeheads2 () {
         if (hbigheads2>650) {hbigheads2=650}}   
     else {
       testheads2 = false;
-      wheads2=50;
+      wheads2=37;
       hheads2=50;      
-      wbigheads2=50;   //
+      wbigheads2=37;   //
       hbigheads2=50;    //
       xbigheads2 = xheads2 //
       ybigheads2 = yheads2 //
@@ -13000,9 +13000,9 @@ function enlargeheads3 () {
         if (hbigheads3>650) {hbigheads3=650}}   
     else {
       testheads3 = false;
-      wheads3=50;
+      wheads3=42;
       hheads3=50;      
-      wbigheads3=50;   //
+      wbigheads3=42;   //
       hbigheads3=50;    //
       xbigheads3 = xheads3 //
       ybigheads3 = yheads3 //
@@ -13035,9 +13035,9 @@ function enlargehibiscus () {
     else {
       testhibiscus = false;
       whibiscus=50;
-      hhibiscus=50;      
+      hhibiscus=43;      
       wbighibiscus=50;   //
-      hbighibiscus=50;    //
+      hbighibiscus=43;    //
       xbighibiscus = xhibiscus //
       ybighibiscus = yhibiscus //
       xhibiscus = xhibiscus+movehibiscus;
@@ -13069,9 +13069,9 @@ function enlargeishmael () {
     else {
       testishmael = false;
       wishmael=50;
-      hishmael=50;      
+      hishmael=42;      
       wbigishmael=50;   //
-      hbigishmael=50;    //
+      hbigishmael=42;    //
       xbigishmael = xishmael //
       ybigishmael = yishmael //
       xishmael = xishmael+moveishmael;
@@ -13103,9 +13103,9 @@ function enlargemangrove () {
     else {
       testmangrove = false;
       wmangrove=50;
-      hmangrove=50;      
+      hmangrove=40;      
       wbigmangrove=50;   //
-      hbigmangrove=50;    //
+      hbigmangrove=40;    //
       xbigmangrove = xmangrove //
       ybigmangrove = ymangrove //
       xmangrove = xmangrove+movemangrove;
@@ -13136,9 +13136,9 @@ function enlargemanta () {
         if (hbigmanta>550) {hbigmanta=550}}   
     else {
       testmanta = false;
-      wmanta=50;
+      wmanta=49;
       hmanta=50;      
-      wbigmanta=50;   //
+      wbigmanta=49;   //
       hbigmanta=50;    //
       xbigmanta = xmanta //
       ybigmanta = ymanta //
@@ -13171,9 +13171,9 @@ function enlargemorningboat () {
     else {
       testmorningboat = false;
       wmorningboat=50;
-      hmorningboat=50;      
+      hmorningboat=32;      
       wbigmorningboat=50;   //
-      hbigmorningboat=50;    //
+      hbigmorningboat=32;    //
       xbigmorningboat = xmorningboat //
       ybigmorningboat = ymorningboat //
       xmorningboat = xmorningboat+movemorningboat;
@@ -13205,9 +13205,9 @@ function enlargenevsky2 () {
     else {
       testnevsky2 = false;
       wnevsky2=50;
-      hnevsky2=50;      
+      hnevsky2=36;      
       wbignevsky2=50;   //
-      hbignevsky2=50;    //
+      hbignevsky2=36;    //
       xbignevsky2 = xnevsky2 //
       ybignevsky2 = ynevsky2 //
       xnevsky2 = xnevsky2+movenevsky2;
@@ -13239,9 +13239,9 @@ function enlargeoverboard () {
     else {
       testoverboard = false;
       woverboard=50;
-      hoverboard=50;      
+      hoverboard=34;      
       wbigoverboard=50;   //
-      hbigoverboard=50;    //
+      hbigoverboard=34;    //
       xbigoverboard = xoverboard //
       ybigoverboard = yoverboard //
       xoverboard = xoverboard+moveoverboard;
@@ -13273,9 +13273,9 @@ function enlargepastel () {
     else {
       testpastel = false;
       wpastel=50;
-      hpastel=50;      
+      hpastel=37;      
       wbigpastel=50;   //
-      hbigpastel=50;    //
+      hbigpastel=37;    //
       xbigpastel = xpastel //
       ybigpastel = ypastel //
       xpastel = xpastel+movepastel;
@@ -13307,9 +13307,9 @@ function enlargepastel2 () {
     else {
       testpastel2 = false;
       wpastel2=50;
-      hpastel2=50;      
+      hpastel2=37;      
       wbigpastel2=50;   //
-      hbigpastel2=50;    //
+      hbigpastel2=37;    //
       xbigpastel2 = xpastel2 //
       ybigpastel2 = ypastel2 //
       xpastel2 = xpastel2+movepastel2;
@@ -13341,9 +13341,9 @@ function enlargepastel3 () {
     else {
       testpastel3 = false;
       wpastel3=50;
-      hpastel3=50;      
+      hpastel3=37;      
       wbigpastel3=50;   //
-      hbigpastel3=50;    //
+      hbigpastel3=37;    //
       xbigpastel3 = xpastel3 //
       ybigpastel3 = ypastel3 //
       xpastel3 = xpastel3+movepastel3;
@@ -13375,9 +13375,9 @@ function enlargepastel4 () {
     else {
       testpastel4 = false;
       wpastel4=50;
-      hpastel4=50;      
+      hpastel4=37;      
       wbigpastel4=50;   //
-      hbigpastel4=50;    //
+      hbigpastel4=37;    //
       xbigpastel4 = xpastel4 //
       ybigpastel4 = ypastel4 //
       xpastel4 = xpastel4+movepastel4;
@@ -13409,9 +13409,9 @@ function enlargepastel5 () {
     else {
       testpastel5 = false;
       wpastel5=50;
-      hpastel5=50;      
+      hpastel5=36;      
       wbigpastel5=50;   //
-      hbigpastel5=50;    //
+      hbigpastel5=36;    //
       xbigpastel5 = xpastel5 //
       ybigpastel5 = ypastel5 //
       xpastel5 = xpastel5+movepastel5;
@@ -13443,9 +13443,9 @@ function enlargepastel6 () {
     else {
       testpastel6 = false;
       wpastel6=50;
-      hpastel6=50;      
+      hpastel6=35;      
       wbigpastel6=50;   //
-      hbigpastel6=50;    //
+      hbigpastel6=35;    //
       xbigpastel6 = xpastel6 //
       ybigpastel6 = ypastel6 //
       xpastel6 = xpastel6+movepastel6;
@@ -13477,9 +13477,9 @@ function enlargepastel7 () {
     else {
       testpastel7 = false;
       wpastel7=50;
-      hpastel7=50;      
+      hpastel7=37;      
       wbigpastel7=50;   //
-      hbigpastel7=50;    //
+      hbigpastel7=37;    //
       xbigpastel7 = xpastel7 //
       ybigpastel7 = ypastel7 //
       xpastel7 = xpastel7+movepastel7;
@@ -13511,9 +13511,9 @@ function enlargepastel8 () {
     else {
       testpastel8 = false;
       wpastel8=50;
-      hpastel8=50;      
+      hpastel8=38;      
       wbigpastel8=50;   //
-      hbigpastel8=50;    //
+      hbigpastel8=38;    //
       xbigpastel8 = xpastel8 //
       ybigpastel8 = ypastel8 //
       xpastel8 = xpastel8+movepastel8;
@@ -13545,9 +13545,9 @@ function enlargepastel9 () {
     else {
       testpastel19 = false;
       wpastel19=50;
-      hpastel19=50;      
+      hpastel19=39;      
       wbigpastel19=50;   //
-      hbigpastel19=50;    //
+      hbigpastel19=39;    //
       xbigpastel19 = xpastel19 //
       ybigpastel19 = ypastel19 //
       xpastel19 = xpastel19+movepastel19;
@@ -13579,9 +13579,9 @@ function enlargepastel10 () {
     else {
       testpastel10 = false;
       wpastel10=50;
-      hpastel10=50;      
+      hpastel10=33;      
       wbigpastel10=50;   //
-      hbigpastel10=50;    //
+      hbigpastel10=33;    //
       xbigpastel10 = xpastel10 //
       ybigpastel10 = ypastel10 //
       xpastel10 = xpastel10+movepastel10;
@@ -13613,9 +13613,9 @@ function enlargepastel11 () {
     else {
       testpastel11 = false;
       wpastel11=50;
-      hpastel11=50;      
+      hpastel11=38;      
       wbigpastel11=50;   //
-      hbigpastel11=50;    //
+      hbigpastel11=38;    //
       xbigpastel11 = xpastel11 //
       ybigpastel11 = ypastel11 //
       xpastel11 = xpastel11+movepastel11;
@@ -13647,9 +13647,9 @@ function enlargepastel12 () {
     else {
       testpastel12 = false;
       wpastel12=50;
-      hpastel12=50;      
+      hpastel12=37;      
       wbigpastel12=50;   //
-      hbigpastel12=50;    //
+      hbigpastel12=37;    //
       xbigpastel12 = xpastel12 //
       ybigpastel12 = ypastel12 //
       xpastel12 = xpastel12+movepastel12;
@@ -13681,9 +13681,9 @@ function enlargepastel13 () {
     else {
       testpastel13 = false;
       wpastel13=50;
-      hpastel13=50;      
+      hpastel13=36;      
       wbigpastel13=50;   //
-      hbigpastel13=50;    //
+      hbigpastel13=36;    //
       xbigpastel13 = xpastel13 //
       ybigpastel13 = ypastel13 //
       xpastel13 = xpastel13+movepastel13;
@@ -13715,9 +13715,9 @@ function enlargepastel14 () {
     else {
       testpastel14 = false;
       wpastel14=50;
-      hpastel14=50;      
+      hpastel14=37;      
       wbigpastel14=50;   //
-      hbigpastel14=50;    //
+      hbigpastel14=37;    //
       xbigpastel14 = xpastel14 //
       ybigpastel14 = ypastel14 //
       xpastel14 = xpastel14+movepastel14;
@@ -13749,9 +13749,9 @@ function enlargepastel15 () {
     else {
       testpastel15 = false;
       wpastel15=50;
-      hpastel15=50;      
+      hpastel15=37;      
       wbigpastel15=50;   //
-      hbigpastel15=50;    //
+      hbigpastel15=37;    //
       xbigpastel15 = xpastel15 //
       ybigpastel15 = ypastel15 //
       xpastel15 = xpastel15+movepastel15;
@@ -13783,9 +13783,9 @@ function enlargepastel16 () {
     else {
       testpastel16 = false;
       wpastel16=50;
-      hpastel16=50;      
+      hpastel16=36;      
       wbigpastel16=50;   //
-      hbigpastel16=50;    //
+      hbigpastel16=36;    //
       xbigpastel16 = xpastel16 //
       ybigpastel16 = ypastel16 //
       xpastel16 = xpastel16+movepastel16;
@@ -13817,9 +13817,9 @@ function enlargepastel17 () {
     else {
       testpastel17 = false;
       wpastel17=50;
-      hpastel17=50;      
+      hpastel17=36;      
       wbigpastel17=50;   //
-      hbigpastel17=50;    //
+      hbigpastel17=36;    //
       xbigpastel17 = xpastel17 //
       ybigpastel17 = ypastel17 //
       xpastel17 = xpastel17+movepastel17;
@@ -13851,9 +13851,9 @@ function enlargepastel18 () {
     else {
       testpastel18 = false;
       wpastel18=50;
-      hpastel18=50;      
+      hpastel18=36;      
       wbigpastel18=50;   //
-      hbigpastel18=50;    //
+      hbigpastel18=36;    //
       xbigpastel18 = xpastel18 //
       ybigpastel18 = ypastel18 //
       xpastel18 = xpastel18+movepastel18;
@@ -13885,9 +13885,9 @@ function enlargepastel19 () {
     else {
       testpastel19 = false;
       wpastel19=50;
-      hpastel19=50;      
+      hpastel19=37;      
       wbigpastel19=50;   //
-      hbigpastel19=50;    //
+      hbigpastel19=37;    //
       xbigpastel19 = xpastel19 //
       ybigpastel19 = ypastel19 //
       xpastel19 = xpastel19+movepastel19;
@@ -13919,9 +13919,9 @@ function enlargepastel20 () {
     else {
       testpastel20 = false;
       wpastel20=50;
-      hpastel20=50;      
+      hpastel20=37;      
       wbigpastel20=50;   //
-      hbigpastel20=50;    //
+      hbigpastel20=37;    //
       xbigpastel20 = xpastel20 //
       ybigpastel20 = ypastel20 //
       xpastel20 = xpastel20+movepastel20;
@@ -13953,9 +13953,9 @@ function enlargepastel21 () {
     else {
       testpastel21 = false;
       wpastel21=50;
-      hpastel21=50;      
+      hpastel21=36;      
       wbigpastel21=50;   //
-      hbigpastel21=50;    //
+      hbigpastel21=36;    //
       xbigpastel21 = xpastel21 //
       ybigpastel21 = ypastel21 //
       xpastel21 = xpastel21+movepastel21;
@@ -13987,9 +13987,9 @@ function enlargepastel23 () {
     else {
       testpastel23 = false;
       wpastel23=50;
-      hpastel23=50;      
+      hpastel23=37;      
       wbigpastel23=50;   //
-      hbigpastel23=50;    //
+      hbigpastel23=37;    //
       xbigpastel23 = xpastel23 //
       ybigpastel23 = ypastel23 //
       xpastel23 = xpastel23+movepastel23;
@@ -14021,9 +14021,9 @@ function enlargepastel24 () {
     else {
       testpastel24 = false;
       wpastel24=50;
-      hpastel24=50;      
+      hpastel24=36;      
       wbigpastel24=50;   //
-      hbigpastel24=50;    //
+      hbigpastel24=36;    //
       xbigpastel24 = xpastel24 //
       ybigpastel24 = ypastel24 //
       xpastel24 = xpastel24+movepastel24;
@@ -14055,9 +14055,9 @@ function enlargepastel25 () {
     else {
       testpastel25 = false;
       wpastel25=50;
-      hpastel25=50;      
+      hpastel25=39;      
       wbigpastel25=50;   //
-      hbigpastel25=50;    //
+      hbigpastel25=39;    //
       xbigpastel25 = xpastel25 //
       ybigpastel25 = ypastel25 //
       xpastel25 = xpastel25+movepastel25;
@@ -14089,9 +14089,9 @@ function enlargepastel26 () {
     else {
       testpastel26 = false;
       wpastel26=50;
-      hpastel26=50;      
+      hpastel26=37;      
       wbigpastel26=50;   //
-      hbigpastel26=50;    //
+      hbigpastel26=37;    //
       xbigpastel26 = xpastel26 //
       ybigpastel26 = ypastel26 //
       xpastel26 = xpastel26+movepastel26;
@@ -14123,9 +14123,9 @@ function enlargepastel27 () {
     else {
       testpastel27 = false;
       wpastel27=50;
-      hpastel27=50;      
+      hpastel27=33;      
       wbigpastel27=50;   //
-      hbigpastel27=50;    //
+      hbigpastel27=33;    //
       xbigpastel27 = xpastel27 //
       ybigpastel27 = ypastel27 //
       xpastel27 = xpastel27+movepastel27;
@@ -14157,9 +14157,9 @@ function enlargeps1 () {
     else {
       testps1 = false;
       wps1=50;
-      hps1=50;      
+      hps1=38;      
       wbigps1=50;   //
-      hbigps1=50;    //
+      hbigps1=38;    //
       xbigps1 = xps1 //
       ybigps1 = yps1 //
       xps1 = xps1+moveps1;
@@ -14191,9 +14191,9 @@ function enlargeps12 () {
     else {
       testps12 = false;
       wps12=50;
-      hps12=50;      
+      hps12=39;      
       wbigps12=50;   //
-      hbigps12=50;    //
+      hbigps12=39;    //
       xbigps12 = xps12 //
       ybigps12 = yps12 //
       xps12 = xps12+moveps12;
@@ -14225,9 +14225,9 @@ function enlargeracetrack () {
     else {
       testracetrack = false;
       wracetrack=50;
-      hracetrack=50;      
+      hracetrack=45;      
       wbigracetrack=50;   //
-      hbigracetrack=50;    //
+      hbigracetrack=45;    //
       xbigracetrack = xracetrack //
       ybigracetrack = yracetrack //
       xracetrack = xracetrack+moveracetrack;
@@ -14259,9 +14259,9 @@ function enlargeryders () {
     else {
       testryders = false;
       wryders=50;
-      hryders=50;      
+      hryders=45;      
       wbigryders=50;   //
-      hbigryders=50;    //
+      hbigryders=45;    //
       xbigryders = xryders //
       ybigryders = yryders //
       xryders = xryders+moveryders;
