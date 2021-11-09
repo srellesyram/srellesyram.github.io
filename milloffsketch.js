@@ -1572,37 +1572,37 @@ let xbigstuxshow = 2;
 let ybigstuxshow = 2;
 let movebigstuxshow =1;
 
-let x2dogs1goats=2;
-let y2dogs1goats=2;
-let xdiv2dogs1goats = 9;
-let ydiv2dogs1goats = 15;
-let move2dogs1goats=0.3;
-let move22dogs1goats=0.4;
-let stop2dogs1goats=0;
-let w2dogs1goats = 50;
-let h2dogs1goats = 50;
-let wbig2dogs1goats = 50;
-let hbig2dogs1goats = 50;
-let test2dogs1goats = false;
-let xbig2dogs1goats = 2;
-let ybig2dogs1goats = 2;
-let movebig2dogs1goats =1;
+let xtwodogsonegoat=2;
+let ytwodogsonegoat=2;
+let xdivtwodogsonegoat = 9;
+let ydivtwodogsonegoat = 15;
+let movetwodogsonegoat=0.3;
+let move2twodogsonegoat=0.4;
+let stoptwodogsonegoat=0;
+let wtwodogsonegoat = 50;
+let htwodogsonegoat = 50;
+let wbigtwodogsonegoat = 50;
+let hbigtwodogsonegoat = 50;
+let testtwodogsonegoat = false;
+let xbigtwodogsonegoat = 2;
+let ybigtwodogsonegoat = 2;
+let movebigtwodogsonegoat =1;
 
-let x2dogs1stick=2;
-let y2dogs1stick=2;
-let xdiv2dogs1stick = 6;
-let ydiv2dogs1stick = 3;
-let move2dogs1stick=0.2;
-let move22dogs1stick=0.3;
-let stop2dogs1stick=0;
-let w2dogs1stick = 50;
-let h2dogs1stick = 50;
-let wbig2dogs1stick = 50;
-let hbig2dogs1stick = 50;
-let test2dogs1stick = false;
-let xbig2dogs1stick = 2;
-let ybig2dogs1stick = 2;
-let movebig2dogs1stick =1;
+let xtwodogsonestick=2;
+let ytwodogsonestick=2;
+let xdivtwodogsonestick = 6;
+let ydivtwodogsonestick = 3;
+let movetwodogsonestick=0.2;
+let move2twodogsonestick=0.3;
+let stoptwodogsonestick=0;
+let wtwodogsonestick = 50;
+let htwodogsonestick = 50;
+let wbigtwodogsonestick = 50;
+let hbigtwodogsonestick = 50;
+let testtwodogsonestick = false;
+let xbigtwodogsonestick = 2;
+let ybigtwodogsonestick = 2;
+let movebigtwodogsonestick =1;
 
 let xbearsunset=2;
 let ybearsunset=2;
@@ -1924,69 +1924,21 @@ let xbigabutment = 2;
 let ybigabutment = 2;
 let movebigabutment =1;
 
-let xabutment2=2;
-let yabutment2=2;
-let xdivabutment2 = 7;
-let ydivabutment2 = 3;
-let moveabutment2=0.3;
-let move2abutment2=0.3;
-let stopabutment2=0;
-let wabutment2 = 50;
-let habutment2 = 50;
-let wbigabutment2 = 50;
-let hbigabutment2 = 50;
-let testabutment2 = false;
-let xbigabutment2 = 2;
-let ybigabutment2 = 2;
-let movebigabutment2 =1;
-
-let xabutment3=2;
-let yabutment3=2;
-let xdivabutment3 = 8;
-let ydivabutment3 = 2;
-let moveabutment3=0.4;
-let move2abutment3=0.4;
-let stopabutment3=0;
-let wabutment3 = 50;
-let habutment3 = 50;
-let wbigabutment3 = 50;
-let hbigabutment3 = 50;
-let testabutment3 = false;
-let xbigabutment3 = 2;
-let ybigabutment3 = 2;
-let movebigabutment3 =1;
-
-let xabutment4=2;
-let yabutment4=2;
-let xdivabutment4 = 2;
-let ydivabutment4 = 9;
-let moveabutment4=0.8;
-let move2abutment4=0.4;
-let stopabutment4=0;
-let wabutment4 = 50;
-let habutment4 = 50;
-let wbigabutment4 = 50;
-let hbigabutment4 = 50;
-let testabutment4 = false;
-let xbigabutment4 = 2;
-let ybigabutment4 = 2;
-let movebigabutment4 =1;
-
-let xabutment5=2;
-let yabutment5=2;
-let xdivabutment5 = 3;
-let ydivabutment5 = 1.4;
-let moveabutment5=0.3;
-let move2abutment5=0.4;
-let stopabutment5=0;
-let wabutment5 = 50;
-let habutment5 = 50;
-let wbigabutment5 = 50;
-let hbigabutment5 = 50;
-let testabutment5 = false;
-let xbigabutment5 = 2;
-let ybigabutment5 = 2;
-let movebigabutment5 =1;
+let xabutment03=2;
+let yabutment03=2;
+let xdivabutment03 = 7;
+let ydivabutment03 = 3;
+let moveabutment03=0.3;
+let move2abutment03=0.3;
+let stopabutment03=0;
+let wabutment03 = 50;
+let habutment03 = 50;
+let wbigabutment03 = 50;
+let hbigabutment03 = 50;
+let testabutment03 = false;
+let xbigabutment03 = 2;
+let ybigabutment03 = 2;
+let movebigabutment03 =1;
 
 let xbloodmilk=2;
 let ybloodmilk=2;
@@ -3028,21 +2980,21 @@ let xbighappycoupledet5 = 2;
 let ybighappycoupledet5 = 2;
 let movebighappycoupledet5 =1;
 
-let xnewg=2;
-let ynewg=2;
-let xdivnewg = 2;
-let ydivnewg = 4;
-let movenewg=0.2;
-let move2newg=0.4;
-let stopnewg=0;
-let wnewg = 50;
-let hnewg = 50;
-let wbignewg = 50;
-let hbignewg = 50;
-let testnewg = false;
-let xbignewg = 2;
-let ybignewg = 2;
-let movebignewg =1;
+let xnew=2;
+let ynew=2;
+let xdivnew = 2;
+let ydivnew = 4;
+let movenew=0.2;
+let move2new=0.4;
+let stopnew=0;
+let wnew = 50;
+let hnew = 50;
+let wbignew = 50;
+let hbignew = 50;
+let testnew = false;
+let xbignew = 2;
+let ybignew = 2;
+let movebignew =1;
 
 let xnewgrid=2;
 let ynewgrid=2;
@@ -4429,8 +4381,8 @@ function preload() {
   yellowred = loadImage('C2_yellowredsmall.jpg')
   bigyellowred = loadImage('C2_yellowred.jpg')
   
-  manandmantaray = loadImage('C3_manandmantaraysmall.jpg')
-  bigmanandmantaray = loadImage('C3_manandmantaray.jpg')
+  manandmantaray = loadImage('C2_manandmantaraysmall.jpg')
+  bigmanandmantaray = loadImage('C2_manandmantaray.jpg')
   
   baddog = loadImage('C3_baddogsmall.jpg')
   bigbaddog = loadImage('C3_baddog.jpg')
@@ -4477,8 +4429,8 @@ function preload() {
   happycoupledet5 = loadImage('C4_happycoupledet5small.jpg')
   bighappycoupledet5 = loadImage('C4_happycoupledet5.jpg')
   
-  newg = loadImage('C4_newsmall.jpg')
-  bignewg = loadImage('C4_new.jpg')
+  news = loadImage('C4_newsmall.jpg')
+  bignew = loadImage('C4_new.jpg')
   
   newgrid = loadImage('C4_newgridsmall.jpg')
   bignewgrid = loadImage('C4_newgrid.jpg')
@@ -4534,7 +4486,7 @@ function preload() {
   hibiscus = loadImage('C5_hibiscussmall.jpg')
   bighibiscus = loadImage('C5_hibiscus.jpg')
   
-  ishmael = loadImage('C5_Ishmaelsmall.jpg')
+  ishmael = loadImage('C5_ishmaelsmall.jpg')
   bigishmael = loadImage('C5_ishmael.jpg')
   
   mangrove = loadImage('C5_mangrovesmall.jpg')
@@ -4608,6 +4560,9 @@ function preload() {
   
   pastel19 = loadImage('C5_pastel19small.jpg')
   bigpastel19 = loadImage('C5_pastel19.jpg')
+  
+  pastel20 = loadImage('C5_pastel20small.jpg')
+  bigpastel20 = loadImage('C5_pastel20.jpg')
   
   pastel21 = loadImage('C5_pastel21small.jpg')
   bigpastel21 = loadImage('C5_pastel21.jpg') 
@@ -5923,8 +5878,8 @@ s = cos(a) * 2;
 //happycoupledet5    
   image(happycoupledet5, xhappycoupledet5+(windowWidth/xdivhappycoupledet5), yhappycoupledet5+(windowHeight/ydivhappycoupledet5), whappycoupledet5, hhappycoupledet5);
 
-//newg    
-  image(newg, xnewg+(windowWidth/xdivnewg), ynewg+(windowHeight/ydivnewg), wnewg, hnewg);
+//new    
+  image(news, xnew+(windowWidth/xdivnew), ynew+(windowHeight/ydivnew), wnew, hnew);
 
 //newgrid    
   image(newgrid, xnewgrid+(windowWidth/xdivnewgrid), ynewgrid+(windowHeight/ydivnewgrid), wnewgrid, hnewgrid);
@@ -6025,56 +5980,56 @@ s = cos(a) * 2;
 //pastel9    
   image(pastel9, xpastel9+(windowWidth/xdivpastel9), ypastel9+(windowHeight/ydivpastel9), wpastel9, hpastel9);
 
-//hpastel10    
-  image(hpastel10, xhpastel10+(windowWidth/xdivhpastel10), yhpastel10+(windowHeight/ydivhpastel10), whpastel10, hhpastel10);
+//pastel10    
+  image(pastel10, xpastel10+(windowWidth/xdivpastel10), ypastel10+(windowHeight/ydivpastel10), wpastel10, hpastel10);
 
-//hpastel11    
-  image(hpastel11, xhpastel11+(windowWidth/xdivhpastel11), yhpastel11+(windowHeight/ydivhpastel11), whpastel11, hhpastel11);
+//pastel11    
+  image(pastel11, xpastel11+(windowWidth/xdivpastel11), ypastel11+(windowHeight/ydivpastel11), wpastel11, hpastel11);
 
-//hpastel12    
-  image(hpastel12, xhpastel12+(windowWidth/xdivhpastel12), yhpastel12+(windowHeight/ydivhpastel12), whpastel12, hhpastel12);
+//pastel12    
+  image(pastel12, xpastel12+(windowWidth/xdivpastel12), ypastel12+(windowHeight/ydivpastel12), wpastel12, hpastel12);
 
-//hpastel13    
-  image(hpastel13, xhpastel13+(windowWidth/xdivhpastel13), yhpastel13+(windowHeight/ydivhpastel13), whpastel13, hhpastel13);
+//pastel13    
+  image(pastel13, xpastel13+(windowWidth/xdivpastel13), ypastel13+(windowHeight/ydivpastel13), wpastel13, hpastel13);
 
-//hpastel14    
-  image(hpastel14, xhpastel14+(windowWidth/xdivhpastel14), yhpastel14+(windowHeight/ydivhpastel14), whpastel14, hhpastel14);
+//pastel14    
+  image(pastel14, xpastel14+(windowWidth/xdivpastel14), ypastel14+(windowHeight/ydivpastel14), wpastel14, hpastel14);
 
-//hpastel15    
-  image(hpastel15, xhpastel15+(windowWidth/xdivhpastel15), yhpastel15+(windowHeight/ydivhpastel15), whpastel15, hhpastel15);
+//pastel15    
+  image(pastel15, xpastel15+(windowWidth/xdivpastel15), ypastel15+(windowHeight/ydivpastel15), wpastel15, hpastel15);
 
-//hpastel16    
-  image(hpastel16, xhpastel16+(windowWidth/xdivhpastel16), yhpastel16+(windowHeight/ydivhpastel16), whpastel16, hhpastel16);
+//pastel16    
+  image(pastel16, xpastel16+(windowWidth/xdivpastel16), ypastel16+(windowHeight/ydivpastel16), wpastel16, hpastel16);
 
-//hpastel17    
-  image(hpastel17, xhpastel17+(windowWidth/xdivhpastel17), yhpastel17+(windowHeight/ydivhpastel17), whpastel17, hhpastel17);
+//pastel17    
+  image(pastel17, xpastel17+(windowWidth/xdivpastel17), ypastel17+(windowHeight/ydivpastel17), wpastel17, hpastel17);
 
-//hpastel18    
-  image(hpastel18, xhpastel18+(windowWidth/xdivhpastel18), yhpastel18+(windowHeight/ydivhpastel18), whpastel18, hhpastel18);
+//pastel18    
+  image(pastel18, xpastel18+(windowWidth/xdivpastel18), ypastel18+(windowHeight/ydivpastel18), wpastel18, hpastel18);
 
-//hpastel19    
-  image(hpastel19, xhpastel19+(windowWidth/xdivhpastel19), yhpastel19+(windowHeight/ydivhpastel19), whpastel19, hhpastel19);
+//pastel19    
+  image(pastel19, xpastel19+(windowWidth/xdivpastel19), ypastel19+(windowHeight/ydivpastel19), wpastel19, hpastel19);
 
-//hpastel20    
-  image(hpastel20, xhpastel20+(windowWidth/xdivhpastel20), yhpastel20+(windowHeight/ydivhpastel20), whpastel20, hhpastel20);
+//pastel20    
+  image(pastel20, xpastel20+(windowWidth/xdivpastel20), ypastel20+(windowHeight/ydivpastel20), wpastel20, hpastel20);
 
-//hpastel21    
-  image(hpastel21, xhpastel21+(windowWidth/xdivhpastel21), yhpastel21+(windowHeight/ydivhpastel21), whpastel21, hhpastel21);
+//pastel21    
+  image(pastel21, xpastel21+(windowWidth/xdivpastel21), ypastel21+(windowHeight/ydivpastel21), wpastel21, hpastel21);
 
-//hpastel23    
-  image(hpastel23, xhpastel23+(windowWidth/xdivhpastel23), yhpastel23+(windowHeight/ydivhpastel23), whpastel23, hhpastel23);
+//pastel23    
+  image(pastel23, xpastel23+(windowWidth/xdivpastel23), ypastel23+(windowHeight/ydivpastel23), wpastel23, hpastel23);
 
-//hpastel24    
-  image(hpastel24, xhpastel24+(windowWidth/xdivhpastel24), yhpastel24+(windowHeight/ydivhpastel24), whpastel24, hhpastel24);
+//pastel24    
+  image(pastel24, xpastel24+(windowWidth/xdivpastel24), ypastel24+(windowHeight/ydivpastel24), wpastel24, hpastel24);
 
-//hpastel25    
-  image(hpastel25, xhpastel25+(windowWidth/xdivhpastel25), yhpastel25+(windowHeight/ydivhpastel25), whpastel25, hhpastel25);
+//pastel25    
+  image(pastel25, xpastel25+(windowWidth/xdivpastel25), ypastel25+(windowHeight/ydivpastel25), wpastel25, hpastel25);
 
-//hpastel26    
-  image(hpastel26, xhpastel26+(windowWidth/xdivhpastel26), yhpastel26+(windowHeight/ydivhpastel26), whpastel26, hhpastel26);
+//pastel26    
+  image(pastel26, xpastel26+(windowWidth/xdivpastel26), ypastel26+(windowHeight/ydivpastel26), wpastel26, hpastel26);
 
-//hpastel27    
-  image(hpastel27, xhpastel27+(windowWidth/xdivhpastel27), yhpastel27+(windowHeight/ydivhpastel27), whpastel27, hhpastel27);
+//pastel27    
+  image(pastel27, xpastel27+(windowWidth/xdivpastel27), ypastel27+(windowHeight/ydivpastel27), wpastel27, hpastel27);
 
 //ps1    
   image(ps1, xps1+(windowWidth/xdivps1), yps1+(windowHeight/ydivps1), wps1, hps1);
@@ -6274,7 +6229,7 @@ s = cos(a) * 2;
   enlargehappycoupledet3 ()
   enlargehappycoupledet4 ()
   enlargehappycoupledet5 ()
-  enlargenewg ()
+  enlargenew ()
   enlargenewgrid ()
   enlargenewgrid2 ()
   enlargenewgrid3 ()
@@ -10119,36 +10074,36 @@ function enlargemonagoat () {
 }
 
 function enlargeredcloud () {
-    if ((((mouseX>(xcloud+(windowWidth/xdivcloud)-25))&&(mouseX<(xcloud+(windowWidth/xdivcloud)+25)))&&(((mouseY>(ycloud+(windowHeight/ydivcloud)-25))&&(mouseY<(ycloud+(windowHeight/ydivcloud)+25)))))&&((!testbacteria)&&(!testbillows)&&(!testchase)&&(!testdolphin)&&(!testheaven)&&(!testdrop)&&(!testepilogue)&&(!testfight)&&(!testfight2)&&(!testfivemile)&&(!testgator)&&(!testbugs)&&(!testchariot)&&(!testking)&&(!testmullet)&&(!testmanatee)&&(!testmantaray)&&(!testpeople)&&(!testpeople2)&&(!testgarden)&&(!testsatan)&&(!testschool)&&(!testsplash)&&(!testsquid)&&(!teststrip)&&(!testtampared)&&(!testwall)&&(!testtrog)&&(!testtrog02)&&(!testthump)&&(!testwhale)&&(!testlotus)&&(!testbirthvenus)&&(!testboat)&&(!testboat70s)&&(!testbruno)&&(!testearlyfish)&&(!testfightside)&&(!testfightwithme)&&(!testfishcodcuttle)&&(!testhead)&&(!testheadside)&&(!testheadstand)&&(!testmansailfish)&&(!testmedallion)&&(!testmedallion3)&&(!testmedallion4)&&(!testmedallion5)&&(!testmehead)&&(!testsatanchariot)&&(!testtrogwhitedet)&&(!testtrolling)&&(!testbear)&&(!testbearearly)&&(!testbearr)&&(!testbearrr)&&(!testberkshire)&&(!testcast)&&(!testdoy)&&(!testdeepwwods)&&(!testdogdollystorm)&&(!testdogsdeepwoods)&&(!testdogsdrinking)&&(!testdogsdusk)&&(!testdogsrunning)&&(!testdogstorm)&&(!testdogsvsowl)&&(!testdogsvsturkey)&&(!testdollysunset)&&(!testdollyswim)&&(!testdyingwhale)&&(!testfedallah)&&(!testflyingdog)&&(!testfortuna)&&(!testhibiscuss)&&(!testhowl)&&(!testwalldet)&&(!testluthersnow)&&(!testlutherwatch)&&(!testmountainbear)&&(!testnevsky)&&(!testnightbite)&&(!testnightbitedayplay)&&(!testnubby)&&(!testnubbyhib)&&(!testoiling)&&(!teststripdet)&&(!testredbear)&&(!testsail)&&(!testsaildyp)&&(!testsquash)&&(!testsquashbear)&&(!testsquashdog)&&(!testsquashdogs)&&(!testsquashswim)&&(!testsquashturkey)&&(!teststickdogs)&&(!teststuxshow)&&(!testtwodogsonegoat)&&(!testtwodogsonestick)&&(!testbearsunset)&&(!testcaterpillers)&&(!testcrazydogs)&&(!testdogbutterfly)&&(!testdogman)&&(!testdogsonrocks)&&(!testdogturkey)&&(!testdollyandmona)&&(!testearlybear)&&(!testgoatramsdog)&&(!testgoats)&&(!testmackerelandmullet)&&(!testmananddog)&&(!testmanandgoat)&&(!testmona)&&(!testmonagoat)&&(!testthreegoats)&&(!testwomananddog)&&(!testabutment)&&(!testabutment03)&&(!testbloodmilk)&&(!testblueredyellow)&&(!testblueyellowwhiteblue)&&(!testbombblue)&&(!testbregenz)&&(!testcastpaint)&&(!testcastpaint2)&&(!testcastpaint3)&&(!testcastpaint4)&&(!testcell)&&(!testcolorspiral)&&(!testdboot)&&(!testdeadsea)&&(!testdeadsea2)&&(!testdeadsea3)&&(!testdeadsea4)&&(!testdeadsea5)&&(!testdeepbluesea)&&(!testdrop2)&&(!testdying)&&(!testepilogue)&&(!testghost)&&(!testgreybasking)&&(!testgreyroller)&&(!testkunst)&&(!testleadwhiteashtray)&&(!testleadwhiteballs)&&(!testleadwhiteeye)&&(!testleadwhitescroll)&&(!testlifecycle)&&(!testlightchamber)&&(!testmanandmantaray)&&(!testmansailnubby)&&(!testmiami)&&(!testnubhibiscus)&&(!testpaint)&&(!testpattern)&&(!testpink)&&(!testrescue)&&(!testshrink)&&(!testsidewase)&&(!testsideways)&&(!testsleeping)&&(!testsmall)&&(!testspiralbear)&&(!teststream)&&(!teststreamdots)&&(!teststripes)&&(!testsub)&&(!testwater)&&(!testyellowred)&&(!testbaddog)&&(!testblackandreddolphin)&&(!testhsbattle)&&(!testshipwreck)&&(!testsquidandme)&&(!testwwii)&&(!testyellowred2)&&(!testatelier)&&(!testgrey)&&(!testhappycouple)&&(!testhappycoupledet)&&(!testhappycoupledet2)&&(!testhappycoupledet3)&&(!testhappycoupledet4)&&(!testhappycoupledet5)&&(!testnew)&&(!testnewgrid)&&(!testnewgrid2)&&(!testnewgrid3)&&(!testsmallblue)&&(!testsmallblue2)&&(!testsmallsky)&&(!testsmallsky2)&&(!teststwall)&&(!testadolph)&&(!testafterlife)&&(!testberkshireinstagram)&&(!testbird)&&(!testcoffin)&&(!testdeepblue)&&(!testheads)&&(!testheads2)&&(!testheads3)&&(!testhibiscus)&&(!testishmael)&&(!testmangrove)&&(!testmanta)&&(!testmorningboat)&&(!testnevsky2)&&(!testoverboard)&&(!testpastel)&&(!testpastel2)&&(!testpastel3)&&(!testpastel4)&&(!testpastel5)&&(!testpastel6)&&(!testpastel7)&&(!testpastel8)&&(!testpastel9)&&(!testpastel10)&&(!testpastel11)&&(!testpastel12)&&(!testpastel13)&&(!testpastel14)&&(!testpastel15)&&(!testpastel16)&&(!testpastel17)&&(!testpastel18)&&(!testpastel19)&&(!testpastel20)&&(!testpastel21)&&(!testpastel23)&&(!testpastel24)&&(!testpastel25)&&(!testpastel26)&&(!testpastel27)&&(!testps1)&&(!testps12)&&(!testracetrack)&&(!testryders))) {
-      xcloud = xcloud+stopcloud;
-      ycloud = ycloud+stopcloud;
+    if ((((mouseX>(xredcloud+(windowWidth/xdivredcloud)-25))&&(mouseX<(xredcloud+(windowWidth/xdivredcloud)+25)))&&(((mouseY>(yredcloud+(windowHeight/ydivredcloud)-25))&&(mouseY<(yredcloud+(windowHeight/ydivredcloud)+25)))))&&((!testbacteria)&&(!testbillows)&&(!testchase)&&(!testdolphin)&&(!testheaven)&&(!testdrop)&&(!testepilogue)&&(!testfight)&&(!testfight2)&&(!testfivemile)&&(!testgator)&&(!testbugs)&&(!testchariot)&&(!testking)&&(!testmullet)&&(!testmanatee)&&(!testmantaray)&&(!testpeople)&&(!testpeople2)&&(!testgarden)&&(!testsatan)&&(!testschool)&&(!testsplash)&&(!testsquid)&&(!teststrip)&&(!testtampared)&&(!testwall)&&(!testtrog)&&(!testtrog02)&&(!testthump)&&(!testwhale)&&(!testlotus)&&(!testbirthvenus)&&(!testboat)&&(!testboat70s)&&(!testbruno)&&(!testearlyfish)&&(!testfightside)&&(!testfightwithme)&&(!testfishcodcuttle)&&(!testhead)&&(!testheadside)&&(!testheadstand)&&(!testmansailfish)&&(!testmedallion)&&(!testmedallion3)&&(!testmedallion4)&&(!testmedallion5)&&(!testmehead)&&(!testsatanchariot)&&(!testtrogwhitedet)&&(!testtrolling)&&(!testbear)&&(!testbearearly)&&(!testbearr)&&(!testbearrr)&&(!testberkshire)&&(!testcast)&&(!testdoy)&&(!testdeepwwods)&&(!testdogdollystorm)&&(!testdogsdeepwoods)&&(!testdogsdrinking)&&(!testdogsdusk)&&(!testdogsrunning)&&(!testdogstorm)&&(!testdogsvsowl)&&(!testdogsvsturkey)&&(!testdollysunset)&&(!testdollyswim)&&(!testdyingwhale)&&(!testfedallah)&&(!testflyingdog)&&(!testfortuna)&&(!testhibiscuss)&&(!testhowl)&&(!testwalldet)&&(!testluthersnow)&&(!testlutherwatch)&&(!testmountainbear)&&(!testnevsky)&&(!testnightbite)&&(!testnightbitedayplay)&&(!testnubby)&&(!testnubbyhib)&&(!testoiling)&&(!teststripdet)&&(!testredbear)&&(!testsail)&&(!testsaildyp)&&(!testsquash)&&(!testsquashbear)&&(!testsquashdog)&&(!testsquashdogs)&&(!testsquashswim)&&(!testsquashturkey)&&(!teststickdogs)&&(!teststuxshow)&&(!testtwodogsonegoat)&&(!testtwodogsonestick)&&(!testbearsunset)&&(!testcaterpillers)&&(!testcrazydogs)&&(!testdogbutterfly)&&(!testdogman)&&(!testdogsonrocks)&&(!testdogturkey)&&(!testdollyandmona)&&(!testearlybear)&&(!testgoatramsdog)&&(!testgoats)&&(!testmackerelandmullet)&&(!testmananddog)&&(!testmanandgoat)&&(!testmona)&&(!testmonagoat)&&(!testthreegoats)&&(!testwomananddog)&&(!testabutment)&&(!testabutment03)&&(!testbloodmilk)&&(!testblueredyellow)&&(!testblueyellowwhiteblue)&&(!testbombblue)&&(!testbregenz)&&(!testcastpaint)&&(!testcastpaint2)&&(!testcastpaint3)&&(!testcastpaint4)&&(!testcell)&&(!testcolorspiral)&&(!testdboot)&&(!testdeadsea)&&(!testdeadsea2)&&(!testdeadsea3)&&(!testdeadsea4)&&(!testdeadsea5)&&(!testdeepbluesea)&&(!testdrop2)&&(!testdying)&&(!testepilogue)&&(!testghost)&&(!testgreybasking)&&(!testgreyroller)&&(!testkunst)&&(!testleadwhiteashtray)&&(!testleadwhiteballs)&&(!testleadwhiteeye)&&(!testleadwhitescroll)&&(!testlifecycle)&&(!testlightchamber)&&(!testmanandmantaray)&&(!testmansailnubby)&&(!testmiami)&&(!testnubhibiscus)&&(!testpaint)&&(!testpattern)&&(!testpink)&&(!testrescue)&&(!testshrink)&&(!testsidewase)&&(!testsideways)&&(!testsleeping)&&(!testsmall)&&(!testspiralbear)&&(!teststream)&&(!teststreamdots)&&(!teststripes)&&(!testsub)&&(!testwater)&&(!testyellowred)&&(!testbaddog)&&(!testblackandreddolphin)&&(!testhsbattle)&&(!testshipwreck)&&(!testsquidandme)&&(!testwwii)&&(!testyellowred2)&&(!testatelier)&&(!testgrey)&&(!testhappycouple)&&(!testhappycoupledet)&&(!testhappycoupledet2)&&(!testhappycoupledet3)&&(!testhappycoupledet4)&&(!testhappycoupledet5)&&(!testnew)&&(!testnewgrid)&&(!testnewgrid2)&&(!testnewgrid3)&&(!testsmallblue)&&(!testsmallblue2)&&(!testsmallsky)&&(!testsmallsky2)&&(!teststwall)&&(!testadolph)&&(!testafterlife)&&(!testberkshireinstagram)&&(!testbird)&&(!testcoffin)&&(!testdeepblue)&&(!testheads)&&(!testheads2)&&(!testheads3)&&(!testhibiscus)&&(!testishmael)&&(!testmangrove)&&(!testmanta)&&(!testmorningboat)&&(!testnevsky2)&&(!testoverboard)&&(!testpastel)&&(!testpastel2)&&(!testpastel3)&&(!testpastel4)&&(!testpastel5)&&(!testpastel6)&&(!testpastel7)&&(!testpastel8)&&(!testpastel9)&&(!testpastel10)&&(!testpastel11)&&(!testpastel12)&&(!testpastel13)&&(!testpastel14)&&(!testpastel15)&&(!testpastel16)&&(!testpastel17)&&(!testpastel18)&&(!testpastel19)&&(!testpastel20)&&(!testpastel21)&&(!testpastel23)&&(!testpastel24)&&(!testpastel25)&&(!testpastel26)&&(!testpastel27)&&(!testps1)&&(!testps12)&&(!testracetrack)&&(!testryders))) {
+      xredcloud = xredcloud+stopredcloud;
+      yredcloud = yredcloud+stopredcloud;
       //original: 2864 × 1568    
       noCursor();
-      testcloud = true;
-          image(bigcloud, (xbigcloud+(windowWidth/xdivcloud)), (ybigcloud+(windowHeight/ydivcloud)), wbigcloud, hbigcloud);  
-      wbigcloud = (wbigcloud +50);
-        if (wbigcloud>650) {wbigcloud=650}
-      hbigcloud = (hbigcloud +50);  
-        if (hbigcloud>450) {hbigcloud=450}}   
+      testredcloud = true;
+          image(bigredcloud, (xbigredcloud+(windowWidth/xdivredcloud)), (ybigredcloud+(windowHeight/ydivredcloud)), wbigredcloud, hbigredcloud);  
+      wbigredcloud = (wbigredcloud +50);
+        if (wbigredcloud>650) {wbigredcloud=650}
+      hbigredcloud = (hbigredcloud +50);  
+        if (hbigredcloud>450) {hbigredcloud=450}}   
     else {
-      testcloud = false;
-      wcloud=50;
-      hcloud=50;      
-      wbigcloud=50;   //
-      hbigcloud=50;    //
-      xbigcloud = xcloud //
-      ybigcloud = ycloud //
-      xcloud = xcloud+movecloud;
-      ycloud = ycloud+move2cloud;
+      testredcloud = false;
+      wredcloud=50;
+      hredcloud=50;      
+      wbigredcloud=50;   //
+      hbigredcloud=50;    //
+      xbigredcloud = xredcloud //
+      ybigredcloud = yredcloud //
+      xredcloud = xredcloud+moveredcloud;
+      yredcloud = yredcloud+move2redcloud;
 
-    if(xcloud+(windowWidth/xdivcloud)>=windowWidth){
-      movecloud = movecloud*-1}
-    if(ycloud+(windowHeight/ydivcloud)>=windowHeight){
-      move2cloud = move2cloud*-1}    
-    if(xcloud+(windowWidth/xdivcloud)<=0){
-      movecloud = movecloud*-1}
-    if(ycloud+(windowHeight/ydivcloud)<=0){
-      move2cloud = move2cloud*-1}}  
+    if(xredcloud+(windowWidth/xdivredcloud)>=windowWidth){
+      moveredcloud = moveredcloud*-1}
+    if(yredcloud+(windowHeight/ydivredcloud)>=windowHeight){
+      move2redcloud = move2redcloud*-1}    
+    if(xredcloud+(windowWidth/xdivredcloud)<=0){
+      moveredcloud = moveredcloud*-1}
+    if(yredcloud+(windowHeight/ydivredcloud)<=0){
+      move2redcloud = move2redcloud*-1}}  
 }
 
 function enlargethreegoats () {
