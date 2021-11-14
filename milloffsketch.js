@@ -3859,6 +3859,54 @@ let xbigryders = 2;
 let ybigryders = 2;
 let movebigryders =1;
 
+let xdrawnup= 2;
+let ydrawnup=2;
+let xdivdrawnup=7;
+let ydivdrawnup=2;
+let movedrawnup=0.8;
+let move2drawnup=0.2;
+let movebigdrawnup=1;
+let stopdrawnup=0;
+let wdrawnup = 50;
+let hdrawnup = 39;
+let wbigdrawnup = 50;
+let hbigdrawnup = 39;
+let xbigdrawnup = 2;
+let ybigdrawnup = 2;
+let testdrawnup = false;
+
+let xdream= 2;
+let ydream=2;
+let xdivdream=5;
+let ydivdream=2.2;
+let movedream=0.7;
+let move2dream=0.8;
+let movebigdream=1;
+let stopdream=0;
+let wdream = 50;
+let hdream = 39;
+let wbigdream = 50;
+let hbigdream = 39;
+let xbigdream = 2;
+let ybigdream = 2;
+let testdream = false;
+
+let xdream02= 2;
+let ydream02=2;
+let xdivdream02=3;
+let ydivdream02=5.5;
+let movedream02=0.5;
+let move2dream02=0.3;
+let movebigdream02=1;
+let stopdream02=0;
+let wdream02 = 50;
+let hdream02 = 39;
+let wbigdream02 = 50;
+let hbigdream02 = 39;
+let xbigdream02 = 2;
+let ybigdream02 = 2;
+let testdream02 = false;
+
 //var angle = 0;
 
 let loaddiv = 2
@@ -4627,6 +4675,16 @@ function setup() {
   ryders = loadImage('C5_ryderssmall.jpg')
   bigryders = loadImage('C5_ryders.jpg') 
 
+  drawnup = loadImage('C5_drawnupsmall.jpg')
+  bigdrawnup = loadImage('C5_drawnup.jpg') 
+
+  dream = loadImage('C5_dreamsmall.jpg')
+  bigdream = loadImage('C5_dream.jpg') 
+
+  dream02 = loadImage('C5_dream02small.jpg')
+  bigdream02 = loadImage('C5_dream02.jpg') 
+
+
   
 }
 
@@ -5373,6 +5431,14 @@ let randyracetrack = random (1,windowHeight);
 let randxryders = random (1,windowWidth);
 let randyryders = random (1,windowHeight);  
 
+let randxdrawnup = random (1,windowWidth);
+let randydrawnup = random (1,windowHeight);  
+
+let randxdream = random (1,windowWidth);
+let randydream = random (1,windowHeight);  
+
+let randxdream02 = random (1,windowWidth);
+let randydream02 = random (1,windowHeight);  
 
   
 let centerx = (windowWidth/2);
@@ -6091,6 +6157,14 @@ s = cos(a) * 2;
 //ryders    
   image(ryders, xryders+(windowWidth/xdivryders), yryders+(windowHeight/ydivryders), wryders, hryders);
 
+//drawnup    
+  image(drawnup, xdrawnup+(windowWidth/xdivdrawnup), ydrawnup+(windowHeight/ydivdrawnup), wdrawnup, hdrawnup);
+
+//dream    
+  image(dream, xdream+(windowWidth/xdivdream), ydream+(windowHeight/ydivdream), wdream, hdream);
+
+//dream02    
+  image(dream02, xdream02+(windowWidth/xdivdream02), ydream02+(windowHeight/ydivdream02), wdream02, hdream02);
 
   
   enlargebacteria () 
@@ -6332,6 +6406,9 @@ s = cos(a) * 2;
   enlargeps12 ()
   enlargeracetrack ()
   enlargeryders ()
+  enlargedrawnup ()
+  enlargedream ()
+  enlargedream02 ()
   
   
 
@@ -14356,4 +14433,105 @@ function enlargeryders () {
       moveryders = moveryders*-1}
     if(yryders+(windowHeight/ydivryders)<=0){
       move2ryders = move2ryders*-1}}  
+}
+
+function enlargedrawnup () {
+    if ((((mouseX>(xdrawnup+(windowWidth/xdivdrawnup)-25))&&(mouseX<(xdrawnup+(windowWidth/xdivdrawnup)+25)))&&(((mouseY>(ydrawnup+(windowHeight/ydivdrawnup)-25))&&(mouseY<(ydrawnup+(windowHeight/ydivdrawnup)+25)))))&&((!testbacteria)&&(!testbillows)&&(!testchase)&&(!testdolphin)&&(!testheaven)&&(!testdrop)&&(!testepilogue)&&(!testfight)&&(!testfight2)&&(!testfivemile)&&(!testgator)&&(!testbugs)&&(!testchariot)&&(!testking)&&(!testmullet)&&(!testmanatee)&&(!testmantaray)&&(!testpeople)&&(!testpeople2)&&(!testgarden)&&(!testsatan)&&(!testschool)&&(!testsplash)&&(!testsquid)&&(!teststrip)&&(!testtampared)&&(!testwall)&&(!testtrog)&&(!testtrog02)&&(!testthump)&&(!testwhale)&&(!testlotus)&&(!testbirthvenus)&&(!testboat)&&(!testboat70s)&&(!testbruno)&&(!testearlyfish)&&(!testfightside)&&(!testfightwithme)&&(!testfishcodcuttle)&&(!testhead)&&(!testheadside)&&(!testheadstand)&&(!testmansailfish)&&(!testmedallion)&&(!testmedallion3)&&(!testmedallion4)&&(!testmedallion5)&&(!testmehead)&&(!testsatanchariot)&&(!testtrogwhitedet)&&(!testtrolling)&&(!testbear)&&(!testbearearly)&&(!testbearr)&&(!testbearrr)&&(!testberkshire)&&(!testcast)&&(!testdoy)&&(!testdeepwwods)&&(!testdogdollystorm)&&(!testdogsdeepwoods)&&(!testdogsdrinking)&&(!testdogsdusk)&&(!testdogsrunning)&&(!testdogstorm)&&(!testdogsvsowl)&&(!testdogsvsturkey)&&(!testdollysunset)&&(!testdollyswim)&&(!testdyingwhale)&&(!testfedallah)&&(!testflyingdog)&&(!testfortuna)&&(!testhibiscuss)&&(!testhowl)&&(!testwalldet)&&(!testluthersnow)&&(!testlutherwatch)&&(!testmountainbear)&&(!testnevsky)&&(!testnightbite)&&(!testnightbitedayplay)&&(!testnubby)&&(!testnubbyhib)&&(!testoiling)&&(!teststripdet)&&(!testredbear)&&(!testsail)&&(!testsaildyp)&&(!testsquash)&&(!testsquashbear)&&(!testsquashdog)&&(!testsquashdogs)&&(!testsquashswim)&&(!testsquashturkey)&&(!teststickdogs)&&(!teststuxshow)&&(!testtwodogsonegoat)&&(!testtwodogsonestick)&&(!testbearsunset)&&(!testcaterpillers)&&(!testcrazydogs)&&(!testdogbutterfly)&&(!testdogman)&&(!testdogsonrocks)&&(!testdogturkey)&&(!testdollyandmona)&&(!testearlybear)&&(!testgoatramsdog)&&(!testgoats)&&(!testmackerelandmullet)&&(!testmananddog)&&(!testmanandgoat)&&(!testmona)&&(!testmonagoat)&&(!testredcloud)&&(!testthreegoats)&&(!testwomananddog)&&(!testabutment)&&(!testabutment03)&&(!testbloodmilk)&&(!testblueredyellow)&&(!testblueyellowwhiteblue)&&(!testbombblue)&&(!testbregenz)&&(!testcastpaint)&&(!testcastpaint2)&&(!testcastpaint3)&&(!testcastpaint4)&&(!testcell)&&(!testcolorspiral)&&(!testdboot)&&(!testdeadsea)&&(!testdeadsea2)&&(!testdeadsea3)&&(!testdeadsea4)&&(!testdeadsea5)&&(!testdeepbluesea)&&(!testdrop2)&&(!testdying)&&(!testepilogue)&&(!testghost)&&(!testgreybasking)&&(!testgreyroller)&&(!testkunst)&&(!testleadwhiteashtray)&&(!testleadwhiteballs)&&(!testleadwhiteeye)&&(!testleadwhitescroll)&&(!testlifecycle)&&(!testlightchamber)&&(!testmanandmantaray)&&(!testmansailnubby)&&(!testmiami)&&(!testnubhibiscus)&&(!testpaint)&&(!testpattern)&&(!testpink)&&(!testrescue)&&(!testshrink)&&(!testsidewase)&&(!testsideways)&&(!testsleeping)&&(!testsmall)&&(!testspiralbear)&&(!teststream)&&(!teststreamdots)&&(!teststripes)&&(!testsub)&&(!testwater)&&(!testyellowred)&&(!testbaddog)&&(!testblackandreddolphin)&&(!testhsbattle)&&(!testshipwreck)&&(!testsquidandme)&&(!testwwii)&&(!testyellowred2)&&(!testatelier)&&(!testgrey)&&(!testhappycouple)&&(!testhappycoupledet)&&(!testhappycoupledet2)&&(!testhappycoupledet3)&&(!testhappycoupledet4)&&(!testhappycoupledet5)&&(!testnew)&&(!testnewgrid)&&(!testnewgrid2)&&(!testnewgrid3)&&(!testsmallblue)&&(!testsmallblue2)&&(!testsmallsky)&&(!testsmallsky2)&&(!teststwall)&&(!testadolph)&&(!testafterlife)&&(!testberkshireinstagram)&&(!testbird)&&(!testcoffin)&&(!testdeepblue)&&(!testheads)&&(!testheads2)&&(!testheads3)&&(!testhibiscus)&&(!testishmael)&&(!testmangrove)&&(!testmanta)&&(!testmorningboat)&&(!testnevsky2)&&(!testoverboard)&&(!testpastel)&&(!testpastel2)&&(!testpastel3)&&(!testpastel4)&&(!testpastel5)&&(!testpastel6)&&(!testpastel7)&&(!testpastel8)&&(!testpastel9)&&(!testpastel10)&&(!testpastel11)&&(!testpastel12)&&(!testpastel13)&&(!testpastel14)&&(!testpastel15)&&(!testpastel16)&&(!testpastel17)&&(!testpastel18)&&(!testpastel19)&&(!testpastel20)&&(!testpastel21)&&(!testpastel23)&&(!testpastel24)&&(!testpastel25)&&(!testpastel26)&&(!testpastel27)&&(!testps1)&&(!testdream)&&(!testdream02))) {
+      xdrawnup = xdrawnup+stopdrawnup;
+      ydrawnup = ydrawnup+stopdrawnup;
+      //original: 2864 × 1568    
+      noCursor();
+      testdrawnup = true;
+          image(bigdrawnup, (xbigdrawnup+(windowWidth/xdivdrawnup)), (ybigdrawnup+(windowHeight/ydivdrawnup)), wbigdrawnup, hbigdrawnup);  
+      wbigdrawnup = (wbigdrawnup +50);
+        if (wbigdrawnup>650) {wbigdrawnup=650}
+      hbigdrawnup = (hbigdrawnup +50);  
+        if (hbigdrawnup>508) {hbigdrawnup=508}}   
+    else {
+      testdrawnup = false;
+      wdrawnup=50;
+      hdrawnup=39;      
+      wbigdrawnup=50;   //
+      hbigdrawnup=39;    //
+      xbigdrawnup = xdrawnup //
+      ybigdrawnup = ydrawnup //
+      xdrawnup = xdrawnup+movedrawnup;
+      ydrawnup = ydrawnup+move2drawnup;
+
+    if(xdrawnup+(windowWidth/xdivdrawnup)>=windowWidth){
+      movedrawnup = movedrawnup*-1}
+    if(ydrawnup+(windowHeight/ydivdrawnup)>=windowHeight){
+      move2drawnup = move2drawnup*-1}    
+    if(xdrawnup+(windowWidth/xdivdrawnup)<=0){
+      movedrawnup = movedrawnup*-1}
+    if(ydrawnup+(windowHeight/ydivdrawnup)<=0){
+      move2drawnup = move2drawnup*-1}}  
+}
+
+
+function enlargedream () {
+    if ((((mouseX>(xdream+(windowWidth/xdivdream)-25))&&(mouseX<(xdream+(windowWidth/xdivdream)+25)))&&(((mouseY>(ydream+(windowHeight/ydivdream)-25))&&(mouseY<(ydream+(windowHeight/ydivdream)+25)))))&&((!testbacteria)&&(!testbillows)&&(!testchase)&&(!testdolphin)&&(!testheaven)&&(!testdrop)&&(!testepilogue)&&(!testfight)&&(!testfight2)&&(!testfivemile)&&(!testgator)&&(!testbugs)&&(!testchariot)&&(!testking)&&(!testmullet)&&(!testmanatee)&&(!testmantaray)&&(!testpeople)&&(!testpeople2)&&(!testgarden)&&(!testsatan)&&(!testschool)&&(!testsplash)&&(!testsquid)&&(!teststrip)&&(!testtampared)&&(!testwall)&&(!testtrog)&&(!testtrog02)&&(!testthump)&&(!testwhale)&&(!testlotus)&&(!testbirthvenus)&&(!testboat)&&(!testboat70s)&&(!testbruno)&&(!testearlyfish)&&(!testfightside)&&(!testfightwithme)&&(!testfishcodcuttle)&&(!testhead)&&(!testheadside)&&(!testheadstand)&&(!testmansailfish)&&(!testmedallion)&&(!testmedallion3)&&(!testmedallion4)&&(!testmedallion5)&&(!testmehead)&&(!testsatanchariot)&&(!testtrogwhitedet)&&(!testtrolling)&&(!testbear)&&(!testbearearly)&&(!testbearr)&&(!testbearrr)&&(!testberkshire)&&(!testcast)&&(!testdoy)&&(!testdeepwwods)&&(!testdogdollystorm)&&(!testdogsdeepwoods)&&(!testdogsdrinking)&&(!testdogsdusk)&&(!testdogsrunning)&&(!testdogstorm)&&(!testdogsvsowl)&&(!testdogsvsturkey)&&(!testdollysunset)&&(!testdollyswim)&&(!testdyingwhale)&&(!testfedallah)&&(!testflyingdog)&&(!testfortuna)&&(!testhibiscuss)&&(!testhowl)&&(!testwalldet)&&(!testluthersnow)&&(!testlutherwatch)&&(!testmountainbear)&&(!testnevsky)&&(!testnightbite)&&(!testnightbitedayplay)&&(!testnubby)&&(!testnubbyhib)&&(!testoiling)&&(!teststripdet)&&(!testredbear)&&(!testsail)&&(!testsaildyp)&&(!testsquash)&&(!testsquashbear)&&(!testsquashdog)&&(!testsquashdogs)&&(!testsquashswim)&&(!testsquashturkey)&&(!teststickdogs)&&(!teststuxshow)&&(!testtwodogsonegoat)&&(!testtwodogsonestick)&&(!testbearsunset)&&(!testcaterpillers)&&(!testcrazydogs)&&(!testdogbutterfly)&&(!testdogman)&&(!testdogsonrocks)&&(!testdogturkey)&&(!testdollyandmona)&&(!testearlybear)&&(!testgoatramsdog)&&(!testgoats)&&(!testmackerelandmullet)&&(!testmananddog)&&(!testmanandgoat)&&(!testmona)&&(!testmonagoat)&&(!testredcloud)&&(!testthreegoats)&&(!testwomananddog)&&(!testabutment)&&(!testabutment03)&&(!testbloodmilk)&&(!testblueredyellow)&&(!testblueyellowwhiteblue)&&(!testbombblue)&&(!testbregenz)&&(!testcastpaint)&&(!testcastpaint2)&&(!testcastpaint3)&&(!testcastpaint4)&&(!testcell)&&(!testcolorspiral)&&(!testdboot)&&(!testdeadsea)&&(!testdeadsea2)&&(!testdeadsea3)&&(!testdeadsea4)&&(!testdeadsea5)&&(!testdeepbluesea)&&(!testdrop2)&&(!testdying)&&(!testepilogue)&&(!testghost)&&(!testgreybasking)&&(!testgreyroller)&&(!testkunst)&&(!testleadwhiteashtray)&&(!testleadwhiteballs)&&(!testleadwhiteeye)&&(!testleadwhitescroll)&&(!testlifecycle)&&(!testlightchamber)&&(!testmanandmantaray)&&(!testmansailnubby)&&(!testmiami)&&(!testnubhibiscus)&&(!testpaint)&&(!testpattern)&&(!testpink)&&(!testrescue)&&(!testshrink)&&(!testsidewase)&&(!testsideways)&&(!testsleeping)&&(!testsmall)&&(!testspiralbear)&&(!teststream)&&(!teststreamdots)&&(!teststripes)&&(!testsub)&&(!testwater)&&(!testyellowred)&&(!testbaddog)&&(!testblackandreddolphin)&&(!testhsbattle)&&(!testshipwreck)&&(!testsquidandme)&&(!testwwii)&&(!testyellowred2)&&(!testatelier)&&(!testgrey)&&(!testhappycouple)&&(!testhappycoupledet)&&(!testhappycoupledet2)&&(!testhappycoupledet3)&&(!testhappycoupledet4)&&(!testhappycoupledet5)&&(!testnew)&&(!testnewgrid)&&(!testnewgrid2)&&(!testnewgrid3)&&(!testsmallblue)&&(!testsmallblue2)&&(!testsmallsky)&&(!testsmallsky2)&&(!teststwall)&&(!testadolph)&&(!testafterlife)&&(!testberkshireinstagram)&&(!testbird)&&(!testcoffin)&&(!testdeepblue)&&(!testheads)&&(!testheads2)&&(!testheads3)&&(!testhibiscus)&&(!testishmael)&&(!testmangrove)&&(!testmanta)&&(!testmorningboat)&&(!testnevsky2)&&(!testoverboard)&&(!testpastel)&&(!testpastel2)&&(!testpastel3)&&(!testpastel4)&&(!testpastel5)&&(!testpastel6)&&(!testpastel7)&&(!testpastel8)&&(!testpastel9)&&(!testpastel10)&&(!testpastel11)&&(!testpastel12)&&(!testpastel13)&&(!testpastel14)&&(!testpastel15)&&(!testpastel16)&&(!testpastel17)&&(!testpastel18)&&(!testpastel19)&&(!testpastel20)&&(!testpastel21)&&(!testpastel23)&&(!testpastel24)&&(!testpastel25)&&(!testpastel26)&&(!testpastel27)&&(!testps1)&&(!testdrawnup)&&(!testdream02))) {
+      xdream = xdream+stopdream;
+      ydream = ydream+stopdream;
+      //original: 2864 × 1568    
+      noCursor();
+      testdream = true;
+          image(bigdream, (xbigdream+(windowWidth/xdivdream)), (ybigdream+(windowHeight/ydivdream)), wbigdream, hbigdream);  
+      wbigdream = (wbigdream +50);
+        if (wbigdream>609) {wbigdream=609}
+      hbigdream = (hbigdream +50);  
+        if (hbigdream>550) {hbigdream=550}}   
+    else {
+      testdream = false;
+      wdream=50;
+      hdream=45;      
+      wbigdream=50;   //
+      hbigdream=45;    //
+      xbigdream = xdream //
+      ybigdream = ydream //
+      xdream = xdream+movedream;
+      ydream = ydream+move2dream;
+
+    if(xdream+(windowWidth/xdivdream)>=windowWidth){
+      movedream = movedream*-1}
+    if(ydream+(windowHeight/ydivdream)>=windowHeight){
+      move2dream = move2dream*-1}    
+    if(xdream+(windowWidth/xdivdream)<=0){
+      movedream = movedream*-1}
+    if(ydream+(windowHeight/ydivdream)<=0){
+      move2dream = move2dream*-1}}  
+}
+
+
+function enlargedream02 () {
+    if ((((mouseX>(xdream02+(windowWidth/xdivdream02)-25))&&(mouseX<(xdream02+(windowWidth/xdivdream02)+25)))&&(((mouseY>(ydream02+(windowHeight/ydivdream02)-25))&&(mouseY<(ydream02+(windowHeight/ydivdream02)+25)))))&&((!testbacteria)&&(!testbillows)&&(!testchase)&&(!testdolphin)&&(!testheaven)&&(!testdrop)&&(!testepilogue)&&(!testfight)&&(!testfight2)&&(!testfivemile)&&(!testgator)&&(!testbugs)&&(!testchariot)&&(!testking)&&(!testmullet)&&(!testmanatee)&&(!testmantaray)&&(!testpeople)&&(!testpeople2)&&(!testgarden)&&(!testsatan)&&(!testschool)&&(!testsplash)&&(!testsquid)&&(!teststrip)&&(!testtampared)&&(!testwall)&&(!testtrog)&&(!testtrog02)&&(!testthump)&&(!testwhale)&&(!testlotus)&&(!testbirthvenus)&&(!testboat)&&(!testboat70s)&&(!testbruno)&&(!testearlyfish)&&(!testfightside)&&(!testfightwithme)&&(!testfishcodcuttle)&&(!testhead)&&(!testheadside)&&(!testheadstand)&&(!testmansailfish)&&(!testmedallion)&&(!testmedallion3)&&(!testmedallion4)&&(!testmedallion5)&&(!testmehead)&&(!testsatanchariot)&&(!testtrogwhitedet)&&(!testtrolling)&&(!testbear)&&(!testbearearly)&&(!testbearr)&&(!testbearrr)&&(!testberkshire)&&(!testcast)&&(!testdoy)&&(!testdeepwwods)&&(!testdogdollystorm)&&(!testdogsdeepwoods)&&(!testdogsdrinking)&&(!testdogsdusk)&&(!testdogsrunning)&&(!testdogstorm)&&(!testdogsvsowl)&&(!testdogsvsturkey)&&(!testdollysunset)&&(!testdollyswim)&&(!testdyingwhale)&&(!testfedallah)&&(!testflyingdog)&&(!testfortuna)&&(!testhibiscuss)&&(!testhowl)&&(!testwalldet)&&(!testluthersnow)&&(!testlutherwatch)&&(!testmountainbear)&&(!testnevsky)&&(!testnightbite)&&(!testnightbitedayplay)&&(!testnubby)&&(!testnubbyhib)&&(!testoiling)&&(!teststripdet)&&(!testredbear)&&(!testsail)&&(!testsaildyp)&&(!testsquash)&&(!testsquashbear)&&(!testsquashdog)&&(!testsquashdogs)&&(!testsquashswim)&&(!testsquashturkey)&&(!teststickdogs)&&(!teststuxshow)&&(!testtwodogsonegoat)&&(!testtwodogsonestick)&&(!testbearsunset)&&(!testcaterpillers)&&(!testcrazydogs)&&(!testdogbutterfly)&&(!testdogman)&&(!testdogsonrocks)&&(!testdogturkey)&&(!testdollyandmona)&&(!testearlybear)&&(!testgoatramsdog)&&(!testgoats)&&(!testmackerelandmullet)&&(!testmananddog)&&(!testmanandgoat)&&(!testmona)&&(!testmonagoat)&&(!testredcloud)&&(!testthreegoats)&&(!testwomananddog)&&(!testabutment)&&(!testabutment03)&&(!testbloodmilk)&&(!testblueredyellow)&&(!testblueyellowwhiteblue)&&(!testbombblue)&&(!testbregenz)&&(!testcastpaint)&&(!testcastpaint2)&&(!testcastpaint3)&&(!testcastpaint4)&&(!testcell)&&(!testcolorspiral)&&(!testdboot)&&(!testdeadsea)&&(!testdeadsea2)&&(!testdeadsea3)&&(!testdeadsea4)&&(!testdeadsea5)&&(!testdeepbluesea)&&(!testdrop2)&&(!testdying)&&(!testepilogue)&&(!testghost)&&(!testgreybasking)&&(!testgreyroller)&&(!testkunst)&&(!testleadwhiteashtray)&&(!testleadwhiteballs)&&(!testleadwhiteeye)&&(!testleadwhitescroll)&&(!testlifecycle)&&(!testlightchamber)&&(!testmanandmantaray)&&(!testmansailnubby)&&(!testmiami)&&(!testnubhibiscus)&&(!testpaint)&&(!testpattern)&&(!testpink)&&(!testrescue)&&(!testshrink)&&(!testsidewase)&&(!testsideways)&&(!testsleeping)&&(!testsmall)&&(!testspiralbear)&&(!teststream)&&(!teststreamdots)&&(!teststripes)&&(!testsub)&&(!testwater)&&(!testyellowred)&&(!testbaddog)&&(!testblackandreddolphin)&&(!testhsbattle)&&(!testshipwreck)&&(!testsquidandme)&&(!testwwii)&&(!testyellowred2)&&(!testatelier)&&(!testgrey)&&(!testhappycouple)&&(!testhappycoupledet)&&(!testhappycoupledet2)&&(!testhappycoupledet3)&&(!testhappycoupledet4)&&(!testhappycoupledet5)&&(!testnew)&&(!testnewgrid)&&(!testnewgrid2)&&(!testnewgrid3)&&(!testsmallblue)&&(!testsmallblue2)&&(!testsmallsky)&&(!testsmallsky2)&&(!teststwall)&&(!testadolph)&&(!testafterlife)&&(!testberkshireinstagram)&&(!testbird)&&(!testcoffin)&&(!testdeepblue)&&(!testheads)&&(!testheads2)&&(!testheads3)&&(!testhibiscus)&&(!testishmael)&&(!testmangrove)&&(!testmanta)&&(!testmorningboat)&&(!testnevsky2)&&(!testoverboard)&&(!testpastel)&&(!testpastel2)&&(!testpastel3)&&(!testpastel4)&&(!testpastel5)&&(!testpastel6)&&(!testpastel7)&&(!testpastel8)&&(!testpastel9)&&(!testpastel10)&&(!testpastel11)&&(!testpastel12)&&(!testpastel13)&&(!testpastel14)&&(!testpastel15)&&(!testpastel16)&&(!testpastel17)&&(!testpastel18)&&(!testpastel19)&&(!testpastel20)&&(!testpastel21)&&(!testpastel23)&&(!testpastel24)&&(!testpastel25)&&(!testpastel26)&&(!testpastel27)&&(!testps1)&&(!testdrawnup)&&(!testdream))) {
+      xdream02 = xdream02+stopdream02;
+      ydream02 = ydream02+stopdream02;
+      //original: 2864 × 1568    
+      noCursor();
+      testdream02 = true;
+          image(bigdream02, (xbigdream02+(windowWidth/xdivdream02)), (ybigdream02+(windowHeight/ydivdream02)), wbigdream02, hbigdream02);  
+      wbigdream02 = (wbigdream02 +50);
+        if (wbigdream02>606) {wbigdream02=606}
+      hbigdream02 = (hbigdream02 +50);  
+        if (hbigdream02>550) {hbigdream02=550}}   
+    else {
+      testdream02 = false;
+      wdream02=50;
+      hdream02=45;      
+      wbigdream02=50;   //
+      hbigdream02=45;    //
+      xbigdream02 = xdream02 //
+      ybigdream02 = ydream02 //
+      xdream02 = xdream02+movedream02;
+      ydream02 = ydream02+move2dream02;
+
+    if(xdream02+(windowWidth/xdivdream02)>=windowWidth){
+      movedream02 = movedream02*-1}
+    if(ydream02+(windowHeight/ydivdream02)>=windowHeight){
+      move2dream02 = move2dream02*-1}    
+    if(xdream02+(windowWidth/xdivdream02)<=0){
+      movedream02 = movedream02*-1}
+    if(ydream02+(windowHeight/ydivdream02)<=0){
+      move2dream02 = move2dream02*-1}}  
 }
