@@ -4698,7 +4698,7 @@ function draw() {
   if (loading) {
     image (load01, (windowWidth/loaddiv), (windowHeight/loaddiv), windowWidth, windowHeight);
   } else {
-    background (300);
+    background (57, 255, 20);
   }
   //
  
