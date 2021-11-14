@@ -4690,10 +4690,10 @@ function setup() {
 
 function draw() {
 
-  background(57, 255, 20);
+ // background(57, 255, 20);
   
   
-  //CODING TRAIN LOADING ANIMATION 
+  //LOADING ANIMATION 
   
   if (loading) {
     image (load01, (windowWidth/loaddiv), (windowHeight/loaddiv), windowWidth, windowHeight);
